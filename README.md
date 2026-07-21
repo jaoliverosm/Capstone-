@@ -315,11 +315,15 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ## 👥 Autores
 
->Jefersson Aldair Oliveros (líder)
->Jazmine Alexandra Acosta Bejarano
->Iván Yesid Cristancho Plata
->Isabella Andrea Cuesta Niebles 
->Catalina del Rocío Pantoja Ordóñez
+>-Jefersson Aldair Oliveros (líder)
+>
+>-Jazmine Alexandra Acosta Bejarano
+>
+>-Iván Yesid Cristancho Plata
+>
+>-Isabella Andrea Cuesta Niebles
+>
+>-Catalina del Rocío Pantoja Ordóñez
 
 
 ---
