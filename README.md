@@ -120,10 +120,6 @@ Capstone/
 │       ├── catalogo_cups_interno.csv
 │       └── validacion_cups.csv
 │
-├── 📂 scripts/                       # Scripts auxiliares
-│   ├── completar_nb07_cv.py
-│   └── completar_nb08_fase2.py
-│
 ├── 📂 documentacion/                 # Documentación adicional
 │   ├── LINE-Auditor-Medico-Digital.pptx
 │   └── SICortex_Panel_2.html
