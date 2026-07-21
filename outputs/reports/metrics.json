@@ -1,0 +1,175 @@
+{
+  "seed": 42,
+  "split": "70/30 estratificado",
+  "escenarios": {
+    "A_produccion": {
+      "random_forest": {
+        "cv_5fold_train": {
+          "roc_auc": "0.8884 +/- 0.0157",
+          "f1": "0.7147 +/- 0.0333",
+          "recall": "0.5792 +/- 0.0441",
+          "precision": "0.9363 +/- 0.0168"
+        },
+        "test_auc_roc": 0.9185,
+        "test": {
+          "th_0.50": {
+            "threshold": 0.5,
+            "accuracy": 0.9083,
+            "precision": 0.9225,
+            "recall": 0.6103,
+            "f1": 0.7346,
+            "matriz": {
+              "tn": 733,
+              "fp": 10,
+              "fn": 76,
+              "tp": 119
+            }
+          },
+          "th_recall85": {
+            "threshold": 0.2346,
+            "accuracy": 0.8518,
+            "precision": 0.6014,
+            "recall": 0.8513,
+            "f1": 0.7049,
+            "matriz": {
+              "tn": 633,
+              "fp": 110,
+              "fn": 29,
+              "tp": 166
+            }
+          }
+        }
+      },
+      "xgboost": {
+        "cv_5fold_train": {
+          "roc_auc": "0.8795 +/- 0.0080",
+          "f1": "0.7632 +/- 0.0100",
+          "recall": "0.7004 +/- 0.0311",
+          "precision": "0.8406 +/- 0.0221"
+        },
+        "test_auc_roc": 0.9152,
+        "test": {
+          "th_0.50": {
+            "threshold": 0.5,
+            "accuracy": 0.9115,
+            "precision": 0.8256,
+            "recall": 0.7282,
+            "f1": 0.7738,
+            "matriz": {
+              "tn": 713,
+              "fp": 30,
+              "fn": 53,
+              "tp": 142
+            }
+          },
+          "th_recall85": {
+            "threshold": 0.0751,
+            "accuracy": 0.8433,
+            "precision": 0.5833,
+            "recall": 0.8615,
+            "f1": 0.6957,
+            "matriz": {
+              "tn": 623,
+              "fp": 120,
+              "fn": 27,
+              "tp": 168
+            }
+          }
+        }
+      }
+    },
+    "B_features_cnn": {
+      "random_forest": {
+        "cv_5fold_train": {
+          "roc_auc": "0.8371 +/- 0.0179",
+          "f1": "0.6198 +/- 0.0202",
+          "recall": "0.4581 +/- 0.0189",
+          "precision": "0.9583 +/- 0.0174"
+        },
+        "test_auc_roc": 0.85,
+        "test": {
+          "th_0.50": {
+            "threshold": 0.5,
+            "accuracy": 0.8806,
+            "precision": 0.9368,
+            "recall": 0.4564,
+            "f1": 0.6138,
+            "matriz": {
+              "tn": 737,
+              "fp": 6,
+              "fn": 106,
+              "tp": 89
+            }
+          },
+          "th_recall85": {
+            "threshold": 0.194,
+            "accuracy": 0.6343,
+            "precision": 0.3458,
+            "recall": 0.8513,
+            "f1": 0.4919,
+            "matriz": {
+              "tn": 429,
+              "fp": 314,
+              "fn": 29,
+              "tp": 166
+            }
+          }
+        }
+      },
+      "xgboost": {
+        "cv_5fold_train": {
+          "roc_auc": "0.8422 +/- 0.0152",
+          "f1": "0.6730 +/- 0.0145",
+          "recall": "0.6057 +/- 0.0278",
+          "precision": "0.7595 +/- 0.0305"
+        },
+        "test_auc_roc": 0.8724,
+        "test": {
+          "th_0.50": {
+            "threshold": 0.5,
+            "accuracy": 0.8881,
+            "precision": 0.7885,
+            "recall": 0.6308,
+            "f1": 0.7009,
+            "matriz": {
+              "tn": 710,
+              "fp": 33,
+              "fn": 72,
+              "tp": 123
+            }
+          },
+          "th_recall85": {
+            "threshold": 0.0667,
+            "accuracy": 0.7196,
+            "precision": 0.4154,
+            "recall": 0.8564,
+            "f1": 0.5595,
+            "matriz": {
+              "tn": 508,
+              "fp": 235,
+              "fn": 28,
+              "tp": 167
+            }
+          }
+        }
+      }
+    }
+  },
+  "cnn_referencia_reportada": {
+    "fuente": "04_NOTEBOOKS/02_modelo_cnn_transfer_learning.ipynb (outputs guardados)",
+    "nota": "No re-ejecutable en esta copia: SavedModel incompleto y sin .h5",
+    "test_auc_roc": 0.7487,
+    "th_0.50": {
+      "accuracy": 0.8539,
+      "precision": 0.9531,
+      "recall": 0.3385,
+      "f1": 0.471
+    },
+    "th_0.388": {
+      "accuracy": 0.7,
+      "precision": 0.3848,
+      "recall": 0.7538,
+      "f1": 0.5095
+    }
+  }
+}

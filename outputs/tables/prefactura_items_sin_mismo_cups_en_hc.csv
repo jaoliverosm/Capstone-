@@ -1,0 +1,170 @@
+id_prefactura,id_atencion,codigo_cups_facturado,descripcion_servicio_facturado,cantidad_facturada,valor_total
+PF-0000047,ATN-000020,881332,Ecografia obstetrica,1,110000
+PF-0000068,ATN-000030,903875,Parcial de orina,1,12000
+PF-0000112,ATN-000045,391013,Facoemulsificacion con lente intraocular,1,1450000
+PF-0000115,ATN-000047,890301,Consulta de control por especialista,1,90000
+PF-0000121,ATN-000049,881201,Ecografia abdominal total,1,95000
+PF-0000122,ATN-000049,902210,Hemograma completo,1,28000
+PF-0000127,ATN-000052,881332,Ecografia obstetrica,1,110000
+PF-0000150,ATN-000061,739001,Atencion del parto,1,980000
+PF-0000169,ATN-000068,930601,Tomografia axial computarizada de torax,1,320000
+PF-0000170,ATN-000068,903875,Parcial de orina,1,12000
+PF-0000211,ATN-000085,930601,Tomografia axial computarizada de torax,1,320000
+PF-0000220,ATN-000088,903875,Parcial de orina,1,12000
+PF-0000253,ATN-000104,890301,Consulta de control por especialista,1,90000
+PF-0000269,ATN-000111,391013,Facoemulsificacion con lente intraocular,1,1450000
+PF-0000270,ATN-000111,391201,Angioplastia coronaria,1,5200000
+PF-0000304,ATN-000127,739001,Atencion del parto,1,980000
+PF-0000306,ATN-000127,890201-M,Terapia de rehidratacion oral supervisada,3,105000
+PF-0000334,ATN-000139,890701,Electrocardiograma,1,38000
+PF-0000339,ATN-000141,903875,Parcial de orina,1,12000
+PF-0000343,ATN-000143,903875,Parcial de orina,1,12000
+PF-0000344,ATN-000143,881201,Ecografia abdominal total,1,95000
+PF-0000345,ATN-000143,890201-M,Terapia de rehidratacion oral supervisada,1,35000
+PF-0000388,ATN-000160,930601,Tomografia axial computarizada de torax,2,640000
+PF-0000402,ATN-000167,890415,Control prenatal,1,60000
+PF-0000467,ATN-000193,903841,Glicemia basal,1,15000
+PF-0000468,ATN-000193,391201,Angioplastia coronaria,1,5200000
+PF-0000496,ATN-000204,902210,Hemograma completo,1,28000
+PF-0000497,ATN-000204,881332,Ecografia obstetrica,2,220000
+PF-0000516,ATN-000210,890201,Consulta de primera vez medicina general,1,45000
+PF-0000537,ATN-000218,930601,Tomografia axial computarizada de torax,1,320000
+PF-0000551,ATN-000224,890701,Electrocardiograma,1,38000
+PF-0000587,ATN-000238,890701,Electrocardiograma,1,38000
+PF-0000596,ATN-000242,739001,Atencion del parto,1,980000
+PF-0000597,ATN-000242,391121,Apendicectomia,2,3700000
+PF-0000598,ATN-000243,881201,Ecografia abdominal total,1,95000
+PF-0000613,ATN-000248,391201,Angioplastia coronaria,1,5200000
+PF-0000628,ATN-000254,881201,Ecografia abdominal total,1,95000
+PF-0000666,ATN-000270,881332,Ecografia obstetrica,1,110000
+PF-0000677,ATN-000275,890301,Consulta de control por especialista,1,90000
+PF-0000678,ATN-000275,890301,Consulta de control por especialista,1,90000
+PF-0000679,ATN-000276,890201-M,Terapia de rehidratacion oral supervisada,1,35000
+PF-0000691,ATN-000280,903841,Glicemia basal,1,15000
+PF-0000721,ATN-000291,930878,Reduccion cerrada de fractura de peroné,1,620000
+PF-0000825,ATN-000330,903841,Glicemia basal,1,15000
+PF-0000827,ATN-000330,739001,Atencion del parto,2,1960000
+PF-0000830,ATN-000332,391013,Facoemulsificacion con lente intraocular,1,1450000
+PF-0000831,ATN-000332,930878,Reduccion cerrada de fractura de peroné,1,620000
+PF-0000832,ATN-000332,930878,Reduccion cerrada de fractura de peroné,1,620000
+PF-0000839,ATN-000335,890201,Consulta de primera vez medicina general,2,90000
+PF-0000851,ATN-000338,930878,Reduccion cerrada de fractura de peroné,1,620000
+PF-0000882,ATN-000351,890201-M,Terapia de rehidratacion oral supervisada,1,35000
+PF-0000895,ATN-000357,881201,Ecografia abdominal total,1,95000
+PF-0000896,ATN-000357,391201,Angioplastia coronaria,1,5200000
+PF-0000905,ATN-000361,903875,Parcial de orina,1,12000
+PF-0000909,ATN-000363,902210,Hemograma completo,1,28000
+PF-0000910,ATN-000363,930601,Tomografia axial computarizada de torax,1,320000
+PF-0000928,ATN-000368,890201,Consulta de primera vez medicina general,1,45000
+PF-0000931,ATN-000370,739001,Atencion del parto,1,980000
+PF-0000939,ATN-000372,881201,Ecografia abdominal total,1,95000
+PF-0001002,ATN-000395,871111,Radiografia de torax,1,55000
+PF-0001012,ATN-000399,903875,Parcial de orina,1,12000
+PF-0001044,ATN-000413,739001,Atencion del parto,1,980000
+PF-0001052,ATN-000416,890201,Consulta de primera vez medicina general,1,45000
+PF-0001055,ATN-000417,391121,Apendicectomia,1,1850000
+PF-0001086,ATN-000429,391121,Apendicectomia,1,1850000
+PF-0001115,ATN-000441,881201,Ecografia abdominal total,1,95000
+PF-0001164,ATN-000461,881201,Ecografia abdominal total,1,95000
+PF-0001199,ATN-000475,930601,Tomografia axial computarizada de torax,2,640000
+PF-0001204,ATN-000477,739001,Atencion del parto,2,1960000
+PF-0001206,ATN-000477,890301,Consulta de control por especialista,1,90000
+PF-0001252,ATN-000497,903841,Glicemia basal,1,15000
+PF-0001253,ATN-000497,903841,Glicemia basal,1,15000
+PF-0001321,ATN-000526,903841,Glicemia basal,1,15000
+PF-0001322,ATN-000526,881201,Ecografia abdominal total,1,95000
+PF-0001330,ATN-000530,881332,Ecografia obstetrica,1,110000
+PF-0001331,ATN-000530,890701,Electrocardiograma,1,38000
+PF-0001338,ATN-000533,890415,Control prenatal,1,60000
+PF-0001343,ATN-000535,881201,Ecografia abdominal total,1,95000
+PF-0001424,ATN-000570,890415,Control prenatal,1,60000
+PF-0001445,ATN-000579,391121,Apendicectomia,1,1850000
+PF-0001453,ATN-000583,930878,Reduccion cerrada de fractura de peroné,1,620000
+PF-0001459,ATN-000584,903875,Parcial de orina,1,12000
+PF-0001484,ATN-000594,890701,Electrocardiograma,1,38000
+PF-0001501,ATN-000600,890701,Electrocardiograma,1,38000
+PF-0001507,ATN-000602,391201,Angioplastia coronaria,1,5200000
+PF-0001555,ATN-000620,871111,Radiografia de torax,1,55000
+PF-0001559,ATN-000622,881201,Ecografia abdominal total,1,95000
+PF-0001576,ATN-000630,903841,Glicemia basal,1,15000
+PF-0001612,ATN-000647,930601,Tomografia axial computarizada de torax,1,320000
+PF-0001656,ATN-000664,930878,Reduccion cerrada de fractura de peroné,1,620000
+PF-0001672,ATN-000671,890415,Control prenatal,3,180000
+PF-0001676,ATN-000673,990601,Interconsulta psiquiatria,1,130000
+PF-0001701,ATN-000681,739001,Atencion del parto,1,980000
+PF-0001712,ATN-000685,890201,Consulta de primera vez medicina general,3,135000
+PF-0001729,ATN-000692,930878,Reduccion cerrada de fractura de peroné,1,620000
+PF-0001730,ATN-000692,391201,Angioplastia coronaria,1,5200000
+PF-0001748,ATN-000699,890415,Control prenatal,1,60000
+PF-0001763,ATN-000704,391013,Facoemulsificacion con lente intraocular,1,1450000
+PF-0001782,ATN-000712,391121,Apendicectomia,2,3700000
+PF-0001783,ATN-000712,890201-M,Terapia de rehidratacion oral supervisada,2,70000
+PF-0001805,ATN-000719,881201,Ecografia abdominal total,1,95000
+PF-0001808,ATN-000721,391013,Facoemulsificacion con lente intraocular,1,1450000
+PF-0001815,ATN-000723,990601,Interconsulta psiquiatria,1,130000
+PF-0001832,ATN-000729,391201,Angioplastia coronaria,1,5200000
+PF-0001853,ATN-000738,391121,Apendicectomia,1,1850000
+PF-0001856,ATN-000739,890701,Electrocardiograma,1,38000
+PF-0001858,ATN-000740,391121,Apendicectomia,1,1850000
+PF-0001860,ATN-000741,902210,Hemograma completo,2,56000
+PF-0001861,ATN-000741,391013,Facoemulsificacion con lente intraocular,1,1450000
+PF-0001897,ATN-000755,391201,Angioplastia coronaria,1,5200000
+PF-0001910,ATN-000762,890415,Control prenatal,1,60000
+PF-0001925,ATN-000769,903841,Glicemia basal,1,15000
+PF-0001926,ATN-000769,990601,Interconsulta psiquiatria,3,390000
+PF-0001936,ATN-000773,930878,Reduccion cerrada de fractura de peroné,1,620000
+PF-0001937,ATN-000773,881332,Ecografia obstetrica,1,110000
+PF-0001938,ATN-000773,890301,Consulta de control por especialista,1,90000
+PF-0001998,ATN-000797,903841,Glicemia basal,3,45000
+PF-0002002,ATN-000799,881332,Ecografia obstetrica,1,110000
+PF-0002003,ATN-000799,903841,Glicemia basal,1,15000
+PF-0002009,ATN-000801,890301,Consulta de control por especialista,1,90000
+PF-0002013,ATN-000803,881332,Ecografia obstetrica,1,110000
+PF-0002034,ATN-000811,391121,Apendicectomia,1,1850000
+PF-0002043,ATN-000815,739001,Atencion del parto,1,980000
+PF-0002046,ATN-000816,391201,Angioplastia coronaria,1,5200000
+PF-0002057,ATN-000820,902210,Hemograma completo,1,28000
+PF-0002104,ATN-000840,902210,Hemograma completo,1,28000
+PF-0002150,ATN-000859,902210,Hemograma completo,1,28000
+PF-0002152,ATN-000859,739001,Atencion del parto,1,980000
+PF-0002169,ATN-000867,903875,Parcial de orina,1,12000
+PF-0002179,ATN-000871,890701,Electrocardiograma,1,38000
+PF-0002197,ATN-000877,930601,Tomografia axial computarizada de torax,1,320000
+PF-0002201,ATN-000879,890201-M,Terapia de rehidratacion oral supervisada,1,35000
+PF-0002229,ATN-000891,881332,Ecografia obstetrica,1,110000
+PF-0002230,ATN-000891,871111,Radiografia de torax,1,55000
+PF-0002237,ATN-000894,890201-M,Terapia de rehidratacion oral supervisada,1,35000
+PF-0002251,ATN-000900,903875,Parcial de orina,1,12000
+PF-0002252,ATN-000901,990601,Interconsulta psiquiatria,1,130000
+PF-0002253,ATN-000901,391121,Apendicectomia,1,1850000
+PF-0002263,ATN-000905,881201,Ecografia abdominal total,1,95000
+PF-0002273,ATN-000910,990601,Interconsulta psiquiatria,1,130000
+PF-0002289,ATN-000917,890301,Consulta de control por especialista,1,90000
+PF-0002290,ATN-000918,890415,Control prenatal,1,60000
+PF-0002302,ATN-000923,890201-M,Terapia de rehidratacion oral supervisada,1,35000
+PF-0002303,ATN-000923,391121,Apendicectomia,1,1850000
+PF-0002311,ATN-000926,881332,Ecografia obstetrica,1,110000
+PF-0002315,ATN-000927,903875,Parcial de orina,1,12000
+PF-0002331,ATN-000933,930601,Tomografia axial computarizada de torax,1,320000
+PF-0002413,ATN-000966,739001,Atencion del parto,1,980000
+PF-0002418,ATN-000968,881201,Ecografia abdominal total,1,95000
+PF-0002421,ATN-000970,930878,Reduccion cerrada de fractura de peroné,1,620000
+PF-0002460,ATN-000985,890701,Electrocardiograma,1,38000
+PF-0002470,ATN-000989,903875,Parcial de orina,1,12000
+PF-0002543,ATN-001019,881201,Ecografia abdominal total,1,95000
+PF-0002577,ATN-001035,890201-M,Terapia de rehidratacion oral supervisada,1,35000
+PF-0002584,ATN-001037,930601,Tomografia axial computarizada de torax,1,320000
+PF-0002593,ATN-001041,881201,Ecografia abdominal total,1,95000
+PF-0002669,ATN-001075,903841,Glicemia basal,1,15000
+PF-0002672,ATN-001077,881332,Ecografia obstetrica,1,110000
+PF-0002683,ATN-001081,903841,Glicemia basal,1,15000
+PF-0002768,ATN-001113,739001,Atencion del parto,1,980000
+PF-0002806,ATN-001131,930878,Reduccion cerrada de fractura de peroné,1,620000
+PF-0002811,ATN-001133,739001,Atencion del parto,1,980000
+PF-0002836,ATN-001144,890201,Consulta de primera vez medicina general,1,45000
+PF-0002843,ATN-001147,890201-M,Terapia de rehidratacion oral supervisada,1,35000
+PF-0002852,ATN-001151,930601,Tomografia axial computarizada de torax,1,320000
+PF-0002911,ATN-001173,890201-M,Terapia de rehidratacion oral supervisada,1,35000
+PF-0002912,ATN-001173,890701,Electrocardiograma,2,76000
+PF-0002918,ATN-001177,930878,Reduccion cerrada de fractura de peroné,1,620000
+PF-0002974,ATN-001200,881332,Ecografia obstetrica,1,110000

@@ -1,0 +1,63 @@
+# Reporte de limpieza — datasets 1-5
+
+## pacientes
+- **filas**: 300
+- **columnas**: 7
+- **duplicados_fila_completa**: 0
+- **nulos_por_columna**: {}
+- **pk**: id_paciente
+- **pk_duplicada**: 0
+- **edad_fuera_rango_0_120**: 0
+
+## atenciones
+- **filas**: 1200
+- **columnas**: 9
+- **duplicados_fila_completa**: 0
+- **nulos_por_columna**: {}
+- **pk**: id_atencion
+- **pk_duplicada**: 0
+- **fechas_invalidas**: 0
+- **rango_fechas**: ['2025-01-01', '2026-06-30']
+- **cie10_mal_formateados**: 83
+- **fk_pacientes_rotas**: 0
+
+## hc_detalle
+- **filas**: 3058
+- **columnas**: 9
+- **duplicados_fila_completa**: 0
+- **nulos_por_columna**: {}
+- **pk**: id_detalle_hc
+- **pk_duplicada**: 0
+- **cantidades_negativas**: 0
+- **cantidades_nulas_a_0**: 0
+- **cups_mal_formateados**: 52
+- **fk_atenciones_rotas**: 2
+- **valores_soporte_clinico**: {'SI': 3058}
+
+## prefactura
+- **filas**: 2974
+- **columnas**: 10
+- **duplicados_fila_completa**: 0
+- **nulos_por_columna**: {}
+- **pk**: id_prefactura
+- **pk_duplicada**: 0
+- **cantidades_negativas**: 0
+- **valores_negativos**: 0
+- **valor_total_incoherente**: 0
+- **cups_mal_formateados**: 58
+- **fk_atenciones_rotas**: 0
+- **fk_pacientes_rotas**: 0
+
+## cruce
+- **filas**: 3126
+- **columnas**: 8
+- **duplicados_fila_completa**: 0
+- **nulos_por_columna**: {'id_prefactura': 152, 'id_detalle_hc': 70}
+- **pk**: id_cruce
+- **pk_duplicada**: 0
+- **nulos_semanticos**: {'id_prefactura_nulo': {'n': 152, 'tipo_alerta_asociado': {'NO_FACTURADO': 152}}, 'id_detalle_hc_nulo': {'n': 70, 'tipo_alerta_asociado': {'SIN_SOPORTE_CLINICO': 70}}, 'decision': 'SE CONSERVAN: codifican NO_FACTURADO y SIN_SOPORTE_CLINICO'}
+- **distribucion_resultado**: {'CONSISTENTE': 2477, 'INCONSISTENTE': 649}
+- **distribucion_tipo_alerta**: {'CONSISTENTE': 2477, 'SIN_SOPORTE_CLINICO': 157, 'DIAGNOSTICO_NO_RELACIONADO': 152, 'NO_FACTURADO': 152, 'CODIGO_NO_COINCIDE': 120, 'CANTIDAD_DISCORDANTE': 68}
+- **fk_atencion_rotas**: 0
+- **fk_prefactura_rotas**: 0
+- **fk_detalle_hc_rotas**: 0

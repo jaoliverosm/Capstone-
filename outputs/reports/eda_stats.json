@@ -1,0 +1,22 @@
+{
+  "target": {
+    "CONSISTENTE": 2477,
+    "INCONSISTENTE": 649
+  },
+  "alertas": {
+    "SIN_SOPORTE_CLINICO": 157,
+    "DIAGNOSTICO_NO_RELACIONADO": 152,
+    "NO_FACTURADO": 152,
+    "CODIGO_NO_COINCIDE": 120,
+    "CANTIDAD_DISCORDANTE": 68
+  },
+  "flags_cruce_prob_inconsistente": {
+    "sin_prefactura (fuga)": 1.0,
+    "sin_soporte_hc": 1.0,
+    "codigo_no_coincide": 1.0,
+    "cantidad_diferente": 1.0
+  },
+  "perdida_estimada_fugas": 41571659.62891875,
+  "n_fugas": 152,
+  "valor_unitario_promedio": 273497.7607165707
+}

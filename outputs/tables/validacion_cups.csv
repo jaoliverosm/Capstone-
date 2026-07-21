@@ -1,0 +1,21 @@
+codigo_cups,descripcion,en_historia_clinica,en_prefactura,formato_valido,usos_hc,usos_prefactura,estado,justificacion
+391013,Facoemulsificacion con lente intraocular,True,True,True,94,79,OK,Presente en HC y prefactura; código activo del catálogo interno.
+391121,Apendicectomia,True,True,True,65,68,OK,Presente en HC y prefactura; código activo del catálogo interno.
+391201,Angioplastia coronaria,True,True,True,63,63,OK,Presente en HC y prefactura; código activo del catálogo interno.
+739001,Atencion del parto,True,True,True,46,57,OK,Presente en HC y prefactura; código activo del catálogo interno.
+871111,Radiografia de torax,True,True,True,170,149,OK,Presente en HC y prefactura; código activo del catálogo interno.
+881201,Ecografia abdominal total,True,True,True,125,124,OK,Presente en HC y prefactura; código activo del catálogo interno.
+881332,Ecografia obstetrica,True,True,True,111,112,OK,Presente en HC y prefactura; código activo del catálogo interno.
+890201,Consulta de primera vez medicina general,True,True,True,474,455,OK,Presente en HC y prefactura; código activo del catálogo interno.
+890201-M,Terapia de rehidratacion oral supervisada,True,True,False,52,58,NO_ESTANDAR_EN_USO,No cumple el formato CUPS de 6 dígitos PERO se usa consistentemente en HC y prefactura: variante interna. REQUIERE_REVISION con la empresa; filas conservadas.
+890205,Consulta medica general,True,False,True,1,0,SOLO_HC,Se registra clínicamente pero nunca se factura; revisar si es fuga sistemática.
+890301,Consulta de control por especialista,True,True,True,458,450,OK,Presente en HC y prefactura; código activo del catálogo interno.
+890415,Control prenatal,True,True,True,560,537,OK,Presente en HC y prefactura; código activo del catálogo interno.
+890701,Electrocardiograma,True,True,True,199,191,OK,Presente en HC y prefactura; código activo del catálogo interno.
+902201,Hemograma,True,False,True,1,0,SOLO_HC,Se registra clínicamente pero nunca se factura; revisar si es fuga sistemática.
+902210,Hemograma completo,True,True,True,281,264,OK,Presente en HC y prefactura; código activo del catálogo interno.
+903841,Glicemia basal,True,True,True,65,70,OK,Presente en HC y prefactura; código activo del catálogo interno.
+903875,Parcial de orina,True,True,True,61,67,OK,Presente en HC y prefactura; código activo del catálogo interno.
+930601,Tomografia axial computarizada de torax,True,True,True,96,100,OK,Presente en HC y prefactura; código activo del catálogo interno.
+930878,Reduccion cerrada de fractura de peroné,True,True,True,73,78,OK,Presente en HC y prefactura; código activo del catálogo interno.
+990601,Interconsulta psiquiatria,True,True,True,63,52,OK,Presente en HC y prefactura; código activo del catálogo interno.

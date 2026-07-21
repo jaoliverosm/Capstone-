@@ -1,0 +1,301 @@
+id_paciente,tipo_documento,edad,sexo,eps,tipo_afiliacion,ciudad
+PAC-00001,CC,51,M,Coosalud,Subsidiado,Medellin
+PAC-00002,TI,92,M,Coosalud,Contributivo,Bucaramanga
+PAC-00003,CC,14,F,Nueva EPS,Contributivo,Bogota
+PAC-00004,TI,71,M,Famisanar,Contributivo,Bucaramanga
+PAC-00005,TI,60,F,Sura EPS,Subsidiado,Bucaramanga
+PAC-00006,CE,20,M,Sura EPS,Subsidiado,Cali
+PAC-00007,CE,82,M,Sura EPS,Subsidiado,Bogota
+PAC-00008,CC,86,F,Nueva EPS,Subsidiado,Cali
+PAC-00009,CE,74,M,Coosalud,Subsidiado,Bucaramanga
+PAC-00010,CC,74,F,Nueva EPS,Subsidiado,Bucaramanga
+PAC-00011,CE,87,M,Coosalud,Contributivo,Bogota
+PAC-00012,TI,23,F,Nueva EPS,Contributivo,Bogota
+PAC-00013,RC,2,F,Compensar,Subsidiado,Medellin
+PAC-00014,CE,21,F,Sura EPS,Subsidiado,Bogota
+PAC-00015,TI,52,M,Sura EPS,Subsidiado,Barranquilla
+PAC-00016,CE,1,M,Coosalud,Subsidiado,Bogota
+PAC-00017,TI,87,M,Sanitas,Subsidiado,Cali
+PAC-00018,CC,29,M,Famisanar,Subsidiado,Medellin
+PAC-00019,RC,37,F,Coosalud,Subsidiado,Medellin
+PAC-00020,CE,1,M,Sura EPS,Subsidiado,Bucaramanga
+PAC-00021,RC,63,F,Sanitas,Contributivo,Medellin
+PAC-00022,RC,59,M,Nueva EPS,Contributivo,Medellin
+PAC-00023,TI,20,F,Famisanar,Contributivo,Barranquilla
+PAC-00024,RC,32,F,Famisanar,Subsidiado,Bucaramanga
+PAC-00025,CC,75,M,Coosalud,Subsidiado,Cali
+PAC-00026,CC,57,F,Compensar,Contributivo,Barranquilla
+PAC-00027,CC,21,F,Famisanar,Contributivo,Bucaramanga
+PAC-00028,CC,88,F,Coosalud,Contributivo,Medellin
+PAC-00029,CE,48,M,Famisanar,Contributivo,Bucaramanga
+PAC-00030,CE,90,F,Nueva EPS,Contributivo,Cali
+PAC-00031,CE,58,M,Nueva EPS,Contributivo,Bucaramanga
+PAC-00032,CC,41,M,Coosalud,Subsidiado,Bogota
+PAC-00033,TI,91,M,Coosalud,Subsidiado,Bucaramanga
+PAC-00034,TI,59,F,Famisanar,Subsidiado,Medellin
+PAC-00035,TI,79,F,Compensar,Subsidiado,Barranquilla
+PAC-00036,RC,14,M,Sura EPS,Contributivo,Bogota
+PAC-00037,CE,61,M,Famisanar,Contributivo,Bucaramanga
+PAC-00038,TI,61,M,Nueva EPS,Contributivo,Medellin
+PAC-00039,CC,46,M,Sanitas,Contributivo,Bucaramanga
+PAC-00040,TI,61,F,Coosalud,Subsidiado,Medellin
+PAC-00041,TI,50,F,Sura EPS,Subsidiado,Barranquilla
+PAC-00042,TI,54,M,Nueva EPS,Subsidiado,Cali
+PAC-00043,RC,63,F,Compensar,Contributivo,Bogota
+PAC-00044,CC,2,F,Coosalud,Subsidiado,Bogota
+PAC-00045,TI,50,M,Sura EPS,Subsidiado,Medellin
+PAC-00046,RC,6,M,Sanitas,Subsidiado,Medellin
+PAC-00047,CC,20,F,Famisanar,Contributivo,Bogota
+PAC-00048,CC,72,M,Sura EPS,Contributivo,Barranquilla
+PAC-00049,RC,38,F,Sura EPS,Subsidiado,Bogota
+PAC-00050,TI,17,F,Nueva EPS,Subsidiado,Cali
+PAC-00051,RC,3,F,Compensar,Subsidiado,Medellin
+PAC-00052,TI,88,F,Sura EPS,Contributivo,Bucaramanga
+PAC-00053,CC,59,F,Nueva EPS,Contributivo,Bucaramanga
+PAC-00054,RC,13,M,Nueva EPS,Contributivo,Medellin
+PAC-00055,CC,8,M,Coosalud,Contributivo,Barranquilla
+PAC-00056,CC,89,M,Famisanar,Contributivo,Bucaramanga
+PAC-00057,CC,52,F,Coosalud,Subsidiado,Cali
+PAC-00058,TI,1,F,Sura EPS,Subsidiado,Barranquilla
+PAC-00059,TI,83,F,Compensar,Subsidiado,Bogota
+PAC-00060,CC,91,F,Famisanar,Contributivo,Bogota
+PAC-00061,TI,59,F,Sura EPS,Subsidiado,Bogota
+PAC-00062,TI,70,F,Sanitas,Contributivo,Barranquilla
+PAC-00063,CE,43,M,Coosalud,Subsidiado,Bogota
+PAC-00064,TI,7,F,Nueva EPS,Contributivo,Bucaramanga
+PAC-00065,TI,46,F,Sanitas,Contributivo,Cali
+PAC-00066,TI,34,F,Famisanar,Subsidiado,Cali
+PAC-00067,CC,77,M,Coosalud,Subsidiado,Cali
+PAC-00068,CC,80,M,Sanitas,Contributivo,Cali
+PAC-00069,TI,35,F,Famisanar,Subsidiado,Bucaramanga
+PAC-00070,CC,49,M,Nueva EPS,Contributivo,Bucaramanga
+PAC-00071,CC,3,F,Famisanar,Contributivo,Barranquilla
+PAC-00072,TI,1,M,Sanitas,Subsidiado,Bogota
+PAC-00073,CE,5,M,Coosalud,Contributivo,Bogota
+PAC-00074,CE,53,F,Famisanar,Contributivo,Medellin
+PAC-00075,TI,3,M,Compensar,Contributivo,Medellin
+PAC-00076,CE,53,F,Coosalud,Contributivo,Cali
+PAC-00077,TI,92,M,Compensar,Contributivo,Barranquilla
+PAC-00078,TI,62,M,Compensar,Subsidiado,Cali
+PAC-00079,TI,17,M,Nueva EPS,Contributivo,Barranquilla
+PAC-00080,CE,89,F,Nueva EPS,Subsidiado,Cali
+PAC-00081,RC,43,F,Nueva EPS,Contributivo,Cali
+PAC-00082,TI,33,F,Nueva EPS,Contributivo,Bucaramanga
+PAC-00083,RC,73,F,Coosalud,Subsidiado,Barranquilla
+PAC-00084,CC,61,F,Famisanar,Contributivo,Cali
+PAC-00085,CC,13,F,Nueva EPS,Contributivo,Cali
+PAC-00086,RC,94,M,Coosalud,Subsidiado,Bucaramanga
+PAC-00087,CE,47,M,Coosalud,Subsidiado,Bucaramanga
+PAC-00088,CE,14,F,Sanitas,Subsidiado,Cali
+PAC-00089,TI,71,M,Compensar,Subsidiado,Medellin
+PAC-00090,CE,77,F,Famisanar,Contributivo,Cali
+PAC-00091,CE,86,M,Compensar,Subsidiado,Barranquilla
+PAC-00092,RC,61,F,Coosalud,Contributivo,Bucaramanga
+PAC-00093,RC,39,M,Coosalud,Contributivo,Cali
+PAC-00094,CE,84,M,Sura EPS,Subsidiado,Medellin
+PAC-00095,TI,79,M,Nueva EPS,Contributivo,Medellin
+PAC-00096,RC,81,M,Compensar,Subsidiado,Bucaramanga
+PAC-00097,TI,52,F,Compensar,Subsidiado,Medellin
+PAC-00098,TI,23,M,Nueva EPS,Subsidiado,Medellin
+PAC-00099,TI,25,F,Nueva EPS,Contributivo,Bogota
+PAC-00100,RC,88,M,Compensar,Subsidiado,Barranquilla
+PAC-00101,RC,59,F,Sura EPS,Subsidiado,Barranquilla
+PAC-00102,CE,40,M,Coosalud,Subsidiado,Bucaramanga
+PAC-00103,RC,28,M,Sanitas,Subsidiado,Bogota
+PAC-00104,CE,14,M,Sanitas,Subsidiado,Cali
+PAC-00105,CC,44,M,Sura EPS,Contributivo,Barranquilla
+PAC-00106,TI,64,M,Nueva EPS,Subsidiado,Barranquilla
+PAC-00107,CE,88,F,Compensar,Contributivo,Medellin
+PAC-00108,RC,70,F,Famisanar,Contributivo,Bucaramanga
+PAC-00109,RC,8,F,Nueva EPS,Subsidiado,Cali
+PAC-00110,RC,87,F,Famisanar,Contributivo,Barranquilla
+PAC-00111,TI,0,F,Compensar,Subsidiado,Bogota
+PAC-00112,RC,7,F,Coosalud,Subsidiado,Medellin
+PAC-00113,RC,87,M,Famisanar,Contributivo,Barranquilla
+PAC-00114,CC,62,M,Coosalud,Subsidiado,Medellin
+PAC-00115,RC,10,M,Nueva EPS,Subsidiado,Barranquilla
+PAC-00116,CE,80,M,Compensar,Subsidiado,Cali
+PAC-00117,RC,7,F,Compensar,Subsidiado,Bogota
+PAC-00118,RC,34,M,Coosalud,Contributivo,Cali
+PAC-00119,TI,34,M,Coosalud,Contributivo,Bogota
+PAC-00120,TI,32,M,Nueva EPS,Contributivo,Medellin
+PAC-00121,TI,4,F,Coosalud,Contributivo,Bucaramanga
+PAC-00122,TI,40,F,Coosalud,Subsidiado,Cali
+PAC-00123,TI,27,M,Sura EPS,Subsidiado,Bogota
+PAC-00124,CC,6,F,Famisanar,Subsidiado,Barranquilla
+PAC-00125,TI,72,M,Famisanar,Contributivo,Bogota
+PAC-00126,CE,71,M,Famisanar,Contributivo,Cali
+PAC-00127,RC,11,F,Nueva EPS,Subsidiado,Bogota
+PAC-00128,RC,33,F,Nueva EPS,Subsidiado,Cali
+PAC-00129,RC,32,M,Compensar,Contributivo,Bucaramanga
+PAC-00130,CE,47,F,Compensar,Subsidiado,Bucaramanga
+PAC-00131,CE,22,F,Sura EPS,Contributivo,Cali
+PAC-00132,RC,61,M,Compensar,Subsidiado,Cali
+PAC-00133,CC,87,F,Sanitas,Contributivo,Barranquilla
+PAC-00134,TI,36,F,Sanitas,Subsidiado,Cali
+PAC-00135,CE,43,M,Famisanar,Contributivo,Bogota
+PAC-00136,TI,85,F,Compensar,Contributivo,Barranquilla
+PAC-00137,RC,90,F,Nueva EPS,Contributivo,Cali
+PAC-00138,TI,34,F,Coosalud,Contributivo,Cali
+PAC-00139,CE,64,F,Famisanar,Subsidiado,Barranquilla
+PAC-00140,CE,46,F,Coosalud,Subsidiado,Cali
+PAC-00141,CE,77,F,Sura EPS,Contributivo,Medellin
+PAC-00142,CE,2,M,Coosalud,Contributivo,Medellin
+PAC-00143,TI,0,F,Sanitas,Subsidiado,Bogota
+PAC-00144,TI,4,F,Sura EPS,Subsidiado,Medellin
+PAC-00145,CE,89,M,Coosalud,Contributivo,Cali
+PAC-00146,CC,13,M,Famisanar,Subsidiado,Medellin
+PAC-00147,RC,26,M,Nueva EPS,Subsidiado,Barranquilla
+PAC-00148,RC,8,F,Sanitas,Contributivo,Bogota
+PAC-00149,CE,78,F,Nueva EPS,Contributivo,Barranquilla
+PAC-00150,RC,14,M,Famisanar,Contributivo,Medellin
+PAC-00151,TI,89,F,Nueva EPS,Contributivo,Bogota
+PAC-00152,RC,41,M,Famisanar,Subsidiado,Barranquilla
+PAC-00153,RC,76,F,Famisanar,Subsidiado,Cali
+PAC-00154,CC,50,M,Sura EPS,Contributivo,Cali
+PAC-00155,CC,62,M,Sura EPS,Contributivo,Bucaramanga
+PAC-00156,CC,51,M,Nueva EPS,Subsidiado,Barranquilla
+PAC-00157,RC,3,F,Nueva EPS,Contributivo,Cali
+PAC-00158,CE,93,F,Nueva EPS,Contributivo,Cali
+PAC-00159,TI,22,F,Nueva EPS,Contributivo,Medellin
+PAC-00160,CE,14,M,Nueva EPS,Contributivo,Medellin
+PAC-00161,CE,42,F,Compensar,Contributivo,Barranquilla
+PAC-00162,CE,28,F,Sanitas,Subsidiado,Barranquilla
+PAC-00163,CC,35,M,Compensar,Subsidiado,Bucaramanga
+PAC-00164,CE,12,M,Nueva EPS,Contributivo,Bucaramanga
+PAC-00165,CC,31,F,Famisanar,Contributivo,Medellin
+PAC-00166,RC,70,F,Sanitas,Contributivo,Bucaramanga
+PAC-00167,RC,58,F,Nueva EPS,Subsidiado,Cali
+PAC-00168,RC,85,F,Sanitas,Contributivo,Medellin
+PAC-00169,CE,27,F,Coosalud,Subsidiado,Cali
+PAC-00170,RC,65,M,Compensar,Contributivo,Cali
+PAC-00171,CE,41,F,Nueva EPS,Subsidiado,Bucaramanga
+PAC-00172,CC,44,F,Compensar,Contributivo,Medellin
+PAC-00173,CE,61,F,Coosalud,Subsidiado,Bogota
+PAC-00174,TI,56,F,Famisanar,Contributivo,Cali
+PAC-00175,RC,5,F,Nueva EPS,Contributivo,Bucaramanga
+PAC-00176,TI,27,M,Sanitas,Contributivo,Bucaramanga
+PAC-00177,RC,27,M,Sura EPS,Contributivo,Barranquilla
+PAC-00178,CC,43,M,Compensar,Subsidiado,Bucaramanga
+PAC-00179,CE,83,F,Compensar,Subsidiado,Medellin
+PAC-00180,RC,29,M,Compensar,Contributivo,Bucaramanga
+PAC-00181,TI,61,M,Sanitas,Subsidiado,Cali
+PAC-00182,CE,74,M,Sanitas,Subsidiado,Bucaramanga
+PAC-00183,RC,91,M,Compensar,Subsidiado,Cali
+PAC-00184,CE,88,F,Compensar,Subsidiado,Medellin
+PAC-00185,TI,61,F,Sura EPS,Subsidiado,Bogota
+PAC-00186,CE,0,F,Coosalud,Subsidiado,Barranquilla
+PAC-00187,TI,26,F,Nueva EPS,Contributivo,Bucaramanga
+PAC-00188,CE,61,M,Compensar,Contributivo,Bucaramanga
+PAC-00189,RC,76,M,Coosalud,Contributivo,Barranquilla
+PAC-00190,TI,2,M,Compensar,Subsidiado,Cali
+PAC-00191,RC,69,M,Sanitas,Subsidiado,Cali
+PAC-00192,RC,71,M,Famisanar,Contributivo,Medellin
+PAC-00193,CE,26,M,Coosalud,Contributivo,Barranquilla
+PAC-00194,CC,8,M,Compensar,Contributivo,Cali
+PAC-00195,CC,61,M,Sanitas,Contributivo,Cali
+PAC-00196,CE,36,F,Compensar,Contributivo,Medellin
+PAC-00197,RC,50,M,Sura EPS,Contributivo,Bogota
+PAC-00198,RC,43,M,Compensar,Contributivo,Medellin
+PAC-00199,RC,23,F,Compensar,Subsidiado,Bogota
+PAC-00200,RC,78,F,Coosalud,Contributivo,Bogota
+PAC-00201,RC,58,F,Famisanar,Subsidiado,Barranquilla
+PAC-00202,CE,31,F,Sanitas,Contributivo,Barranquilla
+PAC-00203,RC,87,M,Sura EPS,Subsidiado,Bucaramanga
+PAC-00204,CE,51,F,Coosalud,Subsidiado,Bogota
+PAC-00205,RC,61,F,Nueva EPS,Contributivo,Bucaramanga
+PAC-00206,RC,57,F,Sura EPS,Subsidiado,Medellin
+PAC-00207,TI,51,F,Coosalud,Contributivo,Bogota
+PAC-00208,CC,11,F,Compensar,Contributivo,Bucaramanga
+PAC-00209,CE,38,M,Nueva EPS,Subsidiado,Cali
+PAC-00210,RC,1,M,Sura EPS,Contributivo,Bucaramanga
+PAC-00211,CE,2,F,Sura EPS,Subsidiado,Barranquilla
+PAC-00212,CE,55,F,Nueva EPS,Subsidiado,Bogota
+PAC-00213,TI,80,M,Coosalud,Subsidiado,Bucaramanga
+PAC-00214,CE,58,M,Compensar,Contributivo,Cali
+PAC-00215,CC,1,F,Sanitas,Subsidiado,Bucaramanga
+PAC-00216,RC,1,F,Nueva EPS,Contributivo,Barranquilla
+PAC-00217,CC,91,F,Famisanar,Contributivo,Bogota
+PAC-00218,RC,53,F,Coosalud,Subsidiado,Bogota
+PAC-00219,TI,86,M,Nueva EPS,Subsidiado,Barranquilla
+PAC-00220,CC,0,M,Sura EPS,Contributivo,Barranquilla
+PAC-00221,RC,18,F,Coosalud,Subsidiado,Bucaramanga
+PAC-00222,TI,1,F,Coosalud,Contributivo,Barranquilla
+PAC-00223,RC,52,F,Nueva EPS,Subsidiado,Medellin
+PAC-00224,RC,43,F,Sura EPS,Subsidiado,Bogota
+PAC-00225,CE,89,F,Nueva EPS,Subsidiado,Cali
+PAC-00226,TI,31,M,Compensar,Contributivo,Medellin
+PAC-00227,CC,69,M,Sanitas,Contributivo,Medellin
+PAC-00228,TI,31,M,Famisanar,Contributivo,Bucaramanga
+PAC-00229,TI,67,M,Sanitas,Contributivo,Bucaramanga
+PAC-00230,CC,54,F,Sura EPS,Contributivo,Bucaramanga
+PAC-00231,CE,74,M,Nueva EPS,Contributivo,Medellin
+PAC-00232,CC,55,F,Sura EPS,Subsidiado,Bogota
+PAC-00233,TI,16,F,Nueva EPS,Contributivo,Barranquilla
+PAC-00234,CC,37,M,Compensar,Subsidiado,Cali
+PAC-00235,CC,23,F,Famisanar,Contributivo,Bucaramanga
+PAC-00236,CC,68,F,Compensar,Contributivo,Bogota
+PAC-00237,RC,69,F,Compensar,Contributivo,Barranquilla
+PAC-00238,RC,85,M,Nueva EPS,Subsidiado,Bucaramanga
+PAC-00239,TI,10,M,Sura EPS,Subsidiado,Bucaramanga
+PAC-00240,CE,15,F,Famisanar,Subsidiado,Barranquilla
+PAC-00241,RC,72,M,Coosalud,Contributivo,Bucaramanga
+PAC-00242,TI,58,F,Compensar,Contributivo,Barranquilla
+PAC-00243,CE,69,F,Compensar,Subsidiado,Bogota
+PAC-00244,CE,79,F,Sanitas,Subsidiado,Cali
+PAC-00245,TI,92,F,Nueva EPS,Contributivo,Bogota
+PAC-00246,CC,2,F,Nueva EPS,Subsidiado,Medellin
+PAC-00247,CC,19,F,Coosalud,Contributivo,Barranquilla
+PAC-00248,CE,58,F,Coosalud,Contributivo,Cali
+PAC-00249,CE,35,F,Nueva EPS,Contributivo,Medellin
+PAC-00250,RC,18,M,Nueva EPS,Subsidiado,Bucaramanga
+PAC-00251,CE,89,M,Sanitas,Contributivo,Barranquilla
+PAC-00252,CC,66,F,Nueva EPS,Contributivo,Cali
+PAC-00253,CE,18,F,Sanitas,Contributivo,Medellin
+PAC-00254,TI,19,F,Nueva EPS,Contributivo,Bogota
+PAC-00255,CC,70,M,Compensar,Subsidiado,Barranquilla
+PAC-00256,CE,51,M,Sanitas,Subsidiado,Cali
+PAC-00257,CC,32,M,Sura EPS,Contributivo,Bucaramanga
+PAC-00258,CC,39,M,Sanitas,Subsidiado,Barranquilla
+PAC-00259,RC,38,F,Compensar,Subsidiado,Medellin
+PAC-00260,CC,81,F,Compensar,Contributivo,Cali
+PAC-00261,RC,0,F,Nueva EPS,Contributivo,Barranquilla
+PAC-00262,CC,10,M,Sura EPS,Subsidiado,Medellin
+PAC-00263,TI,91,F,Sanitas,Subsidiado,Bogota
+PAC-00264,CC,56,F,Coosalud,Subsidiado,Medellin
+PAC-00265,TI,88,F,Famisanar,Contributivo,Bucaramanga
+PAC-00266,CE,49,M,Compensar,Contributivo,Barranquilla
+PAC-00267,CC,22,F,Nueva EPS,Subsidiado,Bucaramanga
+PAC-00268,RC,30,F,Coosalud,Subsidiado,Cali
+PAC-00269,CC,93,F,Nueva EPS,Subsidiado,Medellin
+PAC-00270,RC,41,F,Nueva EPS,Subsidiado,Bogota
+PAC-00271,TI,6,F,Famisanar,Subsidiado,Bucaramanga
+PAC-00272,CC,15,F,Sanitas,Subsidiado,Medellin
+PAC-00273,CE,89,M,Nueva EPS,Contributivo,Bucaramanga
+PAC-00274,TI,59,F,Sanitas,Contributivo,Medellin
+PAC-00275,CC,1,M,Sanitas,Contributivo,Medellin
+PAC-00276,TI,0,M,Sura EPS,Subsidiado,Barranquilla
+PAC-00277,RC,47,F,Coosalud,Subsidiado,Medellin
+PAC-00278,RC,11,M,Compensar,Subsidiado,Cali
+PAC-00279,CE,68,M,Sanitas,Contributivo,Cali
+PAC-00280,RC,36,F,Nueva EPS,Contributivo,Cali
+PAC-00281,CE,31,M,Coosalud,Contributivo,Bucaramanga
+PAC-00282,RC,8,F,Famisanar,Contributivo,Barranquilla
+PAC-00283,TI,18,F,Famisanar,Subsidiado,Bucaramanga
+PAC-00284,TI,47,M,Compensar,Contributivo,Cali
+PAC-00285,CC,79,M,Nueva EPS,Contributivo,Barranquilla
+PAC-00286,RC,2,M,Sanitas,Subsidiado,Cali
+PAC-00287,RC,19,F,Sanitas,Contributivo,Cali
+PAC-00288,CC,23,F,Nueva EPS,Subsidiado,Cali
+PAC-00289,CE,53,M,Sanitas,Contributivo,Bucaramanga
+PAC-00290,TI,32,F,Sanitas,Subsidiado,Medellin
+PAC-00291,CC,23,F,Famisanar,Subsidiado,Cali
+PAC-00292,TI,74,M,Coosalud,Subsidiado,Bucaramanga
+PAC-00293,CE,71,M,Sanitas,Subsidiado,Medellin
+PAC-00294,TI,35,F,Compensar,Contributivo,Medellin
+PAC-00295,TI,37,M,Nueva EPS,Subsidiado,Bogota
+PAC-00296,CC,83,F,Famisanar,Contributivo,Bucaramanga
+PAC-00297,RC,88,M,Sura EPS,Contributivo,Bucaramanga
+PAC-00298,TI,24,F,Nueva EPS,Subsidiado,Cali
+PAC-00299,TI,92,F,Famisanar,Subsidiado,Barranquilla
+PAC-00300,TI,17,M,Sanitas,Subsidiado,Medellin

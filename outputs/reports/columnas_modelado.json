@@ -1,0 +1,76 @@
+{
+  "target": {
+    "columna": "target",
+    "definicion": "1 si resultado == INCONSISTENTE"
+  },
+  "features_numericas": [
+    "edad",
+    "cantidad_realizada",
+    "cantidad_facturada",
+    "valor_unitario",
+    "valor_total",
+    "mes_atencion",
+    "dias_atencion_a_facturacion",
+    "codigo_facturado_tiene_soporte_en_atencion",
+    "codigo_hc_fue_facturado_en_atencion",
+    "total_cups_hc",
+    "total_cups_pf",
+    "cups_con_soporte_count",
+    "cups_sin_soporte_count",
+    "cups_no_facturados_count",
+    "proporcion_cups_con_soporte",
+    "proporcion_cups_sin_soporte",
+    "es_ambulatorio",
+    "es_hospitalario",
+    "es_urgencia",
+    "servicio_alto_valor_ambulatorio",
+    "tratamiento_complejo_hospitalario",
+    "facturacion_tardia",
+    "eps_coincide_paciente"
+  ],
+  "features_categoricas": [
+    "sexo",
+    "tipo_documento",
+    "tipo_afiliacion",
+    "ciudad",
+    "eps_atencion",
+    "tipo_atencion",
+    "sede",
+    "tipo_item",
+    "soporte_clinico",
+    "grupo_etario",
+    "diagnostico_principal_cie10",
+    "medico_tratante",
+    "profesional_responsable"
+  ],
+  "excluidas_por_leakage": {
+    "columnas": [
+      "resultado",
+      "tipo_alerta",
+      "severidad",
+      "descripcion_alerta"
+    ],
+    "motivo": "Salidas del sistema de reglas que generó el target; solo uso explicativo."
+  },
+  "excluidas_ids": [
+    "id_cruce",
+    "id_atencion",
+    "id_prefactura",
+    "id_detalle_hc",
+    "id_paciente"
+  ],
+  "excluidas_texto_libre_y_fechas_crudas": [
+    "descripcion_servicio_facturado",
+    "descripcion_diagnostico",
+    "fecha_facturacion",
+    "fecha_registro",
+    "fecha_atencion"
+  ],
+  "notas": [
+    "Grano: 1 fila = 1 registro de cruce (idéntico al de antes de este fix; compatible con 05/07/08).",
+    "Lógica corregida: las features de comparación se calculan agrupando por atención (set de CUPS en HC vs set de CUPS facturados), no solo con la fila pareada de cruce.",
+    "codigo_facturado_tiene_soporte_en_atencion: 1 si el codigo_cups_facturado de esta fila aparece en el set de códigos con soporte clínico de TODA la atención.",
+    "codigo_hc_fue_facturado_en_atencion: 1 si el codigo_cups con soporte de esta fila aparece en el set de códigos facturados de TODA la atención (detección de fuga de ingreso).",
+    "07 y 08 calculan sus propias features fila a fila (p.ej. coincide_codigo_cups) usando codigo_cups y codigo_cups_facturado de esta misma fila; válido porque las FK de cruce (id_detalle_hc/id_prefactura) sí son la pareja correcta (ver verificación en la celda de cierre)."
+  ]
+}

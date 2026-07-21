@@ -1,0 +1,1201 @@
+id_atencion,id_paciente,fecha_atencion,tipo_atencion,diagnostico_principal_cie10,descripcion_diagnostico,medico_tratante,sede,eps
+ATN-000001,PAC-00295,2026-01-12,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-037,Sede Urgencias,Nueva EPS
+ATN-000002,PAC-00162,2026-04-06,Urgencias,F411,Trastorno de ansiedad generalizada,MED-033,Sede Centro,Sanitas
+ATN-000003,PAC-00041,2026-05-30,Ambulatoria,O800,Parto único espontáneo,MED-016,Sede Urgencias,Sura EPS
+ATN-000004,PAC-00079,2025-05-23,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-031,Sede Urgencias,Nueva EPS
+ATN-000005,PAC-00191,2026-06-25,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-008,Sede Sur,Sanitas
+ATN-000006,PAC-00118,2026-03-03,Ambulatoria,J189,"Neumonia, no especificada",MED-006,Sede Sur,Coosalud
+ATN-000007,PAC-00232,2025-12-07,Hospitalizacion,J189,"Neumonia, no especificada",MED-003,Sede Sur,Sura EPS
+ATN-000008,PAC-00127,2025-02-07,Ambulatoria,S824,Fractura de peroné,MED-013,Sede Norte,Nueva EPS
+ATN-000009,PAC-00053,2025-12-06,Urgencias,S824,Fractura de peroné,MED-008,Sede Sur,Nueva EPS
+ATN-000010,PAC-00095,2026-01-12,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-034,Sede Sur,Nueva EPS
+ATN-000011,PAC-00110,2025-04-16,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-021,Sede Sur,Famisanar
+ATN-000012,PAC-00292,2026-02-20,Ambulatoria,O800,Parto único espontáneo,MED-033,Sede Centro,Coosalud
+ATN-000013,PAC-00005,2026-01-11,Hospitalizacion,O800,Parto único espontáneo,MED-025,Sede Norte,Sura EPS
+ATN-000014,PAC-00072,2025-05-21,Urgencias,R073,Otro dolor en el pecho,MED-024,Sede Urgencias,Sanitas
+ATN-000015,PAC-00043,2026-04-02,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-040,Sede Sur,Compensar
+ATN-000016,PAC-00001,2025-06-28,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-024,Sede Centro,Coosalud
+ATN-000017,PAC-00007,2025-03-09,Hospitalizacion,S824,Fractura de peroné,MED-026,Sede Urgencias,Sura EPS
+ATN-000018,PAC-00260,2025-07-06,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-009,Sede Urgencias,Compensar
+ATN-000019,PAC-00048,2025-12-21,Urgencias,R073,Otro dolor en el pecho,MED-019,Sede Norte,Sura EPS
+ATN-000020,PAC-00295,2025-06-22,Ambulatoria,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-038,Sede Centro,Nueva EPS
+ATN-000021,PAC-00181,2026-02-20,Hospitalizacion,S824,Fractura de peroné,MED-030,Sede Norte,Sanitas
+ATN-000022,PAC-00104,2025-05-28,Urgencias,O800,Parto único espontáneo,MED-021,Sede Sur,Sanitas
+ATN-000023,PAC-00259,2025-05-06,Ambulatoria,S824,Fractura de peroné,MED-029,Sede Centro,Compensar
+ATN-000024,PAC-00260,2025-12-02,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-037,Sede Sur,Compensar
+ATN-000025,PAC-00189,2026-06-02,Hospitalizacion,M545,Lumbago no especificado,MED-016,Sede Centro,Coosalud
+ATN-000026,PAC-00038,2026-01-10,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-026,Sede Sur,Nueva EPS
+ATN-000027,PAC-00087,2025-10-14,Ambulatoria,H269,Catarata no especificada,MED-040,Sede Norte,Coosalud
+ATN-000028,PAC-00143,2025-02-16,Urgencias,I10X,Hipertension esencial (primaria),MED-009,Sede Sur,Sanitas
+ATN-000029,PAC-00094,2025-01-28,Hospitalizacion,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-031,Sede Sur,Sura EPS
+ATN-000030,PAC-00196,2025-09-06,Ambulatoria,I10X,Hipertension esencial (primaria),MED-037,Sede Norte,Compensar
+ATN-000031,PAC-00038,2026-06-16,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-036,Sede Sur,Nueva EPS
+ATN-000032,PAC-00265,2026-05-11,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-016,Sede Sur,Famisanar
+ATN-000033,PAC-00189,2025-10-22,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-037,Sede Urgencias,Coosalud
+ATN-000034,PAC-00042,2025-08-08,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-035,Sede Sur,Nueva EPS
+ATN-000035,PAC-00028,2025-12-05,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-031,Sede Norte,Coosalud
+ATN-000036,PAC-00081,2025-10-22,Ambulatoria,O800,Parto único espontáneo,MED-019,Sede Norte,Nueva EPS
+ATN-000037,PAC-00162,2025-02-08,Urgencias,I10X,Hipertension esencial (primaria),MED-020,Sede Norte,Sanitas
+ATN-000038,PAC-00172,2025-09-21,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-012,Sede Norte,Compensar
+ATN-000039,PAC-00264,2025-07-09,Ambulatoria,J189,"Neumonia, no especificada",MED-031,Sede Sur,Coosalud
+ATN-000040,PAC-00042,2025-08-30,Urgencias,I10X,Hipertension esencial (primaria),MED-008,Sede Urgencias,Nueva EPS
+ATN-000041,PAC-00193,2026-05-05,Urgencias,J189,"Neumonia, no especificada",MED-030,Sede Sur,Coosalud
+ATN-000042,PAC-00193,2026-06-17,Hospitalizacion,M545,Lumbago no especificado,MED-008,Sede Centro,Coosalud
+ATN-000043,PAC-00087,2026-04-19,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-020,Sede Norte,Coosalud
+ATN-000044,PAC-00141,2025-02-02,Ambulatoria,S824,Fractura de peroné,MED-027,Sede Centro,Sura EPS
+ATN-000045,PAC-00290,2025-05-17,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-023,Sede Norte,Sanitas
+ATN-000046,PAC-00284,2025-01-17,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-014,Sede Norte,Compensar
+ATN-000047,PAC-00010,2025-08-11,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-004,Sede Centro,Nueva EPS
+ATN-000048,PAC-00192,2025-06-29,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-028,Sede Urgencias,Famisanar
+ATN-000049,PAC-00080,2026-04-30,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-015,Sede Sur,Nueva EPS
+ATN-000050,PAC-00254,2026-04-06,Hospitalizacion,H269,Catarata no especificada,MED-024,Sede Norte,Nueva EPS
+ATN-000051,PAC-00040,2026-05-06,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-022,Sede Sur,Coosalud
+ATN-000052,PAC-00057,2026-01-25,Urgencias,M545,Lumbago no especificado,MED-035,Sede Sur,Coosalud
+ATN-000053,PAC-00033,2026-03-04,Urgencias,S824,Fractura de peroné,MED-010,Sede Centro,Coosalud
+ATN-000054,PAC-00123,2026-05-18,Ambulatoria,M545,Lumbago no especificado,MED-011,Sede Sur,Sura EPS
+ATN-000055,PAC-00290,2025-02-19,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-001,Sede Urgencias,Sanitas
+ATN-000056,PAC-00108,2025-03-03,Hospitalizacion,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-040,Sede Urgencias,Famisanar
+ATN-000057,PAC-00247,2025-10-21,Ambulatoria,I10X,Hipertension esencial (primaria),MED-033,Sede Urgencias,Coosalud
+ATN-000058,PAC-00206,2026-04-16,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-016,Sede Centro,Sura EPS
+ATN-000059,PAC-00234,2026-05-27,Hospitalizacion,H269,Catarata no especificada,MED-028,Sede Sur,Compensar
+ATN-000060,PAC-00197,2025-03-18,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-018,Sede Norte,Sura EPS
+ATN-000061,PAC-00049,2026-02-03,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-035,Sede Sur,Sura EPS
+ATN-000062,PAC-00052,2026-03-19,Ambulatoria,J189,"Neumonia, no especificada",MED-038,Sede Urgencias,Sura EPS
+ATN-000063,PAC-00114,2025-11-12,Ambulatoria,M545,Lumbago no especificado,MED-024,Sede Sur,Coosalud
+ATN-000064,PAC-00273,2025-04-02,Hospitalizacion,O800,Parto único espontáneo,MED-036,Sede Norte,Nueva EPS
+ATN-000065,PAC-00229,2025-06-23,Urgencias,J189,"Neumonia, no especificada",MED-018,Sede Sur,Sanitas
+ATN-000066,PAC-00133,2026-04-14,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-009,Sede Sur,Sanitas
+ATN-000067,PAC-00020,2026-05-06,Urgencias,O800,Parto único espontáneo,MED-012,Sede Urgencias,Sura EPS
+ATN-000068,PAC-00104,2026-01-09,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-037,Sede Centro,Sanitas
+ATN-000069,PAC-00048,2026-03-10,Urgencias,Z348,Supervisión de otros embarazos normales,MED-025,Sede Norte,Sura EPS
+ATN-000070,PAC-00237,2026-02-14,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-022,Sede Urgencias,Compensar
+ATN-000071,PAC-00275,2026-05-28,Urgencias,J189,"Neumonia, no especificada",MED-023,Sede Norte,Sanitas
+ATN-000072,PAC-00079,2026-04-12,Urgencias,Z348,Supervisión de otros embarazos normales,MED-014,Sede Urgencias,Nueva EPS
+ATN-000073,PAC-00181,2025-01-24,Hospitalizacion,H269,Catarata no especificada,MED-022,Sede Norte,Sanitas
+ATN-000074,PAC-00095,2026-03-13,Hospitalizacion,M545,Lumbago no especificado,MED-015,Sede Urgencias,Nueva EPS
+ATN-000075,PAC-00130,2025-07-22,Urgencias,M545,Lumbago no especificado,MED-038,Sede Urgencias,Compensar
+ATN-000076,PAC-00081,2025-11-30,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-030,Sede Norte,Nueva EPS
+ATN-000077,PAC-00263,2025-06-26,Hospitalizacion,H269,Catarata no especificada,MED-020,Sede Norte,Sanitas
+ATN-000078,PAC-00219,2025-05-25,Hospitalizacion,R073,Otro dolor en el pecho,MED-025,Sede Urgencias,Nueva EPS
+ATN-000079,PAC-00191,2025-06-20,Ambulatoria,M545,Lumbago no especificado,MED-019,Sede Centro,Sanitas
+ATN-000080,PAC-00167,2026-06-02,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-032,Sede Urgencias,Nueva EPS
+ATN-000081,PAC-00272,2025-08-19,Urgencias,R073,Otro dolor en el pecho,MED-019,Sede Centro,Sanitas
+ATN-000082,PAC-00184,2025-04-15,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-016,Sede Sur,Compensar
+ATN-000083,PAC-00227,2026-06-30,Urgencias,S824,Fractura de peroné,MED-039,Sede Centro,Sanitas
+ATN-000084,PAC-00271,2025-05-10,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-009,Sede Centro,Famisanar
+ATN-000085,PAC-00261,2026-02-17,Urgencias,R073,Otro dolor en el pecho,MED-018,Sede Sur,Nueva EPS
+ATN-000086,PAC-00071,2025-12-12,Hospitalizacion,R073,Otro dolor en el pecho,MED-037,Sede Centro,Famisanar
+ATN-000087,PAC-00154,2026-03-15,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-009,Sede Sur,Sura EPS
+ATN-000088,PAC-00250,2025-08-28,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-006,Sede Norte,Nueva EPS
+ATN-000089,PAC-00051,2026-05-05,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-015,Sede Urgencias,Compensar
+ATN-000090,PAC-00210,2025-05-27,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-034,Sede Norte,Sura EPS
+ATN-000091,PAC-00272,2025-05-24,Urgencias,Z348,Supervisión de otros embarazos normales,MED-008,Sede Urgencias,Sanitas
+ATN-000092,PAC-00042,2026-06-06,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-026,Sede Sur,Nueva EPS
+ATN-000093,PAC-00056,2025-03-14,Urgencias,R073,Otro dolor en el pecho,MED-001,Sede Sur,Famisanar
+ATN-000094,PAC-00168,2025-01-15,Ambulatoria,S824,Fractura de peroné,MED-014,Sede Norte,Sanitas
+ATN-000095,PAC-00016,2025-03-26,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-035,Sede Centro,Coosalud
+ATN-000096,PAC-00255,2025-03-09,Ambulatoria,S824,Fractura de peroné,MED-028,Sede Centro,Compensar
+ATN-000097,PAC-00248,2025-05-03,Ambulatoria,I10X,Hipertension esencial (primaria),MED-009,Sede Norte,Coosalud
+ATN-000098,PAC-00185,2025-10-06,Hospitalizacion,R073,Otro dolor en el pecho,MED-005,Sede Sur,Sura EPS
+ATN-000099,PAC-00062,2025-06-20,Ambulatoria,O800,Parto único espontáneo,MED-011,Sede Sur,Sanitas
+ATN-000100,PAC-00136,2026-01-28,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-010,Sede Centro,Compensar
+ATN-000101,PAC-00057,2025-05-03,Ambulatoria,R073,Otro dolor en el pecho,MED-004,Sede Centro,Coosalud
+ATN-000102,PAC-00014,2026-04-13,Urgencias,I10X,Hipertension esencial (primaria),MED-024,Sede Centro,Sura EPS
+ATN-000103,PAC-00225,2025-01-25,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-035,Sede Sur,Nueva EPS
+ATN-000104,PAC-00268,2025-09-01,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-032,Sede Norte,Coosalud
+ATN-000105,PAC-00066,2025-08-31,Urgencias,S824,Fractura de peroné,MED-017,Sede Sur,Famisanar
+ATN-000106,PAC-00294,2025-05-20,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-038,Sede Norte,Compensar
+ATN-000107,PAC-00125,2025-08-01,Urgencias,M545,Lumbago no especificado,MED-020,Sede Urgencias,Famisanar
+ATN-000108,PAC-00251,2025-06-01,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-016,Sede Sur,Sanitas
+ATN-000109,PAC-00262,2025-05-05,Ambulatoria,I10X,Hipertension esencial (primaria),MED-004,Sede Centro,Sura EPS
+ATN-000110,PAC-00045,2026-03-31,Urgencias,Z348,Supervisión de otros embarazos normales,MED-009,Sede Norte,Sura EPS
+ATN-000111,PAC-00220,2026-05-24,Ambulatoria,I10X,Hipertension esencial (primaria),MED-025,Sede Urgencias,Sura EPS
+ATN-000112,PAC-00094,2025-09-13,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-035,Sede Norte,Sura EPS
+ATN-000113,PAC-00154,2025-01-31,Urgencias,F411,Trastorno de ansiedad generalizada,MED-018,Sede Norte,Sura EPS
+ATN-000114,PAC-00252,2025-12-30,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-012,Sede Centro,Nueva EPS
+ATN-000115,PAC-00092,2026-05-20,Urgencias,R073,Otro dolor en el pecho,MED-020,Sede Centro,Coosalud
+ATN-000116,PAC-00192,2025-12-06,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-040,Sede Centro,Famisanar
+ATN-000117,PAC-00276,2025-04-24,Ambulatoria,H269,Catarata no especificada,MED-034,Sede Sur,Sura EPS
+ATN-000118,PAC-00230,2025-06-11,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-028,Sede Urgencias,Sura EPS
+ATN-000119,PAC-00283,2026-02-05,Ambulatoria,H269,Catarata no especificada,MED-037,Sede Norte,Famisanar
+ATN-000120,PAC-00081,2025-12-22,Hospitalizacion,O800,Parto único espontáneo,MED-011,Sede Norte,Nueva EPS
+ATN-000121,PAC-00014,2025-01-02,Hospitalizacion,I10X,Hipertension esencial (primaria),MED-025,Sede Urgencias,Sura EPS
+ATN-000122,PAC-00026,2025-04-18,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-022,Sede Centro,Compensar
+ATN-000123,PAC-00283,2026-03-21,Urgencias,J189,"Neumonia, no especificada",MED-004,Sede Norte,Famisanar
+ATN-000124,PAC-00021,2025-02-20,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-037,Sede Urgencias,Sanitas
+ATN-000125,PAC-00058,2025-06-24,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-019,Sede Norte,Sura EPS
+ATN-000126,PAC-00246,2026-02-01,Urgencias,J189,"Neumonia, no especificada",MED-024,Sede Urgencias,Nueva EPS
+ATN-000127,PAC-00094,2025-03-05,Hospitalizacion,J189,"Neumonia, no especificada",MED-007,Sede Norte,Sura EPS
+ATN-000128,PAC-00016,2025-06-27,Ambulatoria,J189,"Neumonia, no especificada",MED-014,Sede Centro,Coosalud
+ATN-000129,PAC-00001,2025-09-22,Urgencias,O800,Parto único espontáneo,MED-005,Sede Norte,Coosalud
+ATN-000130,PAC-00279,2025-04-13,Urgencias,F411,Trastorno de ansiedad generalizada,MED-007,Sede Norte,Sanitas
+ATN-000131,PAC-00174,2026-04-30,Urgencias,I10X,Hipertension esencial (primaria),MED-012,Sede Sur,Famisanar
+ATN-000132,PAC-00139,2025-10-03,Urgencias,F411,Trastorno de ansiedad generalizada,MED-024,Sede Norte,Famisanar
+ATN-000133,PAC-00233,2025-10-03,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-027,Sede Norte,Nueva EPS
+ATN-000134,PAC-00120,2026-02-18,Ambulatoria,J189,"Neumonia, no especificada",MED-034,Sede Norte,Nueva EPS
+ATN-000135,PAC-00293,2025-07-23,Hospitalizacion,S824,Fractura de peroné,MED-024,Sede Urgencias,Sanitas
+ATN-000136,PAC-00104,2026-04-02,Urgencias,J189,"Neumonia, no especificada",MED-031,Sede Sur,Sanitas
+ATN-000137,PAC-00146,2025-08-08,Hospitalizacion,H269,Catarata no especificada,MED-015,Sede Centro,Famisanar
+ATN-000138,PAC-00071,2026-05-01,Hospitalizacion,F411,Trastorno de ansiedad generalizada,MED-009,Sede Centro,Famisanar
+ATN-000139,PAC-00182,2025-08-12,Hospitalizacion,M545,Lumbago no especificado,MED-020,Sede Urgencias,Sanitas
+ATN-000140,PAC-00279,2025-11-29,Hospitalizacion,H269,Catarata no especificada,MED-018,Sede Sur,Sanitas
+ATN-000141,PAC-00123,2025-10-30,Urgencias,S824,Fractura de peroné,MED-027,Sede Urgencias,Sura EPS
+ATN-000142,PAC-00024,2025-09-22,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-036,Sede Centro,Famisanar
+ATN-000143,PAC-00112,2026-04-20,Ambulatoria,H269,Catarata no especificada,MED-008,Sede Urgencias,Coosalud
+ATN-000144,PAC-00118,2025-05-27,Urgencias,O800,Parto único espontáneo,MED-012,Sede Norte,Coosalud
+ATN-000145,PAC-00202,2025-06-12,Hospitalizacion,M545,Lumbago no especificado,MED-006,Sede Centro,Sanitas
+ATN-000146,PAC-00173,2025-07-24,Urgencias,C349,Tumor maligno del bronquio o del pulmón,MED-024,Sede Norte,Coosalud
+ATN-000147,PAC-00289,2025-06-21,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-003,Sede Sur,Sanitas
+ATN-000148,PAC-00233,2025-01-20,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-015,Sede Centro,Nueva EPS
+ATN-000149,PAC-00138,2025-01-21,Urgencias,I10X,Hipertension esencial (primaria),MED-008,Sede Urgencias,Coosalud
+ATN-000150,PAC-00033,2026-06-17,Urgencias,S824,Fractura de peroné,MED-040,Sede Centro,Coosalud
+ATN-000151,PAC-00290,2025-07-24,Urgencias,Z348,Supervisión de otros embarazos normales,MED-017,Sede Centro,Sanitas
+ATN-000152,PAC-00064,2025-01-14,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-006,Sede Norte,Nueva EPS
+ATN-000153,PAC-00184,2025-04-13,Urgencias,H269,Catarata no especificada,MED-012,Sede Norte,Compensar
+ATN-000154,PAC-00283,2025-06-24,Hospitalizacion,O800,Parto único espontáneo,MED-023,Sede Urgencias,Famisanar
+ATN-000155,PAC-00035,2025-10-06,Urgencias,H269,Catarata no especificada,MED-025,Sede Urgencias,Compensar
+ATN-000156,PAC-00253,2026-05-10,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-037,Sede Urgencias,Sanitas
+ATN-000157,PAC-00061,2025-11-18,Hospitalizacion,I10X,Hipertension esencial (primaria),MED-034,Sede Centro,Sura EPS
+ATN-000158,PAC-00034,2026-05-23,Urgencias,H269,Catarata no especificada,MED-011,Sede Norte,Famisanar
+ATN-000159,PAC-00226,2026-01-23,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-016,Sede Norte,Compensar
+ATN-000160,PAC-00198,2026-02-27,Ambulatoria,I10X,Hipertension esencial (primaria),MED-036,Sede Norte,Compensar
+ATN-000161,PAC-00046,2026-01-18,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-007,Sede Norte,Sanitas
+ATN-000162,PAC-00245,2025-12-13,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-027,Sede Norte,Nueva EPS
+ATN-000163,PAC-00253,2026-03-20,Hospitalizacion,H269,Catarata no especificada,MED-038,Sede Urgencias,Sanitas
+ATN-000164,PAC-00124,2025-11-26,Hospitalizacion,R073,Otro dolor en el pecho,MED-025,Sede Urgencias,Famisanar
+ATN-000165,PAC-00171,2025-11-03,Hospitalizacion,H269,Catarata no especificada,MED-036,Sede Sur,Nueva EPS
+ATN-000166,PAC-00217,2026-03-04,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-035,Sede Sur,Famisanar
+ATN-000167,PAC-00073,2025-07-24,Hospitalizacion,S824,Fractura de peroné,MED-011,Sede Sur,Coosalud
+ATN-000168,PAC-00010,2026-02-03,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-033,Sede Sur,Nueva EPS
+ATN-000169,PAC-00171,2026-03-30,Hospitalizacion,H269,Catarata no especificada,MED-015,Sede Sur,Nueva EPS
+ATN-000170,PAC-00261,2026-06-11,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-025,Sede Norte,Nueva EPS
+ATN-000171,PAC-00023,2026-05-18,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-037,Sede Sur,Famisanar
+ATN-000172,PAC-00288,2025-12-24,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-014,Sede Sur,Nueva EPS
+ATN-000173,PAC-00153,2025-11-25,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-008,Sede Urgencias,Famisanar
+ATN-000174,PAC-00064,2025-01-08,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-005,Sede Centro,Nueva EPS
+ATN-000175,PAC-00090,2025-02-08,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-005,Sede Norte,Famisanar
+ATN-000176,PAC-00062,2025-05-02,Hospitalizacion,R073,Otro dolor en el pecho,MED-001,Sede Norte,Sanitas
+ATN-000177,PAC-00125,2025-02-01,Ambulatoria,M545,Lumbago no especificado,MED-011,Sede Centro,Famisanar
+ATN-000178,PAC-00091,2026-02-08,Urgencias,R073,Otro dolor en el pecho,MED-036,Sede Norte,Compensar
+ATN-000179,PAC-00183,2025-09-16,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-008,Sede Centro,Compensar
+ATN-000180,PAC-00117,2025-09-14,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-013,Sede Urgencias,Compensar
+ATN-000181,PAC-00138,2025-11-10,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-038,Sede Centro,Coosalud
+ATN-000182,PAC-00034,2025-05-18,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-022,Sede Urgencias,Famisanar
+ATN-000183,PAC-00141,2025-03-19,Hospitalizacion,F411,Trastorno de ansiedad generalizada,MED-002,Sede Norte,Sura EPS
+ATN-000184,PAC-00025,2026-04-29,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-010,Sede Sur,Coosalud
+ATN-000185,PAC-00278,2025-04-03,Hospitalizacion,N390,"Infección de vías urinarias, sitio no especificado",MED-024,Sede Norte,Compensar
+ATN-000186,PAC-00166,2025-05-30,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-031,Sede Sur,Sanitas
+ATN-000187,PAC-00064,2026-06-15,Urgencias,F411,Trastorno de ansiedad generalizada,MED-024,Sede Urgencias,Nueva EPS
+ATN-000188,PAC-00056,2025-10-08,Urgencias,H269,Catarata no especificada,MED-017,Sede Centro,Famisanar
+ATN-000189,PAC-00159,2025-08-17,Urgencias,R073,Otro dolor en el pecho,MED-026,Sede Sur,Nueva EPS
+ATN-000190,PAC-00091,2025-08-05,Urgencias,J189,"Neumonia, no especificada",MED-012,Sede Centro,Compensar
+ATN-000191,PAC-00258,2025-01-23,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-003,Sede Centro,Sanitas
+ATN-000192,PAC-00133,2025-09-22,Hospitalizacion,F411,Trastorno de ansiedad generalizada,MED-012,Sede Urgencias,Sanitas
+ATN-000193,PAC-00108,2025-08-13,Hospitalizacion,H269,Catarata no especificada,MED-027,Sede Centro,Famisanar
+ATN-000194,PAC-00002,2026-06-01,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-027,Sede Centro,Coosalud
+ATN-000195,PAC-00273,2025-04-06,Hospitalizacion,M545,Lumbago no especificado,MED-009,Sede Norte,Nueva EPS
+ATN-000196,PAC-00250,2026-03-12,Ambulatoria,J189,"Neumonia, no especificada",MED-017,Sede Urgencias,Nueva EPS
+ATN-000197,PAC-00079,2026-06-20,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-034,Sede Norte,Nueva EPS
+ATN-000198,PAC-00211,2025-09-17,Hospitalizacion,S824,Fractura de peroné,MED-035,Sede Urgencias,Sura EPS
+ATN-000199,PAC-00195,2026-05-10,Urgencias,J189,"Neumonia, no especificada",MED-024,Sede Urgencias,Sanitas
+ATN-000200,PAC-00050,2025-02-23,Ambulatoria,J189,"Neumonia, no especificada",MED-025,Sede Norte,Nueva EPS
+ATN-000201,PAC-00165,2025-03-23,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-003,Sede Urgencias,Famisanar
+ATN-000202,PAC-00085,2025-06-23,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-003,Sede Sur,Nueva EPS
+ATN-000203,PAC-00069,2025-04-03,Urgencias,R073,Otro dolor en el pecho,MED-019,Sede Sur,Famisanar
+ATN-000204,PAC-00026,2025-03-16,Ambulatoria,R073,Otro dolor en el pecho,MED-019,Sede Sur,Compensar
+ATN-000205,PAC-00282,2025-08-24,Urgencias,Z348,Supervisión de otros embarazos normales,MED-021,Sede Urgencias,Famisanar
+ATN-000206,PAC-00032,2025-03-19,Urgencias,R073,Otro dolor en el pecho,MED-012,Sede Urgencias,Coosalud
+ATN-000207,PAC-00102,2025-12-31,Ambulatoria,J189,"Neumonia, no especificada",MED-007,Sede Norte,Coosalud
+ATN-000208,PAC-00136,2025-10-14,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-015,Sede Centro,Compensar
+ATN-000209,PAC-00054,2025-08-04,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-038,Sede Norte,Nueva EPS
+ATN-000210,PAC-00285,2026-05-26,Hospitalizacion,N390,"Infección de vías urinarias, sitio no especificado",MED-014,Sede Urgencias,Nueva EPS
+ATN-000211,PAC-00259,2025-06-30,Hospitalizacion,N390,"Infección de vías urinarias, sitio no especificado",MED-032,Sede Centro,Compensar
+ATN-000212,PAC-00057,2026-05-03,Hospitalizacion,H269,Catarata no especificada,MED-007,Sede Urgencias,Coosalud
+ATN-000213,PAC-00182,2025-05-05,Hospitalizacion,O800,Parto único espontáneo,MED-039,Sede Centro,Sanitas
+ATN-000214,PAC-00192,2026-04-20,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-010,Sede Centro,Famisanar
+ATN-000215,PAC-00172,2025-10-01,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-026,Sede Sur,Compensar
+ATN-000216,PAC-00232,2025-03-07,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-031,Sede Norte,Sura EPS
+ATN-000217,PAC-00037,2025-11-13,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-016,Sede Sur,Famisanar
+ATN-000218,PAC-00212,2025-10-06,Hospitalizacion,R073,Otro dolor en el pecho,MED-029,Sede Centro,Nueva EPS
+ATN-000219,PAC-00170,2026-01-10,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-017,Sede Centro,Compensar
+ATN-000220,PAC-00226,2026-05-19,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-031,Sede Sur,Compensar
+ATN-000221,PAC-00019,2026-01-23,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-017,Sede Norte,Coosalud
+ATN-000222,PAC-00239,2025-05-20,Hospitalizacion,S824,Fractura de peroné,MED-008,Sede Urgencias,Sura EPS
+ATN-000223,PAC-00246,2025-06-05,Ambulatoria,I10X,Hipertension esencial (primaria),MED-035,Sede Norte,Nueva EPS
+ATN-000224,PAC-00122,2025-01-16,Urgencias,M545,Lumbago no especificado,MED-014,Sede Sur,Coosalud
+ATN-000225,PAC-00245,2026-01-26,Hospitalizacion,H269,Catarata no especificada,MED-001,Sede Norte,Nueva EPS
+ATN-000226,PAC-00119,2026-06-18,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-014,Sede Urgencias,Coosalud
+ATN-000227,PAC-00039,2025-08-12,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-016,Sede Urgencias,Sanitas
+ATN-000228,PAC-00061,2025-06-08,Ambulatoria,O800,Parto único espontáneo,MED-006,Sede Centro,Sura EPS
+ATN-000229,PAC-00209,2025-04-20,Urgencias,J189,"Neumonia, no especificada",MED-032,Sede Centro,Nueva EPS
+ATN-000230,PAC-00273,2025-10-29,Hospitalizacion,R073,Otro dolor en el pecho,MED-032,Sede Centro,Nueva EPS
+ATN-000231,PAC-00033,2026-04-06,Urgencias,S824,Fractura de peroné,MED-017,Sede Sur,Coosalud
+ATN-000232,PAC-00136,2026-02-01,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-034,Sede Urgencias,Compensar
+ATN-000233,PAC-00123,2026-06-20,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-005,Sede Norte,Sura EPS
+ATN-000234,PAC-00166,2026-02-02,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-032,Sede Sur,Sanitas
+ATN-000235,PAC-00102,2025-03-01,Hospitalizacion,H269,Catarata no especificada,MED-040,Sede Sur,Coosalud
+ATN-000236,PAC-00130,2026-06-29,Hospitalizacion,N390,"Infección de vías urinarias, sitio no especificado",MED-013,Sede Centro,Compensar
+ATN-000237,PAC-00173,2025-04-17,Hospitalizacion,J189,"Neumonia, no especificada",MED-012,Sede Urgencias,Coosalud
+ATN-000238,PAC-00216,2025-09-04,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-035,Sede Centro,Nueva EPS
+ATN-000239,PAC-00058,2026-06-08,Ambulatoria,R073,Otro dolor en el pecho,MED-037,Sede Centro,Sura EPS
+ATN-000240,PAC-00127,2025-09-13,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-017,Sede Sur,Nueva EPS
+ATN-000241,PAC-00254,2026-01-26,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-004,Sede Sur,Nueva EPS
+ATN-000242,PAC-00255,2025-11-23,Urgencias,R073,Otro dolor en el pecho,MED-037,Sede Centro,Compensar
+ATN-000243,PAC-00265,2025-03-26,Hospitalizacion,M545,Lumbago no especificado,MED-037,Sede Norte,Famisanar
+ATN-000244,PAC-00022,2026-06-21,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-016,Sede Norte,Nueva EPS
+ATN-000245,PAC-00263,2025-01-25,Urgencias,Z348,Supervisión de otros embarazos normales,MED-020,Sede Centro,Sanitas
+ATN-000246,PAC-00156,2025-06-01,Urgencias,H269,Catarata no especificada,MED-019,Sede Norte,Nueva EPS
+ATN-000247,PAC-00200,2025-08-05,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-035,Sede Sur,Coosalud
+ATN-000248,PAC-00219,2025-10-05,Ambulatoria,I10X,Hipertension esencial (primaria),MED-030,Sede Norte,Nueva EPS
+ATN-000249,PAC-00158,2026-04-14,Ambulatoria,R073,Otro dolor en el pecho,MED-002,Sede Norte,Nueva EPS
+ATN-000250,PAC-00096,2025-01-31,Ambulatoria,R073,Otro dolor en el pecho,MED-018,Sede Centro,Compensar
+ATN-000251,PAC-00053,2025-12-04,Ambulatoria,M545,Lumbago no especificado,MED-035,Sede Centro,Nueva EPS
+ATN-000252,PAC-00041,2025-05-30,Urgencias,C349,Tumor maligno del bronquio o del pulmón,MED-002,Sede Sur,Sura EPS
+ATN-000253,PAC-00185,2025-10-01,Hospitalizacion,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-037,Sede Centro,Sura EPS
+ATN-000254,PAC-00089,2026-01-18,Urgencias,J189,"Neumonia, no especificada",MED-025,Sede Urgencias,Compensar
+ATN-000255,PAC-00086,2025-03-09,Hospitalizacion,J189,"Neumonia, no especificada",MED-029,Sede Urgencias,Coosalud
+ATN-000256,PAC-00149,2026-06-22,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-003,Sede Norte,Nueva EPS
+ATN-000257,PAC-00292,2025-07-14,Urgencias,S824,Fractura de peroné,MED-029,Sede Urgencias,Coosalud
+ATN-000258,PAC-00249,2025-04-03,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-033,Sede Norte,Nueva EPS
+ATN-000259,PAC-00165,2025-07-26,Urgencias,F411,Trastorno de ansiedad generalizada,MED-030,Sede Norte,Famisanar
+ATN-000260,PAC-00204,2026-01-07,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-034,Sede Urgencias,Coosalud
+ATN-000261,PAC-00020,2026-03-06,Urgencias,S824,Fractura de peroné,MED-020,Sede Urgencias,Sura EPS
+ATN-000262,PAC-00276,2025-01-06,Ambulatoria,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-032,Sede Centro,Sura EPS
+ATN-000263,PAC-00127,2025-02-03,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-037,Sede Sur,Nueva EPS
+ATN-000264,PAC-00099,2025-02-06,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-020,Sede Sur,Nueva EPS
+ATN-000265,PAC-00178,2025-03-01,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-037,Sede Norte,Compensar
+ATN-000266,PAC-00041,2025-07-18,Urgencias,I10X,Hipertension esencial (primaria),MED-008,Sede Norte,Sura EPS
+ATN-000267,PAC-00294,2025-08-06,Urgencias,I10X,Hipertension esencial (primaria),MED-013,Sede Sur,Compensar
+ATN-000268,PAC-00037,2025-12-16,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-037,Sede Norte,Famisanar
+ATN-000269,PAC-00176,2025-12-10,Hospitalizacion,M545,Lumbago no especificado,MED-027,Sede Norte,Sanitas
+ATN-000270,PAC-00016,2025-10-15,Urgencias,H269,Catarata no especificada,MED-002,Sede Sur,Coosalud
+ATN-000271,PAC-00133,2026-01-16,Hospitalizacion,M545,Lumbago no especificado,MED-020,Sede Centro,Sanitas
+ATN-000272,PAC-00200,2026-05-10,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-033,Sede Centro,Coosalud
+ATN-000273,PAC-00229,2025-02-07,Ambulatoria,M545,Lumbago no especificado,MED-025,Sede Norte,Sanitas
+ATN-000274,PAC-00291,2025-01-24,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-020,Sede Centro,Famisanar
+ATN-000275,PAC-00213,2026-06-11,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-014,Sede Sur,Coosalud
+ATN-000276,PAC-00016,2025-03-30,Hospitalizacion,N390,"Infección de vías urinarias, sitio no especificado",MED-026,Sede Centro,Coosalud
+ATN-000277,PAC-00069,2025-05-28,Urgencias,H269,Catarata no especificada,MED-040,Sede Sur,Famisanar
+ATN-000278,PAC-00061,2025-03-08,Urgencias,M545,Lumbago no especificado,MED-008,Sede Sur,Sura EPS
+ATN-000279,PAC-00066,2025-04-20,Urgencias,O800,Parto único espontáneo,MED-036,Sede Norte,Famisanar
+ATN-000280,PAC-00010,2025-08-02,Urgencias,H269,Catarata no especificada,MED-038,Sede Urgencias,Nueva EPS
+ATN-000281,PAC-00091,2026-02-20,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-039,Sede Norte,Compensar
+ATN-000282,PAC-00243,2025-07-20,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-021,Sede Sur,Compensar
+ATN-000283,PAC-00065,2026-01-03,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-019,Sede Norte,Sanitas
+ATN-000284,PAC-00195,2026-05-02,Urgencias,J189,"Neumonia, no especificada",MED-013,Sede Urgencias,Sanitas
+ATN-000285,PAC-00007,2026-03-24,Hospitalizacion,J189,"Neumonia, no especificada",MED-006,Sede Centro,Sura EPS
+ATN-000286,PAC-00236,2026-05-29,Ambulatoria,S824,Fractura de peroné,MED-027,Sede Sur,Compensar
+ATN-000287,PAC-00085,2025-10-14,Hospitalizacion,M545,Lumbago no especificado,MED-034,Sede Norte,Nueva EPS
+ATN-000288,PAC-00138,2025-12-18,Urgencias,R073,Otro dolor en el pecho,MED-001,Sede Urgencias,Coosalud
+ATN-000289,PAC-00182,2025-06-23,Hospitalizacion,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-004,Sede Sur,Sanitas
+ATN-000290,PAC-00122,2025-09-16,Urgencias,J189,"Neumonia, no especificada",MED-040,Sede Sur,Coosalud
+ATN-000291,PAC-00121,2026-05-12,Urgencias,J189,"Neumonia, no especificada",MED-034,Sede Norte,Coosalud
+ATN-000292,PAC-00135,2025-04-29,Urgencias,I10X,Hipertension esencial (primaria),MED-011,Sede Urgencias,Famisanar
+ATN-000293,PAC-00122,2026-03-22,Urgencias,I10X,Hipertension esencial (primaria),MED-019,Sede Urgencias,Coosalud
+ATN-000294,PAC-00213,2025-09-19,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-038,Sede Urgencias,Coosalud
+ATN-000295,PAC-00057,2025-04-17,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-029,Sede Sur,Coosalud
+ATN-000296,PAC-00078,2025-07-09,Urgencias,F411,Trastorno de ansiedad generalizada,MED-008,Sede Centro,Compensar
+ATN-000297,PAC-00115,2026-03-14,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-021,Sede Sur,Nueva EPS
+ATN-000298,PAC-00155,2025-07-25,Hospitalizacion,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-026,Sede Centro,Sura EPS
+ATN-000299,PAC-00125,2025-09-23,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-003,Sede Norte,Famisanar
+ATN-000300,PAC-00236,2026-02-05,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-001,Sede Urgencias,Compensar
+ATN-000301,PAC-00067,2026-01-03,Ambulatoria,O800,Parto único espontáneo,MED-020,Sede Urgencias,Coosalud
+ATN-000302,PAC-00073,2025-02-10,Hospitalizacion,N390,"Infección de vías urinarias, sitio no especificado",MED-013,Sede Sur,Coosalud
+ATN-000303,PAC-00144,2025-09-02,Hospitalizacion,M545,Lumbago no especificado,MED-025,Sede Norte,Sura EPS
+ATN-000304,PAC-00233,2026-06-20,Hospitalizacion,M545,Lumbago no especificado,MED-035,Sede Centro,Nueva EPS
+ATN-000305,PAC-00251,2025-02-16,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-009,Sede Norte,Sanitas
+ATN-000306,PAC-00083,2025-03-07,Urgencias,H269,Catarata no especificada,MED-007,Sede Norte,Coosalud
+ATN-000307,PAC-00137,2025-11-26,Hospitalizacion,H269,Catarata no especificada,MED-014,Sede Norte,Nueva EPS
+ATN-000308,PAC-00146,2025-06-22,Urgencias,C349,Tumor maligno del bronquio o del pulmón,MED-024,Sede Centro,Famisanar
+ATN-000309,PAC-00163,2025-03-24,Ambulatoria,I10X,Hipertension esencial (primaria),MED-001,Sede Centro,Compensar
+ATN-000310,PAC-00165,2025-06-28,Hospitalizacion,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-003,Sede Centro,Famisanar
+ATN-000311,PAC-00171,2025-04-08,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-024,Sede Centro,Nueva EPS
+ATN-000312,PAC-00224,2025-06-13,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-003,Sede Norte,Sura EPS
+ATN-000313,PAC-00221,2025-06-30,Hospitalizacion,J189,"Neumonia, no especificada",MED-002,Sede Urgencias,Coosalud
+ATN-000314,PAC-00224,2025-08-24,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-008,Sede Sur,Sura EPS
+ATN-000315,PAC-00150,2025-05-29,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-040,Sede Urgencias,Famisanar
+ATN-000316,PAC-00223,2025-02-02,Urgencias,C349,Tumor maligno del bronquio o del pulmón,MED-037,Sede Norte,Nueva EPS
+ATN-000317,PAC-00042,2025-06-24,Ambulatoria,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-036,Sede Centro,Nueva EPS
+ATN-000318,PAC-00220,2025-01-06,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-003,Sede Norte,Sura EPS
+ATN-000319,PAC-00096,2025-03-27,Ambulatoria,R073,Otro dolor en el pecho,MED-001,Sede Urgencias,Compensar
+ATN-000320,PAC-00085,2025-06-15,Urgencias,C349,Tumor maligno del bronquio o del pulmón,MED-030,Sede Norte,Nueva EPS
+ATN-000321,PAC-00253,2026-06-28,Urgencias,I10X,Hipertension esencial (primaria),MED-019,Sede Urgencias,Sanitas
+ATN-000322,PAC-00266,2026-01-10,Urgencias,M545,Lumbago no especificado,MED-040,Sede Norte,Compensar
+ATN-000323,PAC-00122,2026-05-05,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-038,Sede Centro,Coosalud
+ATN-000324,PAC-00288,2025-12-20,Urgencias,M545,Lumbago no especificado,MED-032,Sede Norte,Nueva EPS
+ATN-000325,PAC-00298,2025-07-03,Ambulatoria,S824,Fractura de peroné,MED-005,Sede Norte,Nueva EPS
+ATN-000326,PAC-00136,2026-06-18,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-002,Sede Sur,Compensar
+ATN-000327,PAC-00054,2026-06-17,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-022,Sede Urgencias,Nueva EPS
+ATN-000328,PAC-00242,2025-11-10,Urgencias,J189,"Neumonia, no especificada",MED-017,Sede Centro,Compensar
+ATN-000329,PAC-00256,2025-06-07,Ambulatoria,J189,"Neumonia, no especificada",MED-016,Sede Norte,Sanitas
+ATN-000330,PAC-00014,2025-01-26,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-032,Sede Centro,Sura EPS
+ATN-000331,PAC-00170,2025-08-14,Urgencias,M545,Lumbago no especificado,MED-023,Sede Norte,Compensar
+ATN-000332,PAC-00271,2025-07-20,Hospitalizacion,I10X,Hipertension esencial (primaria),MED-006,Sede Urgencias,Famisanar
+ATN-000333,PAC-00252,2025-12-26,Ambulatoria,S824,Fractura de peroné,MED-029,Sede Norte,Nueva EPS
+ATN-000334,PAC-00145,2025-05-28,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-020,Sede Urgencias,Coosalud
+ATN-000335,PAC-00054,2026-04-19,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-037,Sede Centro,Nueva EPS
+ATN-000336,PAC-00227,2026-04-29,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-019,Sede Urgencias,Sanitas
+ATN-000337,PAC-00071,2025-09-22,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-031,Sede Norte,Famisanar
+ATN-000338,PAC-00190,2025-10-07,Ambulatoria,O800,Parto único espontáneo,MED-027,Sede Sur,Compensar
+ATN-000339,PAC-00005,2025-05-28,Urgencias,I10X,Hipertension esencial (primaria),MED-009,Sede Sur,Sura EPS
+ATN-000340,PAC-00076,2025-05-15,Urgencias,F411,Trastorno de ansiedad generalizada,MED-002,Sede Urgencias,Coosalud
+ATN-000341,PAC-00096,2025-06-26,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-020,Sede Norte,Compensar
+ATN-000342,PAC-00061,2025-03-22,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-008,Sede Norte,Sura EPS
+ATN-000343,PAC-00052,2025-02-14,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-020,Sede Norte,Sura EPS
+ATN-000344,PAC-00262,2025-10-12,Ambulatoria,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-023,Sede Sur,Sura EPS
+ATN-000345,PAC-00100,2025-10-16,Hospitalizacion,J189,"Neumonia, no especificada",MED-035,Sede Norte,Compensar
+ATN-000346,PAC-00068,2025-07-05,Urgencias,H269,Catarata no especificada,MED-023,Sede Urgencias,Sanitas
+ATN-000347,PAC-00216,2026-06-17,Hospitalizacion,J189,"Neumonia, no especificada",MED-032,Sede Sur,Nueva EPS
+ATN-000348,PAC-00082,2026-03-31,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-036,Sede Urgencias,Nueva EPS
+ATN-000349,PAC-00163,2026-02-15,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-038,Sede Norte,Compensar
+ATN-000350,PAC-00280,2026-05-27,Hospitalizacion,S824,Fractura de peroné,MED-038,Sede Sur,Nueva EPS
+ATN-000351,PAC-00086,2026-04-11,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-008,Sede Sur,Coosalud
+ATN-000352,PAC-00213,2025-07-26,Hospitalizacion,S824,Fractura de peroné,MED-032,Sede Urgencias,Coosalud
+ATN-000353,PAC-00226,2026-04-06,Urgencias,O800,Parto único espontáneo,MED-025,Sede Urgencias,Compensar
+ATN-000354,PAC-00111,2025-11-16,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-025,Sede Urgencias,Compensar
+ATN-000355,PAC-00107,2025-12-24,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-038,Sede Norte,Compensar
+ATN-000356,PAC-00097,2025-09-11,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-020,Sede Norte,Compensar
+ATN-000357,PAC-00165,2025-02-08,Urgencias,M545,Lumbago no especificado,MED-028,Sede Urgencias,Famisanar
+ATN-000358,PAC-00181,2025-12-14,Urgencias,J189,"Neumonia, no especificada",MED-040,Sede Sur,Sanitas
+ATN-000359,PAC-00267,2026-02-16,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-015,Sede Norte,Nueva EPS
+ATN-000360,PAC-00034,2025-12-22,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-005,Sede Sur,Famisanar
+ATN-000361,PAC-00110,2025-07-04,Hospitalizacion,F411,Trastorno de ansiedad generalizada,MED-002,Sede Centro,Famisanar
+ATN-000362,PAC-00111,2025-09-04,Urgencias,J189,"Neumonia, no especificada",MED-020,Sede Urgencias,Compensar
+ATN-000363,PAC-00129,2026-04-21,Urgencias,M545,Lumbago no especificado,MED-036,Sede Urgencias,Compensar
+ATN-000364,PAC-00031,2026-02-21,Urgencias,F411,Trastorno de ansiedad generalizada,MED-024,Sede Norte,Nueva EPS
+ATN-000365,PAC-00145,2025-11-17,Hospitalizacion,O800,Parto único espontáneo,MED-038,Sede Urgencias,Coosalud
+ATN-000366,PAC-00126,2025-02-27,Hospitalizacion,M545,Lumbago no especificado,MED-035,Sede Sur,Famisanar
+ATN-000367,PAC-00233,2025-02-25,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-016,Sede Sur,Nueva EPS
+ATN-000368,PAC-00110,2026-03-26,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-021,Sede Urgencias,Famisanar
+ATN-000369,PAC-00179,2025-02-23,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-012,Sede Urgencias,Compensar
+ATN-000370,PAC-00043,2026-02-25,Urgencias,Z348,Supervisión de otros embarazos normales,MED-021,Sede Urgencias,Compensar
+ATN-000371,PAC-00116,2025-08-18,Ambulatoria,I10X,Hipertension esencial (primaria),MED-002,Sede Centro,Compensar
+ATN-000372,PAC-00256,2026-01-12,Ambulatoria,J189,"Neumonia, no especificada",MED-037,Sede Norte,Sanitas
+ATN-000373,PAC-00254,2026-03-05,Ambulatoria,J189,"Neumonia, no especificada",MED-027,Sede Centro,Nueva EPS
+ATN-000374,PAC-00253,2025-11-28,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-026,Sede Centro,Sanitas
+ATN-000375,PAC-00118,2025-02-16,Urgencias,I10X,Hipertension esencial (primaria),MED-017,Sede Urgencias,Coosalud
+ATN-000376,PAC-00062,2026-04-25,Hospitalizacion,J189,"Neumonia, no especificada",MED-006,Sede Sur,Sanitas
+ATN-000377,PAC-00182,2025-09-28,Ambulatoria,R073,Otro dolor en el pecho,MED-021,Sede Urgencias,Sanitas
+ATN-000378,PAC-00206,2025-02-06,Hospitalizacion,M545,Lumbago no especificado,MED-017,Sede Centro,Sura EPS
+ATN-000379,PAC-00153,2025-05-07,Urgencias,O800,Parto único espontáneo,MED-006,Sede Centro,Famisanar
+ATN-000380,PAC-00021,2025-07-04,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-005,Sede Centro,Sanitas
+ATN-000381,PAC-00074,2025-11-28,Urgencias,J189,"Neumonia, no especificada",MED-002,Sede Norte,Famisanar
+ATN-000382,PAC-00208,2025-03-14,Ambulatoria,R073,Otro dolor en el pecho,MED-039,Sede Urgencias,Compensar
+ATN-000383,PAC-00294,2025-10-19,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-010,Sede Norte,Compensar
+ATN-000384,PAC-00051,2026-03-10,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-028,Sede Sur,Compensar
+ATN-000385,PAC-00074,2025-08-18,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-010,Sede Urgencias,Famisanar
+ATN-000386,PAC-00006,2026-06-10,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-033,Sede Urgencias,Sura EPS
+ATN-000387,PAC-00098,2026-05-31,Ambulatoria,I10X,Hipertension esencial (primaria),MED-008,Sede Urgencias,Nueva EPS
+ATN-000388,PAC-00087,2026-04-06,Ambulatoria,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-017,Sede Sur,Coosalud
+ATN-000389,PAC-00135,2025-01-06,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-008,Sede Norte,Famisanar
+ATN-000390,PAC-00065,2025-07-12,Urgencias,H269,Catarata no especificada,MED-002,Sede Centro,Sanitas
+ATN-000391,PAC-00022,2026-04-20,Ambulatoria,J189,"Neumonia, no especificada",MED-031,Sede Urgencias,Nueva EPS
+ATN-000392,PAC-00068,2025-09-06,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-019,Sede Urgencias,Sanitas
+ATN-000393,PAC-00049,2026-02-14,Ambulatoria,M545,Lumbago no especificado,MED-033,Sede Urgencias,Sura EPS
+ATN-000394,PAC-00203,2025-12-22,Ambulatoria,M545,Lumbago no especificado,MED-028,Sede Norte,Sura EPS
+ATN-000395,PAC-00061,2025-12-14,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-039,Sede Urgencias,Sura EPS
+ATN-000396,PAC-00227,2025-07-24,Ambulatoria,J189,"Neumonia, no especificada",MED-039,Sede Urgencias,Sanitas
+ATN-000397,PAC-00038,2025-06-28,Ambulatoria,H269,Catarata no especificada,MED-033,Sede Norte,Nueva EPS
+ATN-000398,PAC-00136,2026-05-14,Ambulatoria,S824,Fractura de peroné,MED-022,Sede Sur,Compensar
+ATN-000399,PAC-00232,2025-04-19,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-040,Sede Norte,Sura EPS
+ATN-000400,PAC-00120,2025-05-06,Urgencias,H269,Catarata no especificada,MED-013,Sede Urgencias,Nueva EPS
+ATN-000401,PAC-00298,2025-09-30,Hospitalizacion,O800,Parto único espontáneo,MED-027,Sede Sur,Nueva EPS
+ATN-000402,PAC-00051,2025-03-28,Ambulatoria,O800,Parto único espontáneo,MED-021,Sede Urgencias,Compensar
+ATN-000403,PAC-00098,2025-11-08,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-021,Sede Sur,Nueva EPS
+ATN-000404,PAC-00223,2025-05-10,Ambulatoria,R073,Otro dolor en el pecho,MED-035,Sede Sur,Nueva EPS
+ATN-000405,PAC-00298,2025-09-22,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-020,Sede Urgencias,Nueva EPS
+ATN-000406,PAC-00155,2026-04-05,Urgencias,S824,Fractura de peroné,MED-037,Sede Norte,Sura EPS
+ATN-000407,PAC-00135,2025-05-24,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-025,Sede Centro,Famisanar
+ATN-000408,PAC-00235,2025-05-14,Ambulatoria,M545,Lumbago no especificado,MED-014,Sede Urgencias,Famisanar
+ATN-000409,PAC-00056,2026-03-03,Hospitalizacion,H269,Catarata no especificada,MED-011,Sede Centro,Famisanar
+ATN-000410,PAC-00250,2026-04-30,Ambulatoria,I10X,Hipertension esencial (primaria),MED-011,Sede Sur,Nueva EPS
+ATN-000411,PAC-00002,2025-11-07,Ambulatoria,S824,Fractura de peroné,MED-032,Sede Norte,Coosalud
+ATN-000412,PAC-00250,2025-01-03,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-036,Sede Sur,Nueva EPS
+ATN-000413,PAC-00118,2026-01-22,Ambulatoria,M545,Lumbago no especificado,MED-039,Sede Centro,Coosalud
+ATN-000414,PAC-00166,2025-10-12,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-006,Sede Centro,Sanitas
+ATN-000415,PAC-00079,2025-02-24,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-034,Sede Centro,Nueva EPS
+ATN-000416,PAC-00280,2025-09-09,Ambulatoria,H269,Catarata no especificada,MED-038,Sede Urgencias,Nueva EPS
+ATN-000417,PAC-00264,2025-11-21,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-017,Sede Norte,Coosalud
+ATN-000418,PAC-00096,2025-07-05,Urgencias,I10X,Hipertension esencial (primaria),MED-004,Sede Sur,Compensar
+ATN-000419,PAC-00104,2025-02-23,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-016,Sede Centro,Sanitas
+ATN-000420,PAC-00235,2026-02-22,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-015,Sede Norte,Famisanar
+ATN-000421,PAC-00108,2025-07-28,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-010,Sede Sur,Famisanar
+ATN-000422,PAC-00044,2025-10-24,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-011,Sede Norte,Coosalud
+ATN-000423,PAC-00030,2025-03-13,Hospitalizacion,S824,Fractura de peroné,MED-006,Sede Urgencias,Nueva EPS
+ATN-000424,PAC-00213,2025-10-07,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-021,Sede Sur,Coosalud
+ATN-000425,PAC-00208,2025-06-27,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-036,Sede Urgencias,Compensar
+ATN-000426,PAC-00109,2026-01-02,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-012,Sede Norte,Nueva EPS
+ATN-000427,PAC-00276,2025-11-07,Urgencias,Z348,Supervisión de otros embarazos normales,MED-015,Sede Centro,Sura EPS
+ATN-000428,PAC-00006,2025-06-29,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-038,Sede Centro,Sura EPS
+ATN-000429,PAC-00030,2026-04-10,Urgencias,I10X,Hipertension esencial (primaria),MED-028,Sede Norte,Nueva EPS
+ATN-000430,PAC-00081,2025-03-25,Hospitalizacion,F411,Trastorno de ansiedad generalizada,MED-037,Sede Norte,Nueva EPS
+ATN-000431,PAC-00057,2025-03-06,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-007,Sede Norte,Coosalud
+ATN-000432,PAC-00098,2026-04-03,Ambulatoria,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-008,Sede Norte,Nueva EPS
+ATN-000433,PAC-00044,2025-02-26,Ambulatoria,S824,Fractura de peroné,MED-040,Sede Urgencias,Coosalud
+ATN-000434,PAC-00242,2025-01-11,Urgencias,M545,Lumbago no especificado,MED-025,Sede Urgencias,Compensar
+ATN-000435,PAC-00230,2025-03-11,Hospitalizacion,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-013,Sede Centro,Sura EPS
+ATN-000436,PAC-00216,2025-03-03,Hospitalizacion,J189,"Neumonia, no especificada",MED-020,Sede Urgencias,Nueva EPS
+ATN-000437,PAC-00134,2025-02-28,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-033,Sede Norte,Sanitas
+ATN-000438,PAC-00035,2025-02-13,Hospitalizacion,M545,Lumbago no especificado,MED-015,Sede Norte,Compensar
+ATN-000439,PAC-00174,2025-12-06,Urgencias,Z348,Supervisión de otros embarazos normales,MED-025,Sede Centro,Famisanar
+ATN-000440,PAC-00227,2025-05-26,Hospitalizacion,S824,Fractura de peroné,MED-029,Sede Centro,Sanitas
+ATN-000441,PAC-00067,2025-09-26,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-012,Sede Sur,Coosalud
+ATN-000442,PAC-00292,2025-11-09,Urgencias,M545,Lumbago no especificado,MED-016,Sede Sur,Coosalud
+ATN-000443,PAC-00104,2025-11-22,Ambulatoria,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-028,Sede Centro,Sanitas
+ATN-000444,PAC-00137,2025-05-10,Ambulatoria,H269,Catarata no especificada,MED-033,Sede Urgencias,Nueva EPS
+ATN-000445,PAC-00147,2026-06-06,Ambulatoria,O800,Parto único espontáneo,MED-032,Sede Urgencias,Nueva EPS
+ATN-000446,PAC-00226,2025-02-07,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-015,Sede Centro,Compensar
+ATN-000447,PAC-00055,2025-10-30,Ambulatoria,M545,Lumbago no especificado,MED-034,Sede Sur,Coosalud
+ATN-000448,PAC-00107,2025-11-21,Ambulatoria,S824,Fractura de peroné,MED-025,Sede Norte,Compensar
+ATN-000449,PAC-00064,2025-10-29,Urgencias,H269,Catarata no especificada,MED-033,Sede Norte,Nueva EPS
+ATN-000450,PAC-00300,2025-12-08,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-022,Sede Sur,Sanitas
+ATN-000451,PAC-00209,2026-02-18,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-038,Sede Norte,Nueva EPS
+ATN-000452,PAC-00101,2026-04-25,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-030,Sede Sur,Sura EPS
+ATN-000453,PAC-00019,2025-05-12,Hospitalizacion,S824,Fractura de peroné,MED-001,Sede Urgencias,Coosalud
+ATN-000454,PAC-00055,2025-05-23,Urgencias,J189,"Neumonia, no especificada",MED-022,Sede Urgencias,Coosalud
+ATN-000455,PAC-00119,2026-04-08,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-020,Sede Norte,Coosalud
+ATN-000456,PAC-00108,2025-07-23,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-025,Sede Sur,Famisanar
+ATN-000457,PAC-00135,2025-01-12,Urgencias,J189,"Neumonia, no especificada",MED-021,Sede Urgencias,Famisanar
+ATN-000458,PAC-00239,2025-11-14,Hospitalizacion,N390,"Infección de vías urinarias, sitio no especificado",MED-031,Sede Centro,Sura EPS
+ATN-000459,PAC-00208,2026-04-19,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-003,Sede Norte,Compensar
+ATN-000460,PAC-00112,2026-03-19,Hospitalizacion,M545,Lumbago no especificado,MED-025,Sede Centro,Coosalud
+ATN-000461,PAC-00066,2025-08-11,Hospitalizacion,F411,Trastorno de ansiedad generalizada,MED-032,Sede Urgencias,Famisanar
+ATN-000462,PAC-00030,2026-04-19,Urgencias,I10X,Hipertension esencial (primaria),MED-005,Sede Urgencias,Nueva EPS
+ATN-000463,PAC-00134,2026-05-12,Hospitalizacion,M545,Lumbago no especificado,MED-005,Sede Norte,Sanitas
+ATN-000464,PAC-00234,2026-02-05,Hospitalizacion,J189,"Neumonia, no especificada",MED-005,Sede Norte,Compensar
+ATN-000465,PAC-00191,2025-02-19,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-025,Sede Centro,Sanitas
+ATN-000466,PAC-00032,2025-03-06,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-007,Sede Centro,Coosalud
+ATN-000467,PAC-00206,2025-08-01,Urgencias,F411,Trastorno de ansiedad generalizada,MED-035,Sede Urgencias,Sura EPS
+ATN-000468,PAC-00261,2026-02-16,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-021,Sede Norte,Nueva EPS
+ATN-000469,PAC-00103,2025-04-15,Urgencias,C349,Tumor maligno del bronquio o del pulmón,MED-035,Sede Centro,Sanitas
+ATN-000470,PAC-00080,2026-05-09,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-022,Sede Norte,Nueva EPS
+ATN-000471,PAC-00241,2025-03-23,Urgencias,I10X,Hipertension esencial (primaria),MED-009,Sede Sur,Coosalud
+ATN-000472,PAC-00024,2025-02-10,Ambulatoria,R073,Otro dolor en el pecho,MED-027,Sede Sur,Famisanar
+ATN-000473,PAC-00066,2025-08-16,Ambulatoria,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-025,Sede Sur,Famisanar
+ATN-000474,PAC-00193,2025-07-29,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-033,Sede Norte,Coosalud
+ATN-000475,PAC-00206,2026-05-08,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-024,Sede Urgencias,Sura EPS
+ATN-000476,PAC-00025,2025-06-06,Urgencias,R073,Otro dolor en el pecho,MED-012,Sede Sur,Coosalud
+ATN-000477,PAC-00180,2026-02-09,Urgencias,C349,Tumor maligno del bronquio o del pulmón,MED-024,Sede Urgencias,Compensar
+ATN-000478,PAC-00235,2026-01-06,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-002,Sede Centro,Famisanar
+ATN-000479,PAC-00178,2025-06-19,Hospitalizacion,H269,Catarata no especificada,MED-028,Sede Sur,Compensar
+ATN-000480,PAC-00186,2025-05-27,Hospitalizacion,S824,Fractura de peroné,MED-014,Sede Urgencias,Coosalud
+ATN-000481,PAC-00231,2026-06-22,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-019,Sede Urgencias,Nueva EPS
+ATN-000482,PAC-00207,2026-04-07,Ambulatoria,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-014,Sede Centro,Coosalud
+ATN-000483,PAC-00218,2026-01-22,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-018,Sede Norte,Coosalud
+ATN-000484,PAC-00171,2025-02-12,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-014,Sede Norte,Nueva EPS
+ATN-000485,PAC-00299,2025-04-13,Hospitalizacion,I10X,Hipertension esencial (primaria),MED-030,Sede Urgencias,Famisanar
+ATN-000486,PAC-00164,2026-05-02,Ambulatoria,R073,Otro dolor en el pecho,MED-027,Sede Centro,Nueva EPS
+ATN-000487,PAC-00107,2025-04-13,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-025,Sede Sur,Compensar
+ATN-000488,PAC-00258,2025-11-05,Ambulatoria,H269,Catarata no especificada,MED-036,Sede Urgencias,Sanitas
+ATN-000489,PAC-00275,2025-04-02,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-028,Sede Norte,Sanitas
+ATN-000490,PAC-00029,2025-12-18,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-025,Sede Urgencias,Famisanar
+ATN-000491,PAC-00272,2025-07-12,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-008,Sede Sur,Sanitas
+ATN-000492,PAC-00154,2025-08-13,Hospitalizacion,M545,Lumbago no especificado,MED-030,Sede Centro,Sura EPS
+ATN-000493,PAC-00103,2026-01-21,Hospitalizacion,I10X,Hipertension esencial (primaria),MED-022,Sede Centro,Sanitas
+ATN-000494,PAC-00287,2025-12-12,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-031,Sede Sur,Sanitas
+ATN-000495,PAC-00046,2025-10-26,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-010,Sede Centro,Sanitas
+ATN-000496,PAC-00222,2025-04-09,Ambulatoria,O800,Parto único espontáneo,MED-031,Sede Centro,Coosalud
+ATN-000497,PAC-00221,2026-02-18,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-003,Sede Norte,Coosalud
+ATN-000498,PAC-00252,2026-06-06,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-002,Sede Urgencias,Nueva EPS
+ATN-000499,PAC-00277,2026-02-20,Hospitalizacion,H269,Catarata no especificada,MED-002,Sede Urgencias,Coosalud
+ATN-000500,PAC-00004,2025-07-04,Urgencias,I10X,Hipertension esencial (primaria),MED-036,Sede Urgencias,Famisanar
+ATN-000501,PAC-00082,2025-09-20,Ambulatoria,H269,Catarata no especificada,MED-003,Sede Norte,Nueva EPS
+ATN-000502,PAC-00242,2025-10-28,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-035,Sede Urgencias,Compensar
+ATN-000503,PAC-00050,2025-08-09,Hospitalizacion,J189,"Neumonia, no especificada",MED-039,Sede Centro,Nueva EPS
+ATN-000504,PAC-00188,2026-02-14,Hospitalizacion,M545,Lumbago no especificado,MED-006,Sede Sur,Compensar
+ATN-000505,PAC-00149,2025-09-11,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-018,Sede Norte,Nueva EPS
+ATN-000506,PAC-00033,2026-01-22,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-025,Sede Norte,Coosalud
+ATN-000507,PAC-00174,2025-10-16,Ambulatoria,R073,Otro dolor en el pecho,MED-018,Sede Norte,Famisanar
+ATN-000508,PAC-00007,2026-06-10,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-010,Sede Centro,Sura EPS
+ATN-000509,PAC-00269,2026-04-25,Urgencias,R073,Otro dolor en el pecho,MED-019,Sede Sur,Nueva EPS
+ATN-000510,PAC-00150,2025-06-19,Hospitalizacion,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-004,Sede Norte,Famisanar
+ATN-000511,PAC-00007,2025-05-08,Hospitalizacion,N390,"Infección de vías urinarias, sitio no especificado",MED-001,Sede Centro,Sura EPS
+ATN-000512,PAC-00244,2026-06-21,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-015,Sede Centro,Sanitas
+ATN-000513,PAC-00194,2025-06-24,Hospitalizacion,O800,Parto único espontáneo,MED-008,Sede Sur,Compensar
+ATN-000514,PAC-00199,2025-08-07,Ambulatoria,I10X,Hipertension esencial (primaria),MED-037,Sede Urgencias,Compensar
+ATN-000515,PAC-00143,2025-12-29,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-001,Sede Sur,Sanitas
+ATN-000516,PAC-00193,2026-06-26,Ambulatoria,R073,Otro dolor en el pecho,MED-010,Sede Urgencias,Coosalud
+ATN-000517,PAC-00047,2025-07-06,Urgencias,R073,Otro dolor en el pecho,MED-018,Sede Norte,Famisanar
+ATN-000518,PAC-00181,2025-05-17,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-027,Sede Sur,Sanitas
+ATN-000519,PAC-00084,2025-05-11,Ambulatoria,O800,Parto único espontáneo,MED-026,Sede Urgencias,Famisanar
+ATN-000520,PAC-00117,2025-02-23,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-022,Sede Urgencias,Compensar
+ATN-000521,PAC-00181,2025-07-11,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-018,Sede Norte,Sanitas
+ATN-000522,PAC-00081,2025-06-02,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-008,Sede Centro,Nueva EPS
+ATN-000523,PAC-00175,2025-04-04,Urgencias,H269,Catarata no especificada,MED-004,Sede Urgencias,Nueva EPS
+ATN-000524,PAC-00194,2026-03-14,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-004,Sede Sur,Compensar
+ATN-000525,PAC-00020,2025-02-23,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-021,Sede Centro,Sura EPS
+ATN-000526,PAC-00232,2025-01-14,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-036,Sede Centro,Sura EPS
+ATN-000527,PAC-00044,2025-07-17,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-029,Sede Norte,Coosalud
+ATN-000528,PAC-00231,2025-12-22,Hospitalizacion,F411,Trastorno de ansiedad generalizada,MED-024,Sede Urgencias,Nueva EPS
+ATN-000529,PAC-00138,2025-01-23,Hospitalizacion,J189,"Neumonia, no especificada",MED-039,Sede Sur,Coosalud
+ATN-000530,PAC-00143,2025-06-19,Hospitalizacion,M545,Lumbago no especificado,MED-033,Sede Urgencias,Sanitas
+ATN-000531,PAC-00204,2025-05-02,Hospitalizacion,J189,"Neumonia, no especificada",MED-015,Sede Norte,Coosalud
+ATN-000532,PAC-00279,2025-08-04,Hospitalizacion,R073,Otro dolor en el pecho,MED-008,Sede Norte,Sanitas
+ATN-000533,PAC-00233,2025-01-11,Hospitalizacion,H269,Catarata no especificada,MED-023,Sede Centro,Nueva EPS
+ATN-000534,PAC-00069,2025-07-31,Urgencias,H269,Catarata no especificada,MED-029,Sede Centro,Famisanar
+ATN-000535,PAC-00069,2026-03-21,Ambulatoria,O800,Parto único espontáneo,MED-010,Sede Urgencias,Famisanar
+ATN-000536,PAC-00133,2025-03-13,Ambulatoria,J189,"Neumonia, no especificada",MED-005,Sede Urgencias,Sanitas
+ATN-000537,PAC-00234,2025-01-14,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-003,Sede Centro,Compensar
+ATN-000538,PAC-00161,2025-04-19,Ambulatoria,R073,Otro dolor en el pecho,MED-022,Sede Norte,Compensar
+ATN-000539,PAC-00034,2025-09-07,Hospitalizacion,I10X,Hipertension esencial (primaria),MED-035,Sede Sur,Famisanar
+ATN-000540,PAC-00108,2025-05-26,Ambulatoria,I10X,Hipertension esencial (primaria),MED-015,Sede Norte,Famisanar
+ATN-000541,PAC-00284,2025-08-18,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-019,Sede Sur,Compensar
+ATN-000542,PAC-00236,2026-03-12,Urgencias,J189,"Neumonia, no especificada",MED-020,Sede Sur,Compensar
+ATN-000543,PAC-00217,2025-04-26,Ambulatoria,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-028,Sede Sur,Famisanar
+ATN-000544,PAC-00009,2026-03-11,Ambulatoria,M545,Lumbago no especificado,MED-027,Sede Sur,Coosalud
+ATN-000545,PAC-00194,2026-01-29,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-038,Sede Urgencias,Compensar
+ATN-000546,PAC-00118,2025-04-23,Ambulatoria,I10X,Hipertension esencial (primaria),MED-023,Sede Sur,Coosalud
+ATN-000547,PAC-00068,2025-03-17,Ambulatoria,M545,Lumbago no especificado,MED-039,Sede Centro,Sanitas
+ATN-000548,PAC-00008,2026-03-03,Hospitalizacion,J189,"Neumonia, no especificada",MED-012,Sede Urgencias,Nueva EPS
+ATN-000549,PAC-00236,2025-02-02,Ambulatoria,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-012,Sede Centro,Compensar
+ATN-000550,PAC-00001,2025-10-06,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-034,Sede Urgencias,Coosalud
+ATN-000551,PAC-00274,2025-03-21,Urgencias,H269,Catarata no especificada,MED-030,Sede Urgencias,Sanitas
+ATN-000552,PAC-00243,2025-03-21,Ambulatoria,O800,Parto único espontáneo,MED-039,Sede Sur,Compensar
+ATN-000553,PAC-00082,2025-01-12,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-020,Sede Centro,Nueva EPS
+ATN-000554,PAC-00201,2025-11-19,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-020,Sede Norte,Famisanar
+ATN-000555,PAC-00195,2025-04-14,Hospitalizacion,R073,Otro dolor en el pecho,MED-010,Sede Norte,Sanitas
+ATN-000556,PAC-00192,2025-08-09,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-010,Sede Centro,Famisanar
+ATN-000557,PAC-00111,2025-03-18,Ambulatoria,J189,"Neumonia, no especificada",MED-037,Sede Urgencias,Compensar
+ATN-000558,PAC-00099,2025-06-23,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-019,Sede Centro,Nueva EPS
+ATN-000559,PAC-00284,2025-09-22,Hospitalizacion,M545,Lumbago no especificado,MED-017,Sede Urgencias,Compensar
+ATN-000560,PAC-00200,2026-02-15,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-040,Sede Centro,Coosalud
+ATN-000561,PAC-00145,2025-10-25,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-011,Sede Urgencias,Coosalud
+ATN-000562,PAC-00052,2026-04-22,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-006,Sede Centro,Sura EPS
+ATN-000563,PAC-00147,2026-05-13,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-031,Sede Norte,Nueva EPS
+ATN-000564,PAC-00191,2026-01-25,Urgencias,I10X,Hipertension esencial (primaria),MED-024,Sede Urgencias,Sanitas
+ATN-000565,PAC-00160,2025-03-27,Urgencias,J189,"Neumonia, no especificada",MED-005,Sede Sur,Nueva EPS
+ATN-000566,PAC-00049,2025-07-08,Urgencias,H269,Catarata no especificada,MED-004,Sede Norte,Sura EPS
+ATN-000567,PAC-00054,2026-03-24,Ambulatoria,O800,Parto único espontáneo,MED-037,Sede Urgencias,Nueva EPS
+ATN-000568,PAC-00292,2025-06-01,Hospitalizacion,M545,Lumbago no especificado,MED-021,Sede Norte,Coosalud
+ATN-000569,PAC-00263,2025-07-12,Hospitalizacion,N390,"Infección de vías urinarias, sitio no especificado",MED-035,Sede Centro,Sanitas
+ATN-000570,PAC-00072,2026-05-30,Hospitalizacion,H269,Catarata no especificada,MED-008,Sede Urgencias,Sanitas
+ATN-000571,PAC-00037,2025-06-16,Urgencias,R073,Otro dolor en el pecho,MED-028,Sede Urgencias,Famisanar
+ATN-000572,PAC-00126,2025-02-03,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-019,Sede Urgencias,Famisanar
+ATN-000573,PAC-00285,2026-02-10,Hospitalizacion,I10X,Hipertension esencial (primaria),MED-024,Sede Centro,Nueva EPS
+ATN-000574,PAC-00221,2026-01-19,Urgencias,H269,Catarata no especificada,MED-034,Sede Sur,Coosalud
+ATN-000575,PAC-00059,2025-02-22,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-037,Sede Urgencias,Compensar
+ATN-000576,PAC-00196,2026-06-01,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-037,Sede Urgencias,Compensar
+ATN-000577,PAC-00016,2026-01-27,Hospitalizacion,I10X,Hipertension esencial (primaria),MED-009,Sede Urgencias,Coosalud
+ATN-000578,PAC-00251,2025-01-24,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-038,Sede Norte,Sanitas
+ATN-000579,PAC-00135,2026-01-06,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-014,Sede Urgencias,Famisanar
+ATN-000580,PAC-00226,2026-04-07,Urgencias,Z348,Supervisión de otros embarazos normales,MED-011,Sede Centro,Compensar
+ATN-000581,PAC-00183,2026-06-19,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-017,Sede Norte,Compensar
+ATN-000582,PAC-00125,2025-05-22,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-006,Sede Centro,Famisanar
+ATN-000583,PAC-00181,2025-07-22,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-018,Sede Urgencias,Sanitas
+ATN-000584,PAC-00153,2026-06-08,Urgencias,S824,Fractura de peroné,MED-038,Sede Urgencias,Famisanar
+ATN-000585,PAC-00292,2025-11-18,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-001,Sede Sur,Coosalud
+ATN-000586,PAC-00265,2025-10-12,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-039,Sede Norte,Famisanar
+ATN-000587,PAC-00197,2026-03-08,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-008,Sede Urgencias,Sura EPS
+ATN-000588,PAC-00094,2025-02-07,Urgencias,F411,Trastorno de ansiedad generalizada,MED-035,Sede Norte,Sura EPS
+ATN-000589,PAC-00057,2026-02-07,Hospitalizacion,S824,Fractura de peroné,MED-030,Sede Urgencias,Coosalud
+ATN-000590,PAC-00288,2025-05-23,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-021,Sede Urgencias,Nueva EPS
+ATN-000591,PAC-00036,2025-04-24,Urgencias,I10X,Hipertension esencial (primaria),MED-020,Sede Norte,Sura EPS
+ATN-000592,PAC-00161,2026-02-28,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-029,Sede Norte,Compensar
+ATN-000593,PAC-00063,2026-04-25,Urgencias,H269,Catarata no especificada,MED-025,Sede Centro,Coosalud
+ATN-000594,PAC-00145,2025-11-16,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-030,Sede Centro,Coosalud
+ATN-000595,PAC-00099,2025-11-11,Ambulatoria,H269,Catarata no especificada,MED-037,Sede Norte,Nueva EPS
+ATN-000596,PAC-00108,2025-07-11,Hospitalizacion,S824,Fractura de peroné,MED-002,Sede Urgencias,Famisanar
+ATN-000597,PAC-00266,2025-08-06,Hospitalizacion,J189,"Neumonia, no especificada",MED-026,Sede Urgencias,Compensar
+ATN-000598,PAC-00065,2026-02-17,Hospitalizacion,J189,"Neumonia, no especificada",MED-039,Sede Sur,Sanitas
+ATN-000599,PAC-00057,2026-02-06,Hospitalizacion,N390,"Infección de vías urinarias, sitio no especificado",MED-007,Sede Centro,Coosalud
+ATN-000600,PAC-00131,2025-04-07,Hospitalizacion,J189,"Neumonia, no especificada",MED-033,Sede Urgencias,Sura EPS
+ATN-000601,PAC-00114,2025-06-24,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-001,Sede Sur,Coosalud
+ATN-000602,PAC-00247,2025-04-07,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-020,Sede Sur,Coosalud
+ATN-000603,PAC-00100,2025-05-26,Ambulatoria,O800,Parto único espontáneo,MED-032,Sede Norte,Compensar
+ATN-000604,PAC-00043,2026-03-04,Ambulatoria,S824,Fractura de peroné,MED-020,Sede Centro,Compensar
+ATN-000605,PAC-00282,2026-05-26,Hospitalizacion,F411,Trastorno de ansiedad generalizada,MED-010,Sede Urgencias,Famisanar
+ATN-000606,PAC-00091,2025-03-08,Urgencias,Z348,Supervisión de otros embarazos normales,MED-019,Sede Norte,Compensar
+ATN-000607,PAC-00169,2026-03-17,Urgencias,O800,Parto único espontáneo,MED-001,Sede Norte,Coosalud
+ATN-000608,PAC-00168,2025-10-05,Hospitalizacion,J189,"Neumonia, no especificada",MED-013,Sede Urgencias,Sanitas
+ATN-000609,PAC-00027,2026-03-09,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-007,Sede Sur,Famisanar
+ATN-000610,PAC-00192,2025-11-05,Hospitalizacion,S824,Fractura de peroné,MED-006,Sede Sur,Famisanar
+ATN-000611,PAC-00162,2025-11-17,Urgencias,R073,Otro dolor en el pecho,MED-023,Sede Urgencias,Sanitas
+ATN-000612,PAC-00082,2025-11-06,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-016,Sede Sur,Nueva EPS
+ATN-000613,PAC-00085,2025-03-28,Urgencias,I10X,Hipertension esencial (primaria),MED-018,Sede Norte,Nueva EPS
+ATN-000614,PAC-00227,2026-06-08,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-004,Sede Centro,Sanitas
+ATN-000615,PAC-00282,2025-01-01,Hospitalizacion,J189,"Neumonia, no especificada",MED-039,Sede Norte,Famisanar
+ATN-000616,PAC-00216,2025-11-04,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-031,Sede Centro,Nueva EPS
+ATN-000617,PAC-00189,2025-07-25,Urgencias,M545,Lumbago no especificado,MED-031,Sede Sur,Coosalud
+ATN-000618,PAC-00145,2025-06-01,Ambulatoria,I10X,Hipertension esencial (primaria),MED-019,Sede Urgencias,Coosalud
+ATN-000619,PAC-00177,2025-10-11,Hospitalizacion,I10X,Hipertension esencial (primaria),MED-011,Sede Sur,Sura EPS
+ATN-000620,PAC-00054,2025-12-27,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-037,Sede Sur,Nueva EPS
+ATN-000621,PAC-00266,2025-08-26,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-007,Sede Urgencias,Compensar
+ATN-000622,PAC-00010,2025-01-31,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-012,Sede Sur,Nueva EPS
+ATN-000623,PAC-00269,2025-06-15,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-034,Sede Centro,Nueva EPS
+ATN-000624,PAC-00153,2025-03-15,Ambulatoria,O800,Parto único espontáneo,MED-012,Sede Urgencias,Famisanar
+ATN-000625,PAC-00042,2025-05-22,Urgencias,Z348,Supervisión de otros embarazos normales,MED-005,Sede Urgencias,Nueva EPS
+ATN-000626,PAC-00087,2025-12-05,Urgencias,I10X,Hipertension esencial (primaria),MED-015,Sede Sur,Coosalud
+ATN-000627,PAC-00068,2026-04-28,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-017,Sede Norte,Sanitas
+ATN-000628,PAC-00104,2025-12-04,Urgencias,F411,Trastorno de ansiedad generalizada,MED-004,Sede Centro,Sanitas
+ATN-000629,PAC-00099,2025-02-12,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-003,Sede Urgencias,Nueva EPS
+ATN-000630,PAC-00237,2025-01-27,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-013,Sede Urgencias,Compensar
+ATN-000631,PAC-00026,2026-01-12,Urgencias,O800,Parto único espontáneo,MED-013,Sede Sur,Compensar
+ATN-000632,PAC-00173,2025-02-16,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-001,Sede Centro,Coosalud
+ATN-000633,PAC-00045,2025-09-08,Urgencias,S824,Fractura de peroné,MED-009,Sede Urgencias,Sura EPS
+ATN-000634,PAC-00050,2025-08-14,Hospitalizacion,M545,Lumbago no especificado,MED-020,Sede Sur,Nueva EPS
+ATN-000635,PAC-00059,2025-12-21,Urgencias,F411,Trastorno de ansiedad generalizada,MED-027,Sede Urgencias,Compensar
+ATN-000636,PAC-00192,2025-08-04,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-024,Sede Centro,Famisanar
+ATN-000637,PAC-00149,2025-10-04,Urgencias,S824,Fractura de peroné,MED-038,Sede Urgencias,Nueva EPS
+ATN-000638,PAC-00148,2026-01-29,Ambulatoria,M545,Lumbago no especificado,MED-003,Sede Centro,Sanitas
+ATN-000639,PAC-00249,2025-01-27,Urgencias,F411,Trastorno de ansiedad generalizada,MED-039,Sede Sur,Nueva EPS
+ATN-000640,PAC-00274,2025-10-22,Urgencias,H269,Catarata no especificada,MED-035,Sede Urgencias,Sanitas
+ATN-000641,PAC-00129,2025-10-15,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-018,Sede Norte,Compensar
+ATN-000642,PAC-00033,2025-11-25,Urgencias,H269,Catarata no especificada,MED-017,Sede Centro,Coosalud
+ATN-000643,PAC-00057,2026-05-07,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-036,Sede Centro,Coosalud
+ATN-000644,PAC-00044,2025-09-22,Urgencias,Z348,Supervisión de otros embarazos normales,MED-018,Sede Sur,Coosalud
+ATN-000645,PAC-00192,2026-06-03,Ambulatoria,H269,Catarata no especificada,MED-029,Sede Sur,Famisanar
+ATN-000646,PAC-00210,2025-02-15,Ambulatoria,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-016,Sede Sur,Sura EPS
+ATN-000647,PAC-00098,2026-01-16,Hospitalizacion,H269,Catarata no especificada,MED-027,Sede Norte,Nueva EPS
+ATN-000648,PAC-00148,2025-02-01,Urgencias,J189,"Neumonia, no especificada",MED-024,Sede Norte,Sanitas
+ATN-000649,PAC-00176,2025-12-19,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-025,Sede Norte,Sanitas
+ATN-000650,PAC-00290,2026-04-29,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-034,Sede Urgencias,Sanitas
+ATN-000651,PAC-00011,2025-09-04,Ambulatoria,M545,Lumbago no especificado,MED-027,Sede Sur,Coosalud
+ATN-000652,PAC-00220,2025-08-24,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-009,Sede Centro,Sura EPS
+ATN-000653,PAC-00125,2026-03-08,Hospitalizacion,R073,Otro dolor en el pecho,MED-010,Sede Urgencias,Famisanar
+ATN-000654,PAC-00243,2026-04-27,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-007,Sede Centro,Compensar
+ATN-000655,PAC-00219,2025-09-05,Urgencias,C349,Tumor maligno del bronquio o del pulmón,MED-019,Sede Norte,Nueva EPS
+ATN-000656,PAC-00167,2025-05-18,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-012,Sede Norte,Nueva EPS
+ATN-000657,PAC-00156,2026-06-05,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-038,Sede Sur,Nueva EPS
+ATN-000658,PAC-00026,2026-06-05,Urgencias,H269,Catarata no especificada,MED-028,Sede Sur,Compensar
+ATN-000659,PAC-00194,2025-11-18,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-023,Sede Sur,Compensar
+ATN-000660,PAC-00281,2025-10-13,Hospitalizacion,J189,"Neumonia, no especificada",MED-007,Sede Centro,Coosalud
+ATN-000661,PAC-00034,2026-03-13,Urgencias,C349,Tumor maligno del bronquio o del pulmón,MED-029,Sede Centro,Famisanar
+ATN-000662,PAC-00121,2025-03-18,Urgencias,O800,Parto único espontáneo,MED-011,Sede Sur,Coosalud
+ATN-000663,PAC-00253,2025-02-06,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-001,Sede Centro,Sanitas
+ATN-000664,PAC-00034,2026-06-13,Urgencias,H269,Catarata no especificada,MED-014,Sede Norte,Famisanar
+ATN-000665,PAC-00005,2026-05-11,Ambulatoria,R073,Otro dolor en el pecho,MED-012,Sede Sur,Sura EPS
+ATN-000666,PAC-00041,2025-10-22,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-029,Sede Sur,Sura EPS
+ATN-000667,PAC-00236,2026-06-04,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-027,Sede Norte,Compensar
+ATN-000668,PAC-00048,2025-10-02,Hospitalizacion,M545,Lumbago no especificado,MED-015,Sede Sur,Sura EPS
+ATN-000669,PAC-00111,2025-05-13,Hospitalizacion,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-035,Sede Norte,Compensar
+ATN-000670,PAC-00129,2026-01-06,Hospitalizacion,R073,Otro dolor en el pecho,MED-013,Sede Centro,Compensar
+ATN-000671,PAC-00084,2026-05-29,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-032,Sede Norte,Famisanar
+ATN-000672,PAC-00108,2025-06-05,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-038,Sede Urgencias,Famisanar
+ATN-000673,PAC-00224,2026-04-28,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-019,Sede Urgencias,Sura EPS
+ATN-000674,PAC-00148,2025-04-21,Urgencias,M545,Lumbago no especificado,MED-015,Sede Norte,Sanitas
+ATN-000675,PAC-00002,2025-12-07,Hospitalizacion,J189,"Neumonia, no especificada",MED-006,Sede Norte,Coosalud
+ATN-000676,PAC-00020,2026-04-30,Ambulatoria,R073,Otro dolor en el pecho,MED-037,Sede Centro,Sura EPS
+ATN-000677,PAC-00007,2026-05-27,Urgencias,O800,Parto único espontáneo,MED-016,Sede Sur,Sura EPS
+ATN-000678,PAC-00268,2025-06-20,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-029,Sede Norte,Coosalud
+ATN-000679,PAC-00134,2025-10-31,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-028,Sede Sur,Sanitas
+ATN-000680,PAC-00217,2025-05-19,Ambulatoria,J189,"Neumonia, no especificada",MED-034,Sede Urgencias,Famisanar
+ATN-000681,PAC-00136,2026-04-15,Hospitalizacion,O800,Parto único espontáneo,MED-007,Sede Norte,Compensar
+ATN-000682,PAC-00160,2025-09-18,Ambulatoria,R073,Otro dolor en el pecho,MED-035,Sede Centro,Nueva EPS
+ATN-000683,PAC-00040,2025-05-10,Urgencias,Z348,Supervisión de otros embarazos normales,MED-034,Sede Urgencias,Coosalud
+ATN-000684,PAC-00186,2025-11-28,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-004,Sede Centro,Coosalud
+ATN-000685,PAC-00292,2025-08-08,Urgencias,J189,"Neumonia, no especificada",MED-018,Sede Centro,Coosalud
+ATN-000686,PAC-00215,2025-01-06,Ambulatoria,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-020,Sede Sur,Sanitas
+ATN-000687,PAC-00289,2025-09-17,Hospitalizacion,S824,Fractura de peroné,MED-004,Sede Norte,Sanitas
+ATN-000688,PAC-00175,2025-01-30,Ambulatoria,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-010,Sede Centro,Nueva EPS
+ATN-000689,PAC-00147,2025-07-18,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-040,Sede Norte,Nueva EPS
+ATN-000690,PAC-00044,2025-06-27,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-001,Sede Sur,Coosalud
+ATN-000691,PAC-00072,2025-06-23,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-001,Sede Centro,Sanitas
+ATN-000692,PAC-00067,2025-10-21,Hospitalizacion,J189,"Neumonia, no especificada",MED-018,Sede Centro,Coosalud
+ATN-000693,PAC-00155,2025-06-24,Ambulatoria,I10X,Hipertension esencial (primaria),MED-038,Sede Urgencias,Sura EPS
+ATN-000694,PAC-00152,2025-10-03,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-033,Sede Centro,Famisanar
+ATN-000695,PAC-00022,2026-01-17,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-025,Sede Norte,Nueva EPS
+ATN-000696,PAC-00077,2025-04-13,Ambulatoria,J189,"Neumonia, no especificada",MED-023,Sede Sur,Compensar
+ATN-000697,PAC-00274,2025-09-16,Urgencias,C349,Tumor maligno del bronquio o del pulmón,MED-024,Sede Sur,Sanitas
+ATN-000698,PAC-00296,2026-06-21,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-037,Sede Centro,Famisanar
+ATN-000699,PAC-00213,2025-06-01,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-012,Sede Sur,Coosalud
+ATN-000700,PAC-00130,2026-02-08,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-014,Sede Urgencias,Compensar
+ATN-000701,PAC-00084,2026-01-13,Hospitalizacion,O800,Parto único espontáneo,MED-022,Sede Norte,Famisanar
+ATN-000702,PAC-00132,2026-01-29,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-012,Sede Urgencias,Compensar
+ATN-000703,PAC-00261,2026-06-14,Ambulatoria,H269,Catarata no especificada,MED-007,Sede Urgencias,Nueva EPS
+ATN-000704,PAC-00172,2026-06-04,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-030,Sede Norte,Compensar
+ATN-000705,PAC-00213,2026-01-28,Ambulatoria,H269,Catarata no especificada,MED-006,Sede Centro,Coosalud
+ATN-000706,PAC-00117,2025-10-16,Urgencias,I10X,Hipertension esencial (primaria),MED-008,Sede Urgencias,Compensar
+ATN-000707,PAC-00186,2026-01-01,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-002,Sede Urgencias,Coosalud
+ATN-000708,PAC-00275,2025-05-29,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-032,Sede Urgencias,Sanitas
+ATN-000709,PAC-00250,2025-04-14,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-033,Sede Norte,Nueva EPS
+ATN-000710,PAC-00114,2025-08-09,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-028,Sede Sur,Coosalud
+ATN-000711,PAC-00094,2025-10-19,Ambulatoria,S824,Fractura de peroné,MED-001,Sede Urgencias,Sura EPS
+ATN-000712,PAC-00008,2025-11-22,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-015,Sede Centro,Nueva EPS
+ATN-000713,PAC-00037,2025-06-05,Hospitalizacion,M545,Lumbago no especificado,MED-032,Sede Centro,Famisanar
+ATN-000714,PAC-00283,2025-03-27,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-034,Sede Sur,Famisanar
+ATN-000715,PAC-00230,2025-10-18,Urgencias,R073,Otro dolor en el pecho,MED-032,Sede Centro,Sura EPS
+ATN-000716,PAC-00167,2025-10-24,Hospitalizacion,J189,"Neumonia, no especificada",MED-011,Sede Urgencias,Nueva EPS
+ATN-000717,PAC-00181,2026-05-30,Ambulatoria,R073,Otro dolor en el pecho,MED-035,Sede Urgencias,Sanitas
+ATN-000718,PAC-00181,2026-04-21,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-012,Sede Norte,Sanitas
+ATN-000719,PAC-00018,2025-06-20,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-031,Sede Norte,Famisanar
+ATN-000720,PAC-00196,2025-11-27,Ambulatoria,J189,"Neumonia, no especificada",MED-019,Sede Norte,Compensar
+ATN-000721,PAC-00294,2025-07-01,Hospitalizacion,M545,Lumbago no especificado,MED-033,Sede Norte,Compensar
+ATN-000722,PAC-00095,2025-01-25,Urgencias,M545,Lumbago no especificado,MED-031,Sede Norte,Nueva EPS
+ATN-000723,PAC-00080,2025-09-26,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-038,Sede Norte,Nueva EPS
+ATN-000724,PAC-00215,2025-09-08,Urgencias,Z348,Supervisión de otros embarazos normales,MED-017,Sede Sur,Sanitas
+ATN-000725,PAC-00289,2025-06-01,Ambulatoria,R073,Otro dolor en el pecho,MED-019,Sede Norte,Sanitas
+ATN-000726,PAC-00069,2025-05-31,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-019,Sede Urgencias,Famisanar
+ATN-000727,PAC-00161,2026-02-20,Urgencias,M545,Lumbago no especificado,MED-040,Sede Centro,Compensar
+ATN-000728,PAC-00219,2026-01-24,Ambulatoria,I10X,Hipertension esencial (primaria),MED-005,Sede Sur,Nueva EPS
+ATN-000729,PAC-00029,2025-01-13,Hospitalizacion,H269,Catarata no especificada,MED-034,Sede Centro,Famisanar
+ATN-000730,PAC-00297,2025-09-11,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-017,Sede Centro,Sura EPS
+ATN-000731,PAC-00264,2025-05-16,Ambulatoria,R073,Otro dolor en el pecho,MED-020,Sede Norte,Coosalud
+ATN-000732,PAC-00243,2025-11-23,Urgencias,Z348,Supervisión de otros embarazos normales,MED-005,Sede Centro,Compensar
+ATN-000733,PAC-00127,2025-08-09,Hospitalizacion,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-032,Sede Sur,Nueva EPS
+ATN-000734,PAC-00040,2026-04-13,Hospitalizacion,I10X,Hipertension esencial (primaria),MED-017,Sede Urgencias,Coosalud
+ATN-000735,PAC-00216,2025-09-12,Hospitalizacion,O800,Parto único espontáneo,MED-018,Sede Sur,Nueva EPS
+ATN-000736,PAC-00043,2025-03-09,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-028,Sede Sur,Compensar
+ATN-000737,PAC-00072,2026-06-28,Hospitalizacion,M545,Lumbago no especificado,MED-007,Sede Sur,Sanitas
+ATN-000738,PAC-00103,2025-06-25,Urgencias,H269,Catarata no especificada,MED-011,Sede Centro,Sanitas
+ATN-000739,PAC-00171,2026-04-06,Urgencias,S824,Fractura de peroné,MED-028,Sede Urgencias,Nueva EPS
+ATN-000740,PAC-00142,2025-10-29,Urgencias,H269,Catarata no especificada,MED-024,Sede Norte,Coosalud
+ATN-000741,PAC-00029,2026-05-07,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-038,Sede Urgencias,Famisanar
+ATN-000742,PAC-00207,2025-06-04,Hospitalizacion,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-020,Sede Centro,Coosalud
+ATN-000743,PAC-00262,2026-06-28,Ambulatoria,H269,Catarata no especificada,MED-019,Sede Norte,Sura EPS
+ATN-000744,PAC-00024,2025-08-22,Ambulatoria,M545,Lumbago no especificado,MED-024,Sede Sur,Famisanar
+ATN-000745,PAC-00244,2026-05-14,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-004,Sede Norte,Sanitas
+ATN-000746,PAC-00030,2025-03-10,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-005,Sede Norte,Nueva EPS
+ATN-000747,PAC-00210,2025-06-05,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-022,Sede Norte,Sura EPS
+ATN-000748,PAC-00037,2025-11-27,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-010,Sede Sur,Famisanar
+ATN-000749,PAC-00167,2025-01-27,Ambulatoria,R073,Otro dolor en el pecho,MED-039,Sede Norte,Nueva EPS
+ATN-000750,PAC-00243,2025-08-27,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-014,Sede Sur,Compensar
+ATN-000751,PAC-00235,2026-01-25,Urgencias,I10X,Hipertension esencial (primaria),MED-029,Sede Urgencias,Famisanar
+ATN-000752,PAC-00070,2025-05-04,Hospitalizacion,M545,Lumbago no especificado,MED-039,Sede Sur,Nueva EPS
+ATN-000753,PAC-00037,2025-04-25,Urgencias,M545,Lumbago no especificado,MED-002,Sede Norte,Famisanar
+ATN-000754,PAC-00265,2025-08-23,Urgencias,C349,Tumor maligno del bronquio o del pulmón,MED-006,Sede Urgencias,Famisanar
+ATN-000755,PAC-00011,2025-07-01,Hospitalizacion,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-001,Sede Centro,Coosalud
+ATN-000756,PAC-00198,2025-06-05,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-012,Sede Sur,Compensar
+ATN-000757,PAC-00188,2025-02-05,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-010,Sede Urgencias,Compensar
+ATN-000758,PAC-00140,2025-05-18,Urgencias,H269,Catarata no especificada,MED-039,Sede Norte,Coosalud
+ATN-000759,PAC-00192,2025-07-20,Ambulatoria,J189,"Neumonia, no especificada",MED-015,Sede Centro,Famisanar
+ATN-000760,PAC-00234,2025-12-03,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-030,Sede Sur,Compensar
+ATN-000761,PAC-00100,2025-06-15,Hospitalizacion,N390,"Infección de vías urinarias, sitio no especificado",MED-021,Sede Norte,Compensar
+ATN-000762,PAC-00121,2026-06-11,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-022,Sede Sur,Coosalud
+ATN-000763,PAC-00218,2025-05-10,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-015,Sede Urgencias,Coosalud
+ATN-000764,PAC-00160,2026-06-01,Ambulatoria,J189,"Neumonia, no especificada",MED-026,Sede Centro,Nueva EPS
+ATN-000765,PAC-00105,2025-06-20,Hospitalizacion,O800,Parto único espontáneo,MED-011,Sede Norte,Sura EPS
+ATN-000766,PAC-00042,2025-10-31,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-034,Sede Urgencias,Nueva EPS
+ATN-000767,PAC-00089,2026-05-08,Urgencias,H269,Catarata no especificada,MED-011,Sede Centro,Compensar
+ATN-000768,PAC-00120,2025-03-14,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-018,Sede Centro,Nueva EPS
+ATN-000769,PAC-00191,2025-08-26,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-029,Sede Sur,Sanitas
+ATN-000770,PAC-00090,2026-03-08,Hospitalizacion,I10X,Hipertension esencial (primaria),MED-007,Sede Sur,Famisanar
+ATN-000771,PAC-00145,2025-04-17,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-032,Sede Urgencias,Coosalud
+ATN-000772,PAC-00096,2026-01-05,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-039,Sede Urgencias,Compensar
+ATN-000773,PAC-00293,2026-03-19,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-002,Sede Centro,Sanitas
+ATN-000774,PAC-00228,2025-11-29,Ambulatoria,M545,Lumbago no especificado,MED-017,Sede Centro,Famisanar
+ATN-000775,PAC-00163,2025-08-22,Hospitalizacion,O800,Parto único espontáneo,MED-020,Sede Norte,Compensar
+ATN-000776,PAC-00136,2026-01-27,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-017,Sede Urgencias,Compensar
+ATN-000777,PAC-00282,2026-06-03,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-036,Sede Sur,Famisanar
+ATN-000778,PAC-00257,2026-02-19,Hospitalizacion,H269,Catarata no especificada,MED-017,Sede Centro,Sura EPS
+ATN-000779,PAC-00071,2025-03-26,Ambulatoria,O800,Parto único espontáneo,MED-015,Sede Urgencias,Famisanar
+ATN-000780,PAC-00062,2025-09-09,Hospitalizacion,F411,Trastorno de ansiedad generalizada,MED-015,Sede Urgencias,Sanitas
+ATN-000781,PAC-00176,2025-07-16,Hospitalizacion,N390,"Infección de vías urinarias, sitio no especificado",MED-012,Sede Urgencias,Sanitas
+ATN-000782,PAC-00265,2025-05-18,Ambulatoria,O800,Parto único espontáneo,MED-016,Sede Centro,Famisanar
+ATN-000783,PAC-00286,2026-04-17,Hospitalizacion,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-029,Sede Urgencias,Sanitas
+ATN-000784,PAC-00183,2026-05-04,Hospitalizacion,H269,Catarata no especificada,MED-010,Sede Norte,Compensar
+ATN-000785,PAC-00222,2026-05-18,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-009,Sede Urgencias,Coosalud
+ATN-000786,PAC-00295,2025-07-19,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-039,Sede Centro,Nueva EPS
+ATN-000787,PAC-00199,2026-02-01,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-027,Sede Urgencias,Compensar
+ATN-000788,PAC-00235,2025-09-24,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-013,Sede Centro,Famisanar
+ATN-000789,PAC-00139,2026-06-26,Urgencias,I10X,Hipertension esencial (primaria),MED-001,Sede Sur,Famisanar
+ATN-000790,PAC-00195,2025-04-10,Hospitalizacion,H269,Catarata no especificada,MED-010,Sede Sur,Sanitas
+ATN-000791,PAC-00126,2025-02-01,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-003,Sede Norte,Famisanar
+ATN-000792,PAC-00042,2025-12-12,Urgencias,M545,Lumbago no especificado,MED-036,Sede Urgencias,Nueva EPS
+ATN-000793,PAC-00058,2025-09-03,Urgencias,H269,Catarata no especificada,MED-032,Sede Centro,Sura EPS
+ATN-000794,PAC-00148,2025-04-04,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-021,Sede Urgencias,Sanitas
+ATN-000795,PAC-00132,2025-01-25,Hospitalizacion,M545,Lumbago no especificado,MED-007,Sede Sur,Compensar
+ATN-000796,PAC-00036,2025-07-12,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-020,Sede Centro,Sura EPS
+ATN-000797,PAC-00069,2026-06-05,Hospitalizacion,R073,Otro dolor en el pecho,MED-012,Sede Sur,Famisanar
+ATN-000798,PAC-00259,2025-10-25,Ambulatoria,I10X,Hipertension esencial (primaria),MED-016,Sede Sur,Compensar
+ATN-000799,PAC-00095,2026-03-02,Urgencias,H269,Catarata no especificada,MED-027,Sede Urgencias,Nueva EPS
+ATN-000800,PAC-00159,2025-04-29,Ambulatoria,J189,"Neumonia, no especificada",MED-032,Sede Norte,Nueva EPS
+ATN-000801,PAC-00057,2026-05-25,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-009,Sede Norte,Coosalud
+ATN-000802,PAC-00228,2026-05-31,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-013,Sede Centro,Famisanar
+ATN-000803,PAC-00091,2026-02-05,Hospitalizacion,N390,"Infección de vías urinarias, sitio no especificado",MED-010,Sede Sur,Compensar
+ATN-000804,PAC-00045,2025-10-22,Hospitalizacion,R073,Otro dolor en el pecho,MED-011,Sede Centro,Sura EPS
+ATN-000805,PAC-00256,2025-04-17,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-015,Sede Norte,Sanitas
+ATN-000806,PAC-00293,2025-02-06,Ambulatoria,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-035,Sede Norte,Sanitas
+ATN-000807,PAC-00071,2026-04-11,Ambulatoria,R073,Otro dolor en el pecho,MED-024,Sede Centro,Famisanar
+ATN-000808,PAC-00139,2026-02-25,Urgencias,C349,Tumor maligno del bronquio o del pulmón,MED-035,Sede Centro,Famisanar
+ATN-000809,PAC-00241,2026-03-31,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-030,Sede Sur,Coosalud
+ATN-000810,PAC-00184,2025-11-11,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-026,Sede Centro,Compensar
+ATN-000811,PAC-00131,2025-12-12,Hospitalizacion,R073,Otro dolor en el pecho,MED-011,Sede Urgencias,Sura EPS
+ATN-000812,PAC-00261,2026-04-25,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-009,Sede Urgencias,Nueva EPS
+ATN-000813,PAC-00143,2026-01-01,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-010,Sede Centro,Sanitas
+ATN-000814,PAC-00198,2025-06-13,Urgencias,F411,Trastorno de ansiedad generalizada,MED-010,Sede Centro,Compensar
+ATN-000815,PAC-00083,2026-04-01,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-003,Sede Centro,Coosalud
+ATN-000816,PAC-00156,2025-06-03,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-013,Sede Sur,Nueva EPS
+ATN-000817,PAC-00241,2025-01-25,Ambulatoria,M545,Lumbago no especificado,MED-021,Sede Centro,Coosalud
+ATN-000818,PAC-00026,2025-11-06,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-013,Sede Urgencias,Compensar
+ATN-000819,PAC-00066,2025-03-28,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-021,Sede Norte,Famisanar
+ATN-000820,PAC-00048,2025-08-31,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-006,Sede Norte,Sura EPS
+ATN-000821,PAC-00007,2025-07-10,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-006,Sede Norte,Sura EPS
+ATN-000822,PAC-00100,2026-05-23,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-012,Sede Urgencias,Compensar
+ATN-000823,PAC-00159,2025-09-27,Hospitalizacion,J189,"Neumonia, no especificada",MED-035,Sede Centro,Nueva EPS
+ATN-000824,PAC-00247,2026-02-27,Urgencias,R073,Otro dolor en el pecho,MED-019,Sede Centro,Coosalud
+ATN-000825,PAC-00192,2025-12-19,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-004,Sede Urgencias,Famisanar
+ATN-000826,PAC-00248,2025-11-23,Urgencias,M545,Lumbago no especificado,MED-023,Sede Urgencias,Coosalud
+ATN-000827,PAC-00031,2026-04-09,Urgencias,J189,"Neumonia, no especificada",MED-010,Sede Urgencias,Nueva EPS
+ATN-000828,PAC-00239,2025-06-26,Ambulatoria,J189,"Neumonia, no especificada",MED-038,Sede Centro,Sura EPS
+ATN-000829,PAC-00113,2026-05-25,Hospitalizacion,N390,"Infección de vías urinarias, sitio no especificado",MED-011,Sede Sur,Famisanar
+ATN-000830,PAC-00120,2025-12-28,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-005,Sede Sur,Nueva EPS
+ATN-000831,PAC-00187,2025-06-12,Hospitalizacion,O800,Parto único espontáneo,MED-020,Sede Urgencias,Nueva EPS
+ATN-000832,PAC-00060,2025-05-12,Ambulatoria,O800,Parto único espontáneo,MED-037,Sede Urgencias,Famisanar
+ATN-000833,PAC-00207,2025-08-28,Urgencias,F411,Trastorno de ansiedad generalizada,MED-021,Sede Urgencias,Coosalud
+ATN-000834,PAC-00008,2025-09-13,Ambulatoria,M545,Lumbago no especificado,MED-037,Sede Urgencias,Nueva EPS
+ATN-000835,PAC-00281,2026-04-19,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-018,Sede Norte,Coosalud
+ATN-000836,PAC-00279,2025-12-02,Hospitalizacion,O800,Parto único espontáneo,MED-040,Sede Urgencias,Sanitas
+ATN-000837,PAC-00011,2025-05-04,Hospitalizacion,S824,Fractura de peroné,MED-004,Sede Centro,Coosalud
+ATN-000838,PAC-00282,2025-05-28,Hospitalizacion,S824,Fractura de peroné,MED-002,Sede Norte,Famisanar
+ATN-000839,PAC-00272,2025-06-10,Ambulatoria,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-029,Sede Sur,Sanitas
+ATN-000840,PAC-00177,2025-12-01,Ambulatoria,R073,Otro dolor en el pecho,MED-031,Sede Sur,Sura EPS
+ATN-000841,PAC-00021,2025-05-24,Hospitalizacion,J189,"Neumonia, no especificada",MED-007,Sede Centro,Sanitas
+ATN-000842,PAC-00169,2026-05-20,Hospitalizacion,N390,"Infección de vías urinarias, sitio no especificado",MED-035,Sede Norte,Coosalud
+ATN-000843,PAC-00268,2026-05-06,Ambulatoria,I10X,Hipertension esencial (primaria),MED-003,Sede Centro,Coosalud
+ATN-000844,PAC-00156,2026-03-01,Ambulatoria,R073,Otro dolor en el pecho,MED-005,Sede Norte,Nueva EPS
+ATN-000845,PAC-00254,2026-01-12,Ambulatoria,R073,Otro dolor en el pecho,MED-011,Sede Urgencias,Nueva EPS
+ATN-000846,PAC-00287,2025-09-20,Urgencias,O800,Parto único espontáneo,MED-013,Sede Sur,Sanitas
+ATN-000847,PAC-00139,2025-04-20,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-014,Sede Centro,Famisanar
+ATN-000848,PAC-00072,2025-12-08,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-032,Sede Urgencias,Sanitas
+ATN-000849,PAC-00247,2025-02-21,Ambulatoria,H269,Catarata no especificada,MED-001,Sede Sur,Coosalud
+ATN-000850,PAC-00131,2025-08-09,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-013,Sede Urgencias,Sura EPS
+ATN-000851,PAC-00092,2026-04-13,Hospitalizacion,F411,Trastorno de ansiedad generalizada,MED-014,Sede Norte,Coosalud
+ATN-000852,PAC-00006,2026-04-12,Urgencias,H269,Catarata no especificada,MED-038,Sede Sur,Sura EPS
+ATN-000853,PAC-00193,2025-01-31,Urgencias,I10X,Hipertension esencial (primaria),MED-032,Sede Urgencias,Coosalud
+ATN-000854,PAC-00088,2025-01-25,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-018,Sede Centro,Sanitas
+ATN-000855,PAC-00044,2026-04-13,Urgencias,H269,Catarata no especificada,MED-031,Sede Centro,Coosalud
+ATN-000856,PAC-00086,2026-02-16,Urgencias,O800,Parto único espontáneo,MED-030,Sede Sur,Coosalud
+ATN-000857,PAC-00085,2025-03-30,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-017,Sede Centro,Nueva EPS
+ATN-000858,PAC-00217,2026-02-10,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-027,Sede Norte,Famisanar
+ATN-000859,PAC-00077,2026-02-09,Hospitalizacion,R073,Otro dolor en el pecho,MED-026,Sede Centro,Compensar
+ATN-000860,PAC-00272,2025-11-07,Ambulatoria,H269,Catarata no especificada,MED-014,Sede Norte,Sanitas
+ATN-000861,PAC-00195,2025-03-10,Urgencias,S824,Fractura de peroné,MED-029,Sede Norte,Sanitas
+ATN-000862,PAC-00295,2025-08-02,Hospitalizacion,S824,Fractura de peroné,MED-028,Sede Urgencias,Nueva EPS
+ATN-000863,PAC-00105,2026-04-30,Urgencias,H269,Catarata no especificada,MED-025,Sede Norte,Sura EPS
+ATN-000864,PAC-00059,2025-04-07,Ambulatoria,M545,Lumbago no especificado,MED-025,Sede Sur,Compensar
+ATN-000865,PAC-00200,2025-05-12,Ambulatoria,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-002,Sede Urgencias,Coosalud
+ATN-000866,PAC-00139,2025-10-28,Urgencias,H269,Catarata no especificada,MED-011,Sede Norte,Famisanar
+ATN-000867,PAC-00118,2025-09-13,Urgencias,I10X,Hipertension esencial (primaria),MED-025,Sede Centro,Coosalud
+ATN-000868,PAC-00297,2025-01-25,Hospitalizacion,M545,Lumbago no especificado,MED-032,Sede Sur,Sura EPS
+ATN-000869,PAC-00252,2026-03-23,Ambulatoria,R073,Otro dolor en el pecho,MED-028,Sede Norte,Nueva EPS
+ATN-000870,PAC-00007,2025-05-21,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-002,Sede Centro,Sura EPS
+ATN-000871,PAC-00195,2025-07-09,Hospitalizacion,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-027,Sede Norte,Sanitas
+ATN-000872,PAC-00277,2026-06-28,Urgencias,I10X,Hipertension esencial (primaria),MED-020,Sede Centro,Coosalud
+ATN-000873,PAC-00217,2025-06-26,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-036,Sede Norte,Famisanar
+ATN-000874,PAC-00073,2026-01-06,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-017,Sede Urgencias,Coosalud
+ATN-000875,PAC-00203,2025-05-11,Hospitalizacion,M545,Lumbago no especificado,MED-040,Sede Urgencias,Sura EPS
+ATN-000876,PAC-00055,2025-03-28,Urgencias,C349,Tumor maligno del bronquio o del pulmón,MED-010,Sede Norte,Coosalud
+ATN-000877,PAC-00292,2025-05-21,Hospitalizacion,M545,Lumbago no especificado,MED-022,Sede Norte,Coosalud
+ATN-000878,PAC-00161,2025-07-16,Urgencias,H269,Catarata no especificada,MED-022,Sede Urgencias,Compensar
+ATN-000879,PAC-00113,2025-11-25,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-030,Sede Centro,Famisanar
+ATN-000880,PAC-00253,2025-05-30,Urgencias,S824,Fractura de peroné,MED-039,Sede Norte,Sanitas
+ATN-000881,PAC-00261,2026-05-22,Hospitalizacion,M545,Lumbago no especificado,MED-036,Sede Sur,Nueva EPS
+ATN-000882,PAC-00271,2026-02-01,Ambulatoria,O800,Parto único espontáneo,MED-008,Sede Centro,Famisanar
+ATN-000883,PAC-00024,2025-10-02,Ambulatoria,J189,"Neumonia, no especificada",MED-007,Sede Urgencias,Famisanar
+ATN-000884,PAC-00098,2025-10-11,Ambulatoria,S824,Fractura de peroné,MED-028,Sede Centro,Nueva EPS
+ATN-000885,PAC-00171,2025-11-21,Urgencias,Z348,Supervisión de otros embarazos normales,MED-015,Sede Centro,Nueva EPS
+ATN-000886,PAC-00244,2026-02-21,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-016,Sede Urgencias,Sanitas
+ATN-000887,PAC-00186,2026-03-22,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-039,Sede Urgencias,Coosalud
+ATN-000888,PAC-00242,2026-01-25,Ambulatoria,I10X,Hipertension esencial (primaria),MED-035,Sede Sur,Compensar
+ATN-000889,PAC-00120,2025-06-22,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-026,Sede Centro,Nueva EPS
+ATN-000890,PAC-00285,2025-01-23,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-037,Sede Sur,Nueva EPS
+ATN-000891,PAC-00135,2026-01-11,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-017,Sede Urgencias,Famisanar
+ATN-000892,PAC-00253,2025-04-05,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-036,Sede Norte,Sanitas
+ATN-000893,PAC-00138,2025-10-13,Urgencias,H269,Catarata no especificada,MED-012,Sede Centro,Coosalud
+ATN-000894,PAC-00178,2025-06-30,Urgencias,S824,Fractura de peroné,MED-036,Sede Urgencias,Compensar
+ATN-000895,PAC-00158,2026-01-13,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-012,Sede Centro,Nueva EPS
+ATN-000896,PAC-00230,2026-05-28,Ambulatoria,R073,Otro dolor en el pecho,MED-004,Sede Urgencias,Sura EPS
+ATN-000897,PAC-00171,2025-03-10,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-009,Sede Norte,Nueva EPS
+ATN-000898,PAC-00052,2025-07-31,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-039,Sede Sur,Sura EPS
+ATN-000899,PAC-00085,2025-07-23,Urgencias,Z348,Supervisión de otros embarazos normales,MED-002,Sede Centro,Nueva EPS
+ATN-000900,PAC-00161,2025-01-17,Urgencias,F411,Trastorno de ansiedad generalizada,MED-015,Sede Urgencias,Compensar
+ATN-000901,PAC-00169,2025-04-14,Urgencias,S824,Fractura de peroné,MED-024,Sede Norte,Coosalud
+ATN-000902,PAC-00227,2025-07-18,Ambulatoria,S824,Fractura de peroné,MED-033,Sede Centro,Sanitas
+ATN-000903,PAC-00182,2025-08-12,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-034,Sede Sur,Sanitas
+ATN-000904,PAC-00005,2026-06-14,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-008,Sede Urgencias,Sura EPS
+ATN-000905,PAC-00064,2025-07-21,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-040,Sede Urgencias,Nueva EPS
+ATN-000906,PAC-00256,2025-06-17,Hospitalizacion,H269,Catarata no especificada,MED-003,Sede Sur,Sanitas
+ATN-000907,PAC-00200,2025-12-17,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-024,Sede Urgencias,Coosalud
+ATN-000908,PAC-00012,2026-05-10,Urgencias,S824,Fractura de peroné,MED-022,Sede Sur,Nueva EPS
+ATN-000909,PAC-00197,2025-08-17,Urgencias,H269,Catarata no especificada,MED-015,Sede Centro,Sura EPS
+ATN-000910,PAC-00033,2026-03-06,Ambulatoria,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-022,Sede Sur,Coosalud
+ATN-000911,PAC-00074,2025-02-01,Urgencias,O800,Parto único espontáneo,MED-024,Sede Norte,Famisanar
+ATN-000912,PAC-00109,2025-08-29,Urgencias,S824,Fractura de peroné,MED-016,Sede Centro,Nueva EPS
+ATN-000913,PAC-00159,2025-01-09,Urgencias,J189,"Neumonia, no especificada",MED-035,Sede Urgencias,Nueva EPS
+ATN-000914,PAC-00165,2025-05-17,Hospitalizacion,S824,Fractura de peroné,MED-024,Sede Sur,Famisanar
+ATN-000915,PAC-00170,2025-03-26,Ambulatoria,I10X,Hipertension esencial (primaria),MED-040,Sede Norte,Compensar
+ATN-000916,PAC-00274,2025-03-15,Ambulatoria,H269,Catarata no especificada,MED-040,Sede Sur,Sanitas
+ATN-000917,PAC-00158,2025-02-02,Hospitalizacion,N390,"Infección de vías urinarias, sitio no especificado",MED-022,Sede Centro,Nueva EPS
+ATN-000918,PAC-00248,2025-05-01,Ambulatoria,J189,"Neumonia, no especificada",MED-007,Sede Urgencias,Coosalud
+ATN-000919,PAC-00103,2025-11-06,Hospitalizacion,F411,Trastorno de ansiedad generalizada,MED-014,Sede Urgencias,Sanitas
+ATN-000920,PAC-00098,2025-02-02,Ambulatoria,H269,Catarata no especificada,MED-017,Sede Urgencias,Nueva EPS
+ATN-000921,PAC-00080,2026-03-09,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-021,Sede Centro,Nueva EPS
+ATN-000922,PAC-00289,2025-09-03,Urgencias,R073,Otro dolor en el pecho,MED-039,Sede Urgencias,Sanitas
+ATN-000923,PAC-00125,2026-01-17,Urgencias,O800,Parto único espontáneo,MED-001,Sede Norte,Famisanar
+ATN-000924,PAC-00124,2025-01-19,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-038,Sede Norte,Famisanar
+ATN-000925,PAC-00239,2025-02-11,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-029,Sede Centro,Sura EPS
+ATN-000926,PAC-00209,2026-03-03,Hospitalizacion,I10X,Hipertension esencial (primaria),MED-033,Sede Sur,Nueva EPS
+ATN-000927,PAC-00137,2026-05-07,Hospitalizacion,I10X,Hipertension esencial (primaria),MED-007,Sede Centro,Nueva EPS
+ATN-000928,PAC-00158,2025-05-05,Ambulatoria,H269,Catarata no especificada,MED-001,Sede Centro,Nueva EPS
+ATN-000929,PAC-00207,2026-04-22,Hospitalizacion,R073,Otro dolor en el pecho,MED-008,Sede Urgencias,Coosalud
+ATN-000930,PAC-00246,2025-07-18,Urgencias,M545,Lumbago no especificado,MED-023,Sede Norte,Nueva EPS
+ATN-000931,PAC-00259,2025-03-10,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-015,Sede Urgencias,Compensar
+ATN-000932,PAC-00019,2025-12-30,Urgencias,I10X,Hipertension esencial (primaria),MED-024,Sede Sur,Coosalud
+ATN-000933,PAC-00241,2025-12-15,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-040,Sede Norte,Coosalud
+ATN-000934,PAC-00008,2026-02-21,Urgencias,I10X,Hipertension esencial (primaria),MED-002,Sede Sur,Nueva EPS
+ATN-000935,PAC-00250,2025-12-08,Hospitalizacion,O800,Parto único espontáneo,MED-008,Sede Centro,Nueva EPS
+ATN-000936,PAC-00085,2025-03-23,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-036,Sede Sur,Nueva EPS
+ATN-000937,PAC-00098,2025-05-21,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-007,Sede Norte,Nueva EPS
+ATN-000938,PAC-00255,2025-01-18,Ambulatoria,M545,Lumbago no especificado,MED-014,Sede Centro,Compensar
+ATN-000939,PAC-00174,2025-03-02,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-014,Sede Urgencias,Famisanar
+ATN-000940,PAC-00020,2026-03-07,Ambulatoria,S824,Fractura de peroné,MED-039,Sede Urgencias,Sura EPS
+ATN-000941,PAC-00229,2025-05-16,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-003,Sede Centro,Sanitas
+ATN-000942,PAC-00285,2025-01-03,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-014,Sede Norte,Nueva EPS
+ATN-000943,PAC-00243,2026-01-13,Hospitalizacion,O800,Parto único espontáneo,MED-027,Sede Urgencias,Compensar
+ATN-000944,PAC-00241,2026-05-17,Ambulatoria,M545,Lumbago no especificado,MED-018,Sede Urgencias,Coosalud
+ATN-000945,PAC-00033,2026-02-28,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-019,Sede Centro,Coosalud
+ATN-000946,PAC-00198,2026-04-06,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-018,Sede Urgencias,Compensar
+ATN-000947,PAC-00061,2026-01-15,Urgencias,R073,Otro dolor en el pecho,MED-017,Sede Norte,Sura EPS
+ATN-000948,PAC-00255,2026-03-06,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-022,Sede Norte,Compensar
+ATN-000949,PAC-00061,2026-01-01,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-025,Sede Urgencias,Sura EPS
+ATN-000950,PAC-00156,2026-06-30,Urgencias,O800,Parto único espontáneo,MED-032,Sede Centro,Nueva EPS
+ATN-000951,PAC-00043,2025-03-16,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-036,Sede Urgencias,Compensar
+ATN-000952,PAC-00058,2025-01-12,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-038,Sede Urgencias,Sura EPS
+ATN-000953,PAC-00119,2025-09-04,Hospitalizacion,I10X,Hipertension esencial (primaria),MED-031,Sede Sur,Coosalud
+ATN-000954,PAC-00072,2025-08-23,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-037,Sede Sur,Sanitas
+ATN-000955,PAC-00056,2025-06-10,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-003,Sede Centro,Famisanar
+ATN-000956,PAC-00259,2025-07-29,Ambulatoria,O800,Parto único espontáneo,MED-020,Sede Urgencias,Compensar
+ATN-000957,PAC-00248,2025-04-22,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-011,Sede Centro,Coosalud
+ATN-000958,PAC-00217,2026-06-28,Urgencias,F411,Trastorno de ansiedad generalizada,MED-038,Sede Sur,Famisanar
+ATN-000959,PAC-00088,2025-01-21,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-026,Sede Sur,Sanitas
+ATN-000960,PAC-00268,2025-08-26,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-009,Sede Centro,Coosalud
+ATN-000961,PAC-00176,2025-09-23,Ambulatoria,S824,Fractura de peroné,MED-022,Sede Centro,Sanitas
+ATN-000962,PAC-00065,2025-03-15,Hospitalizacion,N390,"Infección de vías urinarias, sitio no especificado",MED-035,Sede Norte,Sanitas
+ATN-000963,PAC-00202,2025-03-25,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-013,Sede Urgencias,Sanitas
+ATN-000964,PAC-00154,2026-06-01,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-019,Sede Sur,Sura EPS
+ATN-000965,PAC-00118,2025-06-04,Urgencias,J189,"Neumonia, no especificada",MED-019,Sede Norte,Coosalud
+ATN-000966,PAC-00010,2025-09-09,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-023,Sede Sur,Nueva EPS
+ATN-000967,PAC-00091,2025-02-12,Ambulatoria,R073,Otro dolor en el pecho,MED-003,Sede Urgencias,Compensar
+ATN-000968,PAC-00122,2025-05-06,Hospitalizacion,H269,Catarata no especificada,MED-026,Sede Sur,Coosalud
+ATN-000969,PAC-00218,2026-06-26,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-005,Sede Urgencias,Coosalud
+ATN-000970,PAC-00148,2025-05-14,Ambulatoria,O800,Parto único espontáneo,MED-034,Sede Urgencias,Sanitas
+ATN-000971,PAC-00277,2025-02-13,Hospitalizacion,J189,"Neumonia, no especificada",MED-026,Sede Centro,Coosalud
+ATN-000972,PAC-00018,2026-05-28,Urgencias,R073,Otro dolor en el pecho,MED-012,Sede Sur,Famisanar
+ATN-000973,PAC-00054,2025-10-26,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-014,Sede Centro,Nueva EPS
+ATN-000974,PAC-00043,2026-06-23,Hospitalizacion,M545,Lumbago no especificado,MED-008,Sede Norte,Compensar
+ATN-000975,PAC-00272,2026-02-19,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-021,Sede Centro,Sanitas
+ATN-000976,PAC-00064,2026-02-21,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-036,Sede Norte,Nueva EPS
+ATN-000977,PAC-00250,2026-01-22,Urgencias,O800,Parto único espontáneo,MED-031,Sede Urgencias,Nueva EPS
+ATN-000978,PAC-00146,2025-03-14,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-008,Sede Sur,Famisanar
+ATN-000979,PAC-00246,2025-06-11,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-039,Sede Centro,Nueva EPS
+ATN-000980,PAC-00051,2025-09-19,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-003,Sede Sur,Compensar
+ATN-000981,PAC-00258,2025-02-17,Hospitalizacion,R073,Otro dolor en el pecho,MED-007,Sede Norte,Sanitas
+ATN-000982,PAC-00058,2026-01-05,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-026,Sede Norte,Sura EPS
+ATN-000983,PAC-00217,2025-12-31,Urgencias,I10X,Hipertension esencial (primaria),MED-028,Sede Centro,Famisanar
+ATN-000984,PAC-00240,2025-01-06,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-034,Sede Urgencias,Famisanar
+ATN-000985,PAC-00020,2026-01-19,Ambulatoria,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-008,Sede Norte,Sura EPS
+ATN-000986,PAC-00275,2025-06-19,Hospitalizacion,N390,"Infección de vías urinarias, sitio no especificado",MED-039,Sede Urgencias,Sanitas
+ATN-000987,PAC-00178,2025-09-12,Urgencias,J189,"Neumonia, no especificada",MED-022,Sede Norte,Compensar
+ATN-000988,PAC-00069,2026-03-17,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-037,Sede Norte,Famisanar
+ATN-000989,PAC-00282,2025-08-14,Hospitalizacion,O800,Parto único espontáneo,MED-039,Sede Sur,Famisanar
+ATN-000990,PAC-00102,2026-03-21,Urgencias,O800,Parto único espontáneo,MED-002,Sede Centro,Coosalud
+ATN-000991,PAC-00283,2025-08-10,Urgencias,I10X,Hipertension esencial (primaria),MED-036,Sede Urgencias,Famisanar
+ATN-000992,PAC-00231,2025-09-15,Urgencias,H269,Catarata no especificada,MED-013,Sede Sur,Nueva EPS
+ATN-000993,PAC-00139,2025-01-31,Ambulatoria,H269,Catarata no especificada,MED-011,Sede Urgencias,Famisanar
+ATN-000994,PAC-00051,2026-02-01,Ambulatoria,R073,Otro dolor en el pecho,MED-013,Sede Norte,Compensar
+ATN-000995,PAC-00019,2025-10-13,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-019,Sede Norte,Coosalud
+ATN-000996,PAC-00158,2025-02-21,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-024,Sede Centro,Nueva EPS
+ATN-000997,PAC-00201,2025-05-24,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-026,Sede Urgencias,Famisanar
+ATN-000998,PAC-00039,2025-03-10,Urgencias,Z348,Supervisión de otros embarazos normales,MED-017,Sede Norte,Sanitas
+ATN-000999,PAC-00223,2025-04-22,Urgencias,M545,Lumbago no especificado,MED-035,Sede Norte,Nueva EPS
+ATN-001000,PAC-00210,2026-03-09,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-033,Sede Sur,Sura EPS
+ATN-001001,PAC-00277,2025-10-31,Hospitalizacion,S824,Fractura de peroné,MED-017,Sede Norte,Coosalud
+ATN-001002,PAC-00135,2025-04-07,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-018,Sede Sur,Famisanar
+ATN-001003,PAC-00277,2025-05-26,Hospitalizacion,F411,Trastorno de ansiedad generalizada,MED-030,Sede Urgencias,Coosalud
+ATN-001004,PAC-00142,2026-06-16,Hospitalizacion,F411,Trastorno de ansiedad generalizada,MED-027,Sede Centro,Coosalud
+ATN-001005,PAC-00152,2025-08-26,Ambulatoria,H269,Catarata no especificada,MED-035,Sede Centro,Famisanar
+ATN-001006,PAC-00156,2025-01-24,Urgencias,M545,Lumbago no especificado,MED-038,Sede Urgencias,Nueva EPS
+ATN-001007,PAC-00256,2025-01-03,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-035,Sede Centro,Sanitas
+ATN-001008,PAC-00026,2025-04-18,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-017,Sede Urgencias,Compensar
+ATN-001009,PAC-00036,2026-04-13,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-039,Sede Norte,Sura EPS
+ATN-001010,PAC-00129,2026-03-20,Hospitalizacion,C349,Tumor maligno del bronquio o del pulmón,MED-039,Sede Sur,Compensar
+ATN-001011,PAC-00067,2026-06-04,Ambulatoria,M545,Lumbago no especificado,MED-003,Sede Urgencias,Coosalud
+ATN-001012,PAC-00232,2025-07-11,Urgencias,I10X,Hipertension esencial (primaria),MED-040,Sede Urgencias,Sura EPS
+ATN-001013,PAC-00229,2026-03-23,Ambulatoria,R073,Otro dolor en el pecho,MED-032,Sede Centro,Sanitas
+ATN-001014,PAC-00039,2025-01-31,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-024,Sede Urgencias,Sanitas
+ATN-001015,PAC-00019,2026-01-19,Hospitalizacion,S824,Fractura de peroné,MED-017,Sede Centro,Coosalud
+ATN-001016,PAC-00094,2025-10-29,Hospitalizacion,J189,"Neumonia, no especificada",MED-016,Sede Centro,Sura EPS
+ATN-001017,PAC-00027,2025-12-18,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-011,Sede Centro,Famisanar
+ATN-001018,PAC-00120,2025-04-19,Urgencias,R073,Otro dolor en el pecho,MED-026,Sede Sur,Nueva EPS
+ATN-001019,PAC-00202,2025-11-25,Urgencias,Z348,Supervisión de otros embarazos normales,MED-032,Sede Sur,Sanitas
+ATN-001020,PAC-00200,2026-06-19,Urgencias,H269,Catarata no especificada,MED-022,Sede Centro,Coosalud
+ATN-001021,PAC-00017,2025-10-28,Urgencias,M545,Lumbago no especificado,MED-007,Sede Sur,Sanitas
+ATN-001022,PAC-00108,2025-04-10,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-028,Sede Urgencias,Famisanar
+ATN-001023,PAC-00142,2025-07-01,Hospitalizacion,M545,Lumbago no especificado,MED-025,Sede Norte,Coosalud
+ATN-001024,PAC-00136,2026-06-11,Urgencias,R073,Otro dolor en el pecho,MED-036,Sede Sur,Compensar
+ATN-001025,PAC-00269,2026-06-03,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-029,Sede Urgencias,Nueva EPS
+ATN-001026,PAC-00163,2025-11-21,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-040,Sede Sur,Compensar
+ATN-001027,PAC-00271,2025-01-07,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-003,Sede Norte,Famisanar
+ATN-001028,PAC-00148,2025-05-15,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-008,Sede Sur,Sanitas
+ATN-001029,PAC-00129,2026-03-12,Urgencias,R073,Otro dolor en el pecho,MED-012,Sede Norte,Compensar
+ATN-001030,PAC-00237,2025-10-27,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-027,Sede Centro,Compensar
+ATN-001031,PAC-00253,2026-06-23,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-012,Sede Norte,Sanitas
+ATN-001032,PAC-00132,2025-11-09,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-006,Sede Norte,Compensar
+ATN-001033,PAC-00091,2026-04-20,Urgencias,O800,Parto único espontáneo,MED-002,Sede Centro,Compensar
+ATN-001034,PAC-00188,2025-09-24,Urgencias,C349,Tumor maligno del bronquio o del pulmón,MED-024,Sede Sur,Compensar
+ATN-001035,PAC-00110,2026-06-08,Hospitalizacion,H269,Catarata no especificada,MED-030,Sede Urgencias,Famisanar
+ATN-001036,PAC-00182,2025-07-23,Ambulatoria,M545,Lumbago no especificado,MED-014,Sede Centro,Sanitas
+ATN-001037,PAC-00240,2025-06-25,Hospitalizacion,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-028,Sede Sur,Famisanar
+ATN-001038,PAC-00135,2025-10-01,Hospitalizacion,N390,"Infección de vías urinarias, sitio no especificado",MED-008,Sede Urgencias,Famisanar
+ATN-001039,PAC-00215,2026-05-26,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-008,Sede Centro,Sanitas
+ATN-001040,PAC-00094,2026-04-25,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-034,Sede Urgencias,Sura EPS
+ATN-001041,PAC-00184,2025-05-18,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-024,Sede Urgencias,Compensar
+ATN-001042,PAC-00154,2026-01-17,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-033,Sede Sur,Sura EPS
+ATN-001043,PAC-00088,2025-11-06,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-025,Sede Norte,Sanitas
+ATN-001044,PAC-00022,2025-06-21,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-038,Sede Sur,Nueva EPS
+ATN-001045,PAC-00268,2025-01-06,Ambulatoria,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-027,Sede Urgencias,Coosalud
+ATN-001046,PAC-00141,2025-06-04,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-010,Sede Norte,Sura EPS
+ATN-001047,PAC-00201,2025-04-29,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-025,Sede Urgencias,Famisanar
+ATN-001048,PAC-00283,2026-06-26,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-029,Sede Centro,Famisanar
+ATN-001049,PAC-00260,2025-01-14,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-012,Sede Urgencias,Compensar
+ATN-001050,PAC-00261,2026-01-20,Hospitalizacion,J189,"Neumonia, no especificada",MED-002,Sede Centro,Nueva EPS
+ATN-001051,PAC-00024,2025-08-23,Urgencias,M545,Lumbago no especificado,MED-008,Sede Centro,Famisanar
+ATN-001052,PAC-00284,2025-11-11,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-009,Sede Centro,Compensar
+ATN-001053,PAC-00229,2025-06-15,Urgencias,M545,Lumbago no especificado,MED-015,Sede Urgencias,Sanitas
+ATN-001054,PAC-00085,2026-03-18,Urgencias,N390,"Infección de vías urinarias, sitio no especificado",MED-038,Sede Norte,Nueva EPS
+ATN-001055,PAC-00055,2025-01-08,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-019,Sede Norte,Coosalud
+ATN-001056,PAC-00093,2025-12-23,Ambulatoria,O800,Parto único espontáneo,MED-019,Sede Urgencias,Coosalud
+ATN-001057,PAC-00087,2025-05-02,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-033,Sede Norte,Coosalud
+ATN-001058,PAC-00035,2025-04-03,Hospitalizacion,M545,Lumbago no especificado,MED-011,Sede Urgencias,Compensar
+ATN-001059,PAC-00260,2025-02-01,Hospitalizacion,H269,Catarata no especificada,MED-007,Sede Sur,Compensar
+ATN-001060,PAC-00081,2025-04-15,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-004,Sede Urgencias,Nueva EPS
+ATN-001061,PAC-00275,2025-10-10,Urgencias,M545,Lumbago no especificado,MED-020,Sede Centro,Sanitas
+ATN-001062,PAC-00222,2025-07-06,Urgencias,O800,Parto único espontáneo,MED-035,Sede Sur,Coosalud
+ATN-001063,PAC-00221,2025-01-06,Hospitalizacion,O800,Parto único espontáneo,MED-013,Sede Centro,Coosalud
+ATN-001064,PAC-00150,2025-03-07,Hospitalizacion,R073,Otro dolor en el pecho,MED-016,Sede Centro,Famisanar
+ATN-001065,PAC-00208,2025-01-26,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-005,Sede Norte,Compensar
+ATN-001066,PAC-00205,2025-03-11,Hospitalizacion,H269,Catarata no especificada,MED-037,Sede Sur,Nueva EPS
+ATN-001067,PAC-00010,2025-11-01,Urgencias,I219,"Infarto agudo del miocardio, no especificado",MED-039,Sede Urgencias,Nueva EPS
+ATN-001068,PAC-00123,2026-05-12,Ambulatoria,M545,Lumbago no especificado,MED-037,Sede Sur,Sura EPS
+ATN-001069,PAC-00049,2025-10-24,Hospitalizacion,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-037,Sede Norte,Sura EPS
+ATN-001070,PAC-00202,2025-02-22,Ambulatoria,R073,Otro dolor en el pecho,MED-030,Sede Centro,Sanitas
+ATN-001071,PAC-00213,2025-08-29,Ambulatoria,O800,Parto único espontáneo,MED-040,Sede Urgencias,Coosalud
+ATN-001072,PAC-00262,2026-02-13,Hospitalizacion,F411,Trastorno de ansiedad generalizada,MED-017,Sede Sur,Sura EPS
+ATN-001073,PAC-00186,2026-03-27,Ambulatoria,R073,Otro dolor en el pecho,MED-024,Sede Urgencias,Coosalud
+ATN-001074,PAC-00097,2025-04-06,Urgencias,H269,Catarata no especificada,MED-012,Sede Centro,Compensar
+ATN-001075,PAC-00129,2025-10-04,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-011,Sede Urgencias,Compensar
+ATN-001076,PAC-00121,2025-09-22,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-006,Sede Urgencias,Coosalud
+ATN-001077,PAC-00213,2025-08-18,Ambulatoria,O800,Parto único espontáneo,MED-025,Sede Sur,Coosalud
+ATN-001078,PAC-00057,2025-06-05,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-029,Sede Norte,Coosalud
+ATN-001079,PAC-00252,2025-05-09,Urgencias,I10X,Hipertension esencial (primaria),MED-033,Sede Centro,Nueva EPS
+ATN-001080,PAC-00257,2025-03-06,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-020,Sede Norte,Sura EPS
+ATN-001081,PAC-00279,2025-01-01,Ambulatoria,O800,Parto único espontáneo,MED-012,Sede Centro,Sanitas
+ATN-001082,PAC-00225,2025-02-02,Urgencias,H269,Catarata no especificada,MED-013,Sede Sur,Nueva EPS
+ATN-001083,PAC-00221,2025-02-12,Urgencias,R073,Otro dolor en el pecho,MED-035,Sede Norte,Coosalud
+ATN-001084,PAC-00002,2026-03-09,Hospitalizacion,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-035,Sede Centro,Coosalud
+ATN-001085,PAC-00297,2025-09-25,Ambulatoria,O800,Parto único espontáneo,MED-004,Sede Norte,Sura EPS
+ATN-001086,PAC-00015,2026-05-01,Ambulatoria,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-028,Sede Norte,Sura EPS
+ATN-001087,PAC-00148,2025-12-02,Urgencias,O800,Parto único espontáneo,MED-039,Sede Norte,Sanitas
+ATN-001088,PAC-00137,2025-09-14,Urgencias,J189,"Neumonia, no especificada",MED-004,Sede Sur,Nueva EPS
+ATN-001089,PAC-00155,2025-09-26,Urgencias,J189,"Neumonia, no especificada",MED-001,Sede Sur,Sura EPS
+ATN-001090,PAC-00253,2026-01-14,Ambulatoria,S824,Fractura de peroné,MED-026,Sede Urgencias,Sanitas
+ATN-001091,PAC-00007,2025-12-22,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-004,Sede Norte,Sura EPS
+ATN-001092,PAC-00254,2025-11-20,Ambulatoria,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-005,Sede Urgencias,Nueva EPS
+ATN-001093,PAC-00234,2025-09-15,Ambulatoria,R073,Otro dolor en el pecho,MED-034,Sede Urgencias,Compensar
+ATN-001094,PAC-00040,2025-06-27,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-039,Sede Sur,Coosalud
+ATN-001095,PAC-00208,2025-06-18,Ambulatoria,I10X,Hipertension esencial (primaria),MED-014,Sede Sur,Compensar
+ATN-001096,PAC-00248,2025-08-27,Urgencias,R073,Otro dolor en el pecho,MED-021,Sede Sur,Coosalud
+ATN-001097,PAC-00040,2026-04-04,Hospitalizacion,S824,Fractura de peroné,MED-035,Sede Urgencias,Coosalud
+ATN-001098,PAC-00216,2025-06-20,Ambulatoria,M545,Lumbago no especificado,MED-011,Sede Norte,Nueva EPS
+ATN-001099,PAC-00026,2026-02-01,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-003,Sede Sur,Compensar
+ATN-001100,PAC-00086,2025-11-09,Hospitalizacion,I10X,Hipertension esencial (primaria),MED-003,Sede Norte,Coosalud
+ATN-001101,PAC-00137,2026-01-04,Ambulatoria,S824,Fractura de peroné,MED-017,Sede Urgencias,Nueva EPS
+ATN-001102,PAC-00110,2025-11-25,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-039,Sede Norte,Famisanar
+ATN-001103,PAC-00141,2025-03-04,Hospitalizacion,S824,Fractura de peroné,MED-021,Sede Urgencias,Sura EPS
+ATN-001104,PAC-00131,2025-02-07,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-006,Sede Urgencias,Sura EPS
+ATN-001105,PAC-00167,2025-09-01,Ambulatoria,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-007,Sede Centro,Nueva EPS
+ATN-001106,PAC-00171,2025-08-24,Ambulatoria,J189,"Neumonia, no especificada",MED-001,Sede Norte,Nueva EPS
+ATN-001107,PAC-00048,2025-03-27,Urgencias,H269,Catarata no especificada,MED-019,Sede Centro,Sura EPS
+ATN-001108,PAC-00130,2025-03-29,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-033,Sede Norte,Compensar
+ATN-001109,PAC-00016,2025-02-05,Urgencias,I10X,Hipertension esencial (primaria),MED-013,Sede Norte,Coosalud
+ATN-001110,PAC-00192,2026-03-20,Urgencias,F411,Trastorno de ansiedad generalizada,MED-025,Sede Urgencias,Famisanar
+ATN-001111,PAC-00218,2025-10-16,Ambulatoria,I10X,Hipertension esencial (primaria),MED-029,Sede Sur,Coosalud
+ATN-001112,PAC-00032,2025-10-29,Hospitalizacion,R073,Otro dolor en el pecho,MED-010,Sede Urgencias,Coosalud
+ATN-001113,PAC-00268,2026-06-17,Urgencias,F411,Trastorno de ansiedad generalizada,MED-037,Sede Norte,Coosalud
+ATN-001114,PAC-00291,2025-01-24,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-039,Sede Centro,Famisanar
+ATN-001115,PAC-00270,2025-01-06,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-037,Sede Sur,Nueva EPS
+ATN-001116,PAC-00043,2026-04-17,Hospitalizacion,M545,Lumbago no especificado,MED-030,Sede Sur,Compensar
+ATN-001117,PAC-00280,2025-07-09,Hospitalizacion,Z348,Supervisión de otros embarazos normales,MED-005,Sede Norte,Nueva EPS
+ATN-001118,PAC-00294,2026-03-23,Ambulatoria,S824,Fractura de peroné,MED-012,Sede Centro,Compensar
+ATN-001119,PAC-00092,2026-01-11,Hospitalizacion,S824,Fractura de peroné,MED-009,Sede Norte,Coosalud
+ATN-001120,PAC-00077,2025-05-10,Ambulatoria,I10X,Hipertension esencial (primaria),MED-037,Sede Centro,Compensar
+ATN-001121,PAC-00044,2026-02-24,Ambulatoria,S824,Fractura de peroné,MED-004,Sede Urgencias,Coosalud
+ATN-001122,PAC-00156,2025-12-02,Ambulatoria,F411,Trastorno de ansiedad generalizada,MED-018,Sede Norte,Nueva EPS
+ATN-001123,PAC-00110,2026-04-09,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-006,Sede Centro,Famisanar
+ATN-001124,PAC-00105,2025-12-26,Ambulatoria,R073,Otro dolor en el pecho,MED-004,Sede Norte,Sura EPS
+ATN-001125,PAC-00110,2026-01-07,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-029,Sede Norte,Famisanar
+ATN-001126,PAC-00082,2026-05-11,Hospitalizacion,S824,Fractura de peroné,MED-006,Sede Sur,Nueva EPS
+ATN-001127,PAC-00070,2026-02-27,Urgencias,O800,Parto único espontáneo,MED-009,Sede Sur,Nueva EPS
+ATN-001128,PAC-00215,2025-03-14,Ambulatoria,I10X,Hipertension esencial (primaria),MED-017,Sede Sur,Sanitas
+ATN-001129,PAC-00140,2026-01-04,Urgencias,M545,Lumbago no especificado,MED-017,Sede Centro,Coosalud
+ATN-001130,PAC-00174,2026-04-04,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-038,Sede Centro,Famisanar
+ATN-001131,PAC-00069,2026-02-20,Urgencias,F411,Trastorno de ansiedad generalizada,MED-009,Sede Norte,Famisanar
+ATN-001132,PAC-00090,2026-02-11,Hospitalizacion,J189,"Neumonia, no especificada",MED-014,Sede Centro,Famisanar
+ATN-001133,PAC-00149,2025-11-13,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-002,Sede Norte,Nueva EPS
+ATN-001134,PAC-00066,2025-02-25,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-012,Sede Centro,Famisanar
+ATN-001135,PAC-00119,2025-03-27,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-012,Sede Norte,Coosalud
+ATN-001136,PAC-00258,2025-09-23,Ambulatoria,M545,Lumbago no especificado,MED-040,Sede Sur,Sanitas
+ATN-001137,PAC-00271,2026-01-10,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-002,Sede Centro,Famisanar
+ATN-001138,PAC-00031,2025-01-13,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-038,Sede Norte,Nueva EPS
+ATN-001139,PAC-00101,2025-04-07,Hospitalizacion,K358,"Apendicitis aguda, otra y no especificada",MED-022,Sede Centro,Sura EPS
+ATN-001140,PAC-00046,2025-02-04,Hospitalizacion,I10X,Hipertension esencial (primaria),MED-027,Sede Urgencias,Sanitas
+ATN-001141,PAC-00017,2026-02-01,Urgencias,C349,Tumor maligno del bronquio o del pulmón,MED-029,Sede Urgencias,Sanitas
+ATN-001142,PAC-00286,2025-01-22,Urgencias,I10X,Hipertension esencial (primaria),MED-026,Sede Urgencias,Sanitas
+ATN-001143,PAC-00180,2026-01-24,Urgencias,O800,Parto único espontáneo,MED-017,Sede Centro,Compensar
+ATN-001144,PAC-00144,2025-03-04,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-012,Sede Centro,Sura EPS
+ATN-001145,PAC-00028,2026-02-28,Ambulatoria,R073,Otro dolor en el pecho,MED-017,Sede Centro,Coosalud
+ATN-001146,PAC-00247,2025-01-07,Urgencias,S824,Fractura de peroné,MED-022,Sede Urgencias,Coosalud
+ATN-001147,PAC-00242,2026-03-10,Ambulatoria,S824,Fractura de peroné,MED-011,Sede Urgencias,Compensar
+ATN-001148,PAC-00161,2025-01-26,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-039,Sede Centro,Compensar
+ATN-001149,PAC-00268,2025-04-12,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-039,Sede Centro,Coosalud
+ATN-001150,PAC-00283,2025-08-05,Hospitalizacion,R073,Otro dolor en el pecho,MED-024,Sede Sur,Famisanar
+ATN-001151,PAC-00234,2025-12-14,Hospitalizacion,F411,Trastorno de ansiedad generalizada,MED-016,Sede Urgencias,Compensar
+ATN-001152,PAC-00052,2025-02-24,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-007,Sede Centro,Sura EPS
+ATN-001153,PAC-00119,2025-10-13,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-014,Sede Centro,Coosalud
+ATN-001154,PAC-00025,2025-08-13,Hospitalizacion,H269,Catarata no especificada,MED-009,Sede Centro,Coosalud
+ATN-001155,PAC-00049,2025-02-12,Urgencias,F411,Trastorno de ansiedad generalizada,MED-009,Sede Norte,Sura EPS
+ATN-001156,PAC-00073,2025-12-19,Urgencias,C349,Tumor maligno del bronquio o del pulmón,MED-039,Sede Centro,Coosalud
+ATN-001157,PAC-00103,2025-03-17,Hospitalizacion,M545,Lumbago no especificado,MED-020,Sede Urgencias,Sanitas
+ATN-001158,PAC-00115,2025-09-27,Ambulatoria,K358,"Apendicitis aguda, otra y no especificada",MED-035,Sede Sur,Nueva EPS
+ATN-001159,PAC-00058,2026-05-29,Hospitalizacion,I10X,Hipertension esencial (primaria),MED-024,Sede Urgencias,Sura EPS
+ATN-001160,PAC-00006,2026-02-08,Urgencias,O800,Parto único espontáneo,MED-024,Sede Norte,Sura EPS
+ATN-001161,PAC-00282,2025-01-09,Ambulatoria,S824,Fractura de peroné,MED-039,Sede Urgencias,Famisanar
+ATN-001162,PAC-00146,2025-04-01,Ambulatoria,S824,Fractura de peroné,MED-010,Sede Sur,Famisanar
+ATN-001163,PAC-00205,2025-04-14,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-033,Sede Norte,Nueva EPS
+ATN-001164,PAC-00003,2025-10-16,Hospitalizacion,M545,Lumbago no especificado,MED-012,Sede Sur,Nueva EPS
+ATN-001165,PAC-00203,2025-02-05,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-016,Sede Norte,Sura EPS
+ATN-001166,PAC-00051,2025-12-10,Urgencias,K358,"Apendicitis aguda, otra y no especificada",MED-024,Sede Centro,Compensar
+ATN-001167,PAC-00049,2025-05-10,Urgencias,E119,Diabetes mellitus tipo 2 sin complicaciones,MED-012,Sede Sur,Sura EPS
+ATN-001168,PAC-00264,2025-05-27,Urgencias,O800,Parto único espontáneo,MED-024,Sede Urgencias,Coosalud
+ATN-001169,PAC-00170,2025-05-02,Ambulatoria,S824,Fractura de peroné,MED-012,Sede Urgencias,Compensar
+ATN-001170,PAC-00133,2025-09-11,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-011,Sede Urgencias,Sanitas
+ATN-001171,PAC-00228,2025-01-31,Hospitalizacion,R073,Otro dolor en el pecho,MED-008,Sede Urgencias,Famisanar
+ATN-001172,PAC-00238,2026-03-20,Urgencias,F411,Trastorno de ansiedad generalizada,MED-033,Sede Urgencias,Nueva EPS
+ATN-001173,PAC-00219,2025-01-26,Urgencias,C349,Tumor maligno del bronquio o del pulmón,MED-034,Sede Urgencias,Nueva EPS
+ATN-001174,PAC-00179,2025-02-17,Urgencias,F411,Trastorno de ansiedad generalizada,MED-023,Sede Centro,Compensar
+ATN-001175,PAC-00047,2025-02-07,Hospitalizacion,I10X,Hipertension esencial (primaria),MED-010,Sede Urgencias,Famisanar
+ATN-001176,PAC-00103,2025-05-03,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-002,Sede Sur,Sanitas
+ATN-001177,PAC-00009,2026-01-23,Hospitalizacion,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-023,Sede Sur,Coosalud
+ATN-001178,PAC-00221,2025-12-27,Ambulatoria,H269,Catarata no especificada,MED-014,Sede Centro,Coosalud
+ATN-001179,PAC-00257,2026-05-01,Ambulatoria,C349,Tumor maligno del bronquio o del pulmón,MED-015,Sede Sur,Sura EPS
+ATN-001180,PAC-00221,2026-04-26,Hospitalizacion,N390,"Infección de vías urinarias, sitio no especificado",MED-006,Sede Norte,Coosalud
+ATN-001181,PAC-00045,2025-01-15,Urgencias,M545,Lumbago no especificado,MED-008,Sede Centro,Sura EPS
+ATN-001182,PAC-00299,2026-05-20,Hospitalizacion,I219,"Infarto agudo del miocardio, no especificado",MED-028,Sede Sur,Famisanar
+ATN-001183,PAC-00283,2025-06-06,Hospitalizacion,J189,"Neumonia, no especificada",MED-011,Sede Norte,Famisanar
+ATN-001184,PAC-00098,2026-02-19,Hospitalizacion,I10X,Hipertension esencial (primaria),MED-025,Sede Centro,Nueva EPS
+ATN-001185,PAC-00265,2026-06-29,Hospitalizacion,I10X,Hipertension esencial (primaria),MED-018,Sede Urgencias,Famisanar
+ATN-001186,PAC-00109,2026-06-05,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-019,Sede Urgencias,Nueva EPS
+ATN-001187,PAC-00142,2025-03-16,Urgencias,Z348,Supervisión de otros embarazos normales,MED-012,Sede Norte,Coosalud
+ATN-001188,PAC-00070,2025-12-04,Hospitalizacion,N390,"Infección de vías urinarias, sitio no especificado",MED-018,Sede Norte,Nueva EPS
+ATN-001189,PAC-00181,2025-07-09,Ambulatoria,I10X,Hipertension esencial (primaria),MED-031,Sede Norte,Sanitas
+ATN-001190,PAC-00087,2025-04-09,Urgencias,J189,"Neumonia, no especificada",MED-006,Sede Centro,Coosalud
+ATN-001191,PAC-00212,2026-04-10,Ambulatoria,N390,"Infección de vías urinarias, sitio no especificado",MED-003,Sede Urgencias,Nueva EPS
+ATN-001192,PAC-00285,2025-07-09,Hospitalizacion,J189,"Neumonia, no especificada",MED-029,Sede Urgencias,Nueva EPS
+ATN-001193,PAC-00064,2025-08-31,Ambulatoria,H269,Catarata no especificada,MED-014,Sede Sur,Nueva EPS
+ATN-001194,PAC-00074,2026-06-09,Ambulatoria,I219,"Infarto agudo del miocardio, no especificado",MED-038,Sede Sur,Famisanar
+ATN-001195,PAC-00238,2026-04-13,Ambulatoria,Z348,Supervisión de otros embarazos normales,MED-019,Sede Urgencias,Nueva EPS
+ATN-001196,PAC-00287,2026-03-22,Hospitalizacion,M545,Lumbago no especificado,MED-026,Sede Sur,Sanitas
+ATN-001197,PAC-00066,2026-03-13,Urgencias,C349,Tumor maligno del bronquio o del pulmón,MED-003,Sede Sur,Famisanar
+ATN-001198,PAC-00083,2025-10-06,Urgencias,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-028,Sede Centro,Coosalud
+ATN-001199,PAC-00068,2026-04-23,Urgencias,C349,Tumor maligno del bronquio o del pulmón,MED-001,Sede Centro,Sanitas
+ATN-001200,PAC-00219,2025-11-18,Hospitalizacion,A090,Diarrea y gastroenteritis de presunto origen infeccioso,MED-019,Sede Sur,Nueva EPS
