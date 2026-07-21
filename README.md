@@ -315,22 +315,20 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ## 👥 Autores
 
-- **Equipo de Desarrollo** - *Análisis y Modelado*
+-Jefersson Aldair Oliveros (líder)
+-Jazmine Alexandra Acosta Bejarano
+-Iván Yesid Cristancho Plata
+-Isabella Andrea Cuesta Niebles 
+-Catalina del Rocío Pantoja Ordóñez
+
 
 ---
 
 ## 🙏 Agradecimientos
 
-- Equipo médico por la validación de dominio
-- Profesionales de facturación hospitalaria
-- Comunidad de scikit-learn y XGBoost
+- Brenda Forero (ASISTENCIAL TICS)
 
 ---
 
-## 📞 Contacto
-
-Para preguntas o colaboraciones, abrir un issue en el repositorio.
-
----
 
 > **Nota**: Los datos utilizados son sintéticos para fines de demostración. Los modelos y metodologías son aplicables a datos reales de auditoría médica.
