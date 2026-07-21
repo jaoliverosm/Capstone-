@@ -164,7 +164,7 @@ pip install pandas numpy scikit-learn xgboost matplotlib seaborn shap jupyter op
 1. **Clonar el repositorio**
    ```bash
    git clone https://github.com/tu-usuario/capstone-auditor-medico.git](https://github.com/jaoliverosm/Capstone-
-   cd capstone-auditor-medico
+   cd capstone-
    ```
 
 2. **Ejecutar notebooks en orden**
