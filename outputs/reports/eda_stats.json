@@ -16,7 +16,9 @@
     "codigo_no_coincide": 1.0,
     "cantidad_diferente": 1.0
   },
-  "perdida_estimada_fugas": 41571659.62891875,
+  "perdida_estimada_fugas": 78046000.0,
+  "perdida_estimada_promedio_simple": 43696371.21721587,
+  "metodo_perdida": "precio de referencia por CUPS x cantidad realizada (fallback: promedio de items facturados)",
   "n_fugas": 152,
-  "valor_unitario_promedio": 273497.7607165707
+  "valor_unitario_promedio": 287476.1264290518
 }

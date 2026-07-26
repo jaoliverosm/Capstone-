@@ -187,14 +187,14 @@
 </style>
 </head>
 <body>
-<div class="save-indicator" id="save-indicator">✓ Guardado para todo el equipo</div>
+<div class="save-indicator" id="save-indicator">✓ Guardado</div>
 
 <div class="wrap">
   <header class="top">
     <div>
       <div class="brand-eyebrow">SICortex · LINE — Auditor Médico Digital</div>
       <h1>Panel de trabajo del equipo</h1>
-      <div class="subtitle">Tablero y calendario unidos: una sola fuente de tareas. Muévelas en el tablero o márcalas en el calendario — se actualizan entre sí y quedan guardadas para todo el equipo.</div>
+      <div class="subtitle">Tablero y calendario unidos: una sola fuente de tareas. Muévelas en el tablero o márcalas en el calendario — se actualizan entre sí y quedan guardadas (para todo el equipo en la versión publicada como artifact; solo en este navegador si abres el archivo local — usa Exportar/Importar JSON para sincronizar).</div>
     </div>
     <div class="deadline-chip">
       <div class="lbl">Entrega final</div>
@@ -360,7 +360,7 @@ const TASKS = [
 TASKS.forEach((t,i)=> t.id = 'T-' + i);
 
 const WEEKS = [
-  {label:"Semana 0", range:"08 – 12 jul", start:"08 jul", days:5, focus:"Arranque: validar proyecto, cuadrar formato y entregar el Plan de Acción"},
+  {label:"Semana 0", range:"08 – 12 jul", start:"08 jul", days:5, dowOffset:2, focus:"Arranque: validar proyecto, cuadrar formato y entregar el Plan de Acción"},
   {label:"Semana 1", range:"13 – 19 jul", start:"13 jul", days:7, focus:"Datos, EDA y primeros modelos (XGBoost, Random Forest)"},
   {label:"Semana 2", range:"20 – 26 jul", start:"20 jul", days:7, focus:"Integración: backend, dashboard, Nemotron, notebooks 07-08"},
   {label:"Semana 3", range:"27 jul – 02 ago", start:"27 jul", days:7, focus:"Informe técnico, repositorio, pulido de interfaz"},
@@ -373,30 +373,53 @@ let saveTimer = null;
 let currentView = "board";
 let currentFilter = null;
 
+// Persistencia con respaldo: window.storage solo existe en la versión publicada como
+// artifact de Claude (guardado compartido). Abriendo el archivo local se usa localStorage
+// (guardado por navegador). Sin ninguno de los dos, se trabaja en memoria de la sesión.
+const store = {
+  async get(key){
+    if(window.storage){ const r = await window.storage.get(key, true); return r && r.value ? r.value : null; }
+    return localStorage.getItem(key);
+  },
+  async set(key, value){
+    if(window.storage){ await window.storage.set(key, value, true); }
+    else{ localStorage.setItem(key, value); }
+  },
+  async del(key){
+    if(window.storage){ await window.storage.delete(key, true); }
+    else{ localStorage.removeItem(key); }
+  }
+};
+
 async function loadSavedState(){
   try{
-    if(!window.storage) return;
-    const res = await window.storage.get(STORAGE_KEY, true);
-    if(res && res.value){
-      const saved = JSON.parse(res.value);
+    const raw = await store.get(STORAGE_KEY);
+    if(raw){
+      const saved = JSON.parse(raw);
       TASKS.forEach(t=>{
         const s = saved[t.id];
         if(s){ t.status = s.status; t.p = s.p; if(s.date) t.date = s.date; if(s.originalDate) t.originalDate = s.originalDate; }
       });
       (saved.__extra || []).forEach(t=> TASKS.push(t));
+      // las tareas base eliminadas por el equipo no deben resucitar al recargar
+      (saved.__deleted || []).forEach(id=>{
+        const i = TASKS.findIndex(t=> t.id===id);
+        if(i>-1) TASKS.splice(i,1);
+      });
     }
-  }catch(e){ /* sin storage: se trabaja solo en memoria de esta sesión */ }
+  }catch(e){ /* sin persistencia disponible: se trabaja solo en memoria de esta sesión */ }
 }
 function saveState(){
   clearTimeout(saveTimer);
   saveTimer = setTimeout(async ()=>{
     try{
-      if(!window.storage) return;
       const map = {};
       TASKS.forEach(t=> map[t.id] = {status:t.status, p:t.p, date:t.date, originalDate:t.originalDate});
-      // guarda también las tareas agregadas manualmente (con id T-46+) completas
+      // guarda también las tareas agregadas manualmente (completas)…
       map.__extra = TASKS.filter(t=> !ORIGINAL_IDS.has(t.id));
-      await window.storage.set(STORAGE_KEY, JSON.stringify(map), true);
+      // …y qué tareas base fueron eliminadas, para no resucitarlas al recargar
+      map.__deleted = [...ORIGINAL_IDS].filter(id=> !TASKS.some(t=> t.id===id));
+      await store.set(STORAGE_KEY, JSON.stringify(map));
       flashSaved();
     }catch(e){}
   }, 250);
@@ -487,7 +510,7 @@ function buildChips(){
     for(let i=TASKS.length-1;i>=0;i--){ if(!ORIGINAL_IDS.has(TASKS[i].id)) TASKS.splice(i,1); }
     TASKS.forEach(t=>{ t.status = ORIGINAL_STATUS[t.id].status; t.p = ORIGINAL_STATUS[t.id].p; });
     renderAll();
-    try{ if(window.storage) await window.storage.delete(STORAGE_KEY, true); }catch(e){}
+    try{ await store.del(STORAGE_KEY); }catch(e){}
   });
   filters.appendChild(reset);
 }
@@ -687,7 +710,7 @@ function renderCalendar(){
       const dayTasks = (tasksByDate[key]||[]).filter(t=> !currentFilter || t.p===currentFilter);
       const dayEl = document.createElement('div');
       dayEl.className = 'day' + (week.milestone ? ' milestone-day':'');
-      let headHtml = `<div class="day-head"><span class="day-dow">${DOW[(i)%7]}</span><span class="day-num">${cursor.day} ${cursor.month}</span></div>`;
+      let headHtml = `<div class="day-head"><span class="day-dow">${DOW[(i + (week.dowOffset||0))%7]}</span><span class="day-num">${cursor.day} ${cursor.month}</span></div>`;
       if(week.milestone) headHtml = `<div class="day-head"><span class="day-milestone-tag">Entrega</span><span class="day-num">${cursor.day} ${cursor.month}</span></div>`;
       dayEl.innerHTML = headHtml;
 

@@ -20,10 +20,17 @@ Detectar y priorizar irregularidades en la facturación de servicios de salud me
 | Hallazgo | Valor |
 |----------|-------|
 | **Procedimientos con fuga (sin facturar)** | 152 |
-| **Pérdida estimada** | $41,571,660 COP |
-| **Valor unitario promedio** | $273,498 COP |
+| **Pérdida estimada** (precio de referencia por CUPS × cantidad realizada) | $78,046,000 COP |
+| **Pérdida estimada** (cota conservadora: promedio simple de ítems facturados) | $43,696,371 COP |
+| **Valor unitario promedio (ítems facturados)** | $287,476 COP |
+| **Registros de HC sin atención asociada** (`ATN-JEF-000001`) | 2 |
 | **Mejor modelo (AUC-ROC)** | 0.9185 (Random Forest) |
 | **Mejor F1-Score** | 0.7738 (XGBoost) |
+
+> **Nota (revisión 26-jul-2026):** la pérdida se recalculó. La cifra anterior ($41,571,660)
+> multiplicaba las fugas por un promedio de `valor_unitario` que incluía los **ceros imputados
+> de las propias fugas**; ahora cada fuga se valora con el precio de referencia de su código
+> CUPS por la cantidad realizada (detalle por código en el notebook 04).
 
 ### 🤖 Rendimiento de Modelos
 
@@ -33,7 +40,10 @@ Detectar y priorizar irregularidades en la facturación de servicios de salud me
 | XGBoost | A (Producción) | 0.9152 | 0.7738 | 0.7282 | 0.8256 |
 | Random Forest | B (Features CNN) | 0.8500 | 0.6138 | 0.4564 | 0.9368 |
 | XGBoost | B (Features CNN) | 0.8724 | 0.7009 | 0.6308 | 0.7885 |
-| CNN (Referencia) | Transfer Learning | 0.7487 | 0.4710 | 0.3385 | 0.9531 |
+| CNN (Referencia)* | Transfer Learning | 0.7487 | 0.4710 | 0.3385 | 0.9531 |
+
+> *Corrida original del equipo. La corrida guardada del notebook 08 en este repositorio
+> reporta AUC ≈ 0.70 tras fine-tuning — pendiente de re-ejecutar y consolidar una sola cifra.
 
 ---
 
@@ -106,6 +116,9 @@ Capstone/
 │   ├── 07_entrenamiento_xgboost_avanzado.ipynb  # XGBoost optimizado
 │   └── 08_modelo_cnn_transfer_learning.ipynb    # CNN
 │
+├── 📊 dashboard/
+│   └── dashboard_auditoria.html      # Dashboard ejecutivo autocontenido (lo genera el nb 06)
+│
 ├── 📂 outputs/
 │   ├── models/                       # Modelos entrenados
 │   │   ├── random_forest_A_produccion.joblib
@@ -121,9 +134,12 @@ Capstone/
 │       └── validacion_cups.csv
 │
 ├── 📂 documentacion/                 # Documentación adicional
-│   ├── LINE-Auditor-Medico-Digital.pptx
-│   └── SICortex_Panel_2.html
+│   ├── Informe_Tecnico_LINE_APA.docx
+│   ├── LINE-Auditor-Medico-Digital.pptx / .pdf
+│   ├── SICortex_Panel_2.html         # Panel de tareas del equipo
+│   └── AUDITORIA_REVISION_2026-07-26.md  # Hallazgos de la revisión interna
 │
+├── requirements.txt                  # Dependencias del pipeline
 └── README.md                         # Este archivo
 ```
 
@@ -145,22 +161,29 @@ Capstone/
 
 ### Requisitos
 
-- Python 3.8+
+- Python 3.9+ (para el notebook 08, usar una versión soportada por TensorFlow)
 - Jupyter Notebook o JupyterLab
 - ~2 GB de espacio en disco
 
 ### Dependencias
 
 ```bash
+pip install -r requirements.txt
+```
+
+o manualmente:
+
+```bash
 pip install pandas numpy scikit-learn xgboost matplotlib seaborn shap jupyter openpyxl joblib
+pip install tensorflow   # solo necesario para el notebook 08 (CNN transfer learning)
 ```
 
 ### Pasos
 
 1. **Clonar el repositorio**
    ```bash
-   git clone https://github.com/tu-usuario/capstone-auditor-medico.git](https://github.com/jaoliverosm/Capstone-
-   cd capstone-
+   git clone https://github.com/jaoliverosm/Capstone-.git
+   cd Capstone-
    ```
 
 2. **Ejecutar notebooks en orden**
@@ -223,9 +246,10 @@ pip install pandas numpy scikit-learn xgboost matplotlib seaborn shap jupyter op
 - Médico tratante
 
 ### Features Excluidas (Leakage)
-- `resultado`, `tipo_alerta`, `severidad`, `descripcion_alerta`
-- `es_fuga`, `tiene_hc`, `sin_prefactura` (leakage-adjacent)
-- Generadas por el mismo sistema de reglas que define el target
+- `resultado`, `tipo_alerta`, `severidad`, `descripcion_alerta` — salidas directas del
+  sistema de reglas que define el target (solo uso explicativo)
+- Flags equivalentes al target a nivel de fila (p. ej. `tiene_prefactura`, usado
+  solo en el EDA como descriptor, nunca como feature de modelado)
 
 ---
 
@@ -264,13 +288,14 @@ alertas = predicciones >= threshold
 
 ### Ajustar Threshold según necesidad
 
-| Threshold | Recall | Precisión | Uso Recomendado |
-|-----------|--------|-----------|-----------------|
-| 0.50 | 72.8% | 82.6% | Balance general |
-| 0.23 | 85.1% | 60.1% | Máxima sensibilidad (foco en fugas) |
-| 0.90 | 65.1% | 99.2% | Mínimos falsos positivos |
+| Modelo | Threshold | Recall | Precisión | Uso Recomendado |
+|--------|-----------|--------|-----------|-----------------|
+| XGBoost (nb 05, esc. A) | 0.50 | 72.8% | 82.6% | Balance general |
+| Random Forest (nb 05, esc. A) | 0.23 | 85.1% | 60.1% | Máxima sensibilidad (foco en fugas) |
+| XGBoost avanzado (nb 07) | 0.896 | 65.1% | 99.2% | Mínimos falsos positivos |
 
-> *Los thresholds son ejemplos del modelo XGBoost. Ajustar según el costo relativo de falsos positivos vs falsos negativos en su contexto.*
+> *Cifras tomadas de `outputs/reports/metrics.json` (nb 05) y `outputs/models/xgboost_avanzado/` (nb 07).
+> Ajustar el umbral según el costo relativo de falsos positivos vs falsos negativos en su contexto.*
 
 ---
 

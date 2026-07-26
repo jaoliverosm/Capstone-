@@ -1,0 +1,14 @@
+# Nucleo del pipeline (notebooks 01-07)
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+shap
+joblib
+openpyxl
+jupyter
+
+# CNN transfer learning (notebook 08) — usar una version de Python soportada por TensorFlow
+tensorflow>=2.16
