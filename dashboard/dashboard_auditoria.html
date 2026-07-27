@@ -54,7 +54,7 @@
  NO_FACTURADO (fuga) e <code>id_detalle_hc</code> nulo (70) = SIN_SOPORTE_CLINICO
  (correspondencia 100% con el tipo de alerta; las otras 87 alertas SIN_SOPORTE tienen fila
  de HC con <code>soporte_clinico = NO</code>). No se eliminaron; se convirtieron en flags.</p>
- <p class="nota"><b>Integridad referencial:</b> hay 2 fila(s) con llave foránea rota — las 2 de <code>hc_detalle</code> apuntan a la atención <code>ATN-JEF-000001</code>, inexistente en <code>atenciones</code>. Se conservan como evidencia: un registro clínico sin atención asociada es en sí una inconsistencia que Health &amp; Life debe explicar (ver notebooks 01-03).</p>
+ <p class="nota"><b>Integridad referencial:</b> hay 2 fila(s) con llave foránea rota — las 2 de <code>hc_detalle</code> apuntan a la atención <code>ATN-JEF-000001</code>, inexistente en <code>atenciones</code>: es un <b>dato de prueba interno del equipo</b> (la atención demo del aplicativo), no un hallazgo del cliente. Se conserva en esta copia; en una carga con datos reales debe excluirse (ver notebooks 01-03).</p>
 </section>
 <section>
  <h2>3. Validacion de codigos CUPS</h2>
@@ -85,8 +85,8 @@
  no cumple el formato CUPS de 6 digitos pero se usa consistentemente (52 usos HC, 58 prefactura):
  es un codigo interno inventado que cualquier EPS glosaria. REQUIERE_REVISION con Health &amp; Life.
  Los 2 codigos <code>SOLO_HC</code> (<code>890205</code>, <code>902201</code>, 1 uso cada uno) son las 2
- filas de la atencion fantasma <code>ATN-JEF-000001</code> — hallazgo de integridad de datos, no de
- facturacion (ver seccion 2).</p>
+ filas de la atencion de prueba <code>ATN-JEF-000001</code> — dato interno del equipo, no un hallazgo de
+ facturacion de Health &amp; Life (ver seccion 2).</p>
 </section>
 <section>
  <h2>4. Hallazgos EDA</h2>

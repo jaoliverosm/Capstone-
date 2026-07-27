@@ -9,19 +9,25 @@ según el plan de acción ("Validación cruzada de notebooks", responsable: Ivá
 
 ## 1 · Hallazgos de datos y lógica
 
-### 1.1 Atención fantasma `ATN-JEF-000001` (integridad referencial) — CORREGIDO (documentado)
+### 1.1 Registro de prueba interno `ATN-JEF-000001` (integridad referencial) — DOCUMENTADO
 `hc_detalle` trae 2 filas (`DET-0003057`, `DET-0003058`: Consulta médica general 890205 y
 Hemograma 902201, 15-jun-2025, MED-001) que apuntan a una atención **que no existe** en
 `atenciones`. Viene así desde `data/raw/`. Consecuencias que nadie había conectado:
 
 - El notebook 01 la registró (`fk_atenciones_rotas: 2` en `limpieza_reporte.json`) pero su
   "verificación de cierre" pedía 0 FK rotas y el resumen impreso no mostraba FKs → pasó inadvertida.
-- El notebook 02 reportaba **1.201 atenciones** (1.200 reales + la fantasma).
+- El notebook 02 reportaba **1.201 atenciones** (1.200 reales + esta).
 - Los 2 códigos `SOLO_HC` del notebook 03 son exactamente estas 2 filas — no son "fuga sistemática".
 
-**Acción tomada:** se documentó en los notebooks 01, 02 y 03 y en el dashboard (nueva columna
-"FKs rotas" + nota). **Se conservan las filas** como evidencia de auditoría: un registro clínico
-sin atención asociada es en sí una inconsistencia que Health & Life debe explicar.
+**Origen identificado (revisión cruzada con el aplicativo, 26-jul):** es un **dato de prueba
+interno del equipo** — la atención demo del paciente `1005711681` que usa LINE
+(`agregar_paciente_prueba.py` y `data/datos_prueba/prefacturas/1005711681/` del repositorio del
+aplicativo). **No es un hallazgo para Health & Life y no debe escalarse al cliente.**
+
+**Acción tomada:** se documentó como dato de prueba en los notebooks 01, 02 y 03 y en el
+dashboard (nueva columna "FKs rotas" + nota). **Se conservan las filas** para no alterar los
+insumos de `data/raw/`; en una carga con datos reales deben excluirse junto con el resto de los
+datos de prueba.
 
 ### 1.2 Pérdida por fugas subestimada y mal calculada — CORREGIDO
 El notebook 04 estimaba la pérdida como `152 × promedio(valor_unitario)` donde el promedio
@@ -55,6 +61,10 @@ del equipo" y avisa la discrepancia). El nb 08 ganó una celda que exporta `metr
 ⚠️ **Pendiente del equipo:** re-ejecutar el nb 08 completo y **consolidar una sola cifra de CNN**
 en README, nb 05 y dashboard.
 
+> **Actualización (26-jul, noche):** una re-ejecución completa del nb 08 en copia aislada
+> (Python 3.12, TF 2.16.1) dio **AUC 0.6954 con umbral óptimo 0.4194** — el mismo clúster ~0.70
+> de las demás corridas del notebook, lejos del 0.7487 citado como referencia.
+
 ### 1.4 Notebook 07 comiteado con corrida sucia — PARCIALMENTE CORREGIDO
 - La celda de cross-validation quedó guardada con un **`KeyboardInterrupt`**.
 - El SHAP falló por incompatibilidad de versiones y aún así se guardaba el explainer:
@@ -67,6 +77,11 @@ en README, nb 05 y dashboard.
 se omite (y borra el pickle viejo) si SHAP falla; la celda de CV exporta `cv_results.json`.
 ⚠️ **Pendiente del equipo:** re-ejecutar el nb 07 de punta a punta (kernel limpio) para dejar
 outputs coherentes; verificar que SHAP funcione con las versiones actuales.
+
+> **Actualización (26-jul, noche):** verificado en copia aislada — con Python 3.12 y los pines de
+> `requirements.txt` el nb 07 corre completo: la validación cruzada termina sin interrupción,
+> **SHAP funciona** (explainer real + `shap_summary.png`) y el umbral 0.896 con todas sus
+> métricas se reproducen exactos. Basta re-ejecutarlo en ese entorno.
 
 ### 1.5 Umbral "óptimo" elegido sobre el test set (nb 05, 07 y 08) — DOCUMENTADO
 Los tres notebooks buscan el threshold que maximiza F1 **usando las etiquetas del test set** y
@@ -130,8 +145,8 @@ aplicativo, hay que subirlo al repo (y ahí puede revisarse end-to-end).
 3. [ ] Consolidar la cifra del CNN (README, nb 05, dashboard) tras re-ejecutar el 08.
 4. [ ] Re-ejecutar nb 05 → 06 para refrescar `metrics.json` (textos) y el dashboard.
 5. [ ] Actualizar la pérdida estimada ($78.0M / cota $43.7M) en informe .docx, .pptx y video.
-6. [ ] Preguntar a Health & Life por `ATN-JEF-000001` (registro clínico sin atención) y por el
-   código inventado `890201-M`.
+6. [ ] Preguntar a Health & Life por el código inventado `890201-M`. (`ATN-JEF-000001` **no** va
+   en esa consulta: ya está identificado como dato de prueba interno del equipo — §1.1.)
 7. [ ] (Opcional, si hay tiempo) Umbral elegido por validación en vez del test set, y criterio
    de recall mínimo unificado entre notebooks.
 
