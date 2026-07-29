@@ -373,8 +373,8 @@ let saveTimer = null;
 let currentView = "board";
 let currentFilter = null;
 
-// Persistencia con respaldo: window.storage solo existe en la versión publicada como
-// artifact de Claude (guardado compartido). Abriendo el archivo local se usa localStorage
+// Persistencia con respaldo: window.storage solo existe en la versión publicada del panel
+// (guardado compartido para todo el equipo). Abriendo el archivo local se usa localStorage
 // (guardado por navegador). Sin ninguno de los dos, se trabaja en memoria de la sesión.
 const store = {
   async get(key){

@@ -95,8 +95,8 @@ antes de la entrega, lo riguroso es elegir el umbral por validación (o CV en tr
 - Dashboard mostraba **4 de los 6 hallazgos del EDA** (el `eda_hallazgos.md` comiteado venía de
   una corrida parcial del nb 04) → re-ejecutado, ahora 6.
 - Cierre del nb 05 citaba "AUC ≈ 0.901" que no corresponde a ningún resultado (real: 0.9152).
-- Referencias muertas: `docs/AUDIT_PROYECTO.md`, carpeta `health_care_claude/`,
-  `04_NOTEBOOKS/02_modelo_cnn...` → eliminadas/corregidas.
+- Referencias muertas: `docs/AUDIT_PROYECTO.md`, una carpeta de trabajo antigua ya inexistente
+  y `04_NOTEBOOKS/02_modelo_cnn...` → eliminadas/corregidas.
 - README: comando de clonado roto, tabla de umbrales atribuía a XGBoost una fila que es de
   Random Forest, faltaban `dashboard/` en la estructura, TensorFlow en las dependencias,
   `LICENSE` (se menciona MIT y no existía) y `requirements.txt` → todo corregido/creado.
@@ -124,8 +124,8 @@ fantasma, nota de los códigos SOLO_HC, fila CNN re-etiquetada con aviso de cons
 sección de reproducibilidad sin referencias muertas, KPI de pérdida actualizado.
 
 ### 3.2 `documentacion/SICortex_Panel_2.html` (panel de tareas del equipo)
-- **Persistencia:** usaba `window.storage`, que **solo existe publicado como artifact de
-  Claude**; abierto como archivo local no guardaba nada (y el texto prometía "guardado para
+- **Persistencia:** usaba `window.storage`, una API que **solo existe en la versión publicada
+  del panel**; abierto como archivo local no guardaba nada (y el texto prometía "guardado para
   todo el equipo"). → Ahora cae a `localStorage` (guardado por navegador) y el texto lo aclara.
 - **Tareas eliminadas resucitaban** al recargar (las 40 base están hardcodeadas y el borrado no
   se persistía). → Se persiste `__deleted`.
@@ -151,4 +151,4 @@ aplicativo, hay que subirlo al repo (y ahí puede revisarse end-to-end).
    de recall mínimo unificado entre notebooks.
 
 ---
-*Revisión hecha con apoyo de Claude Code sobre el repo `jaoliverosm/Capstone-` (commit `e8712af`).*
+*Revisión interna del repositorio `jaoliverosm/Capstone-` sobre el commit `e8712af`.*
