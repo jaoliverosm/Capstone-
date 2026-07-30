@@ -42,37 +42,37 @@
       },
       "xgboost": {
         "cv_5fold_train": {
-          "roc_auc": "0.8795 +/- 0.0080",
-          "f1": "0.7632 +/- 0.0100",
-          "recall": "0.7004 +/- 0.0311",
-          "precision": "0.8406 +/- 0.0221"
+          "roc_auc": "0.8802 +/- 0.0090",
+          "f1": "0.7578 +/- 0.0129",
+          "recall": "0.7004 +/- 0.0300",
+          "precision": "0.8270 +/- 0.0186"
         },
-        "test_auc_roc": 0.9152,
+        "test_auc_roc": 0.9129,
         "test": {
           "th_0.50": {
             "threshold": 0.5,
-            "accuracy": 0.9115,
-            "precision": 0.8256,
+            "accuracy": 0.9072,
+            "precision": 0.8068,
             "recall": 0.7282,
-            "f1": 0.7738,
+            "f1": 0.7655,
             "matriz": {
-              "tn": 713,
-              "fp": 30,
+              "tn": 709,
+              "fp": 34,
               "fn": 53,
               "tp": 142
             }
           },
           "th_recall85": {
-            "threshold": 0.0751,
-            "accuracy": 0.8433,
-            "precision": 0.5833,
-            "recall": 0.8615,
-            "f1": 0.6957,
+            "threshold": 0.0822,
+            "accuracy": 0.8443,
+            "precision": 0.5866,
+            "recall": 0.8513,
+            "f1": 0.6946,
             "matriz": {
-              "tn": 623,
-              "fp": 120,
-              "fn": 27,
-              "tp": 168
+              "tn": 626,
+              "fp": 117,
+              "fn": 29,
+              "tp": 166
             }
           }
         }
@@ -118,37 +118,37 @@
       },
       "xgboost": {
         "cv_5fold_train": {
-          "roc_auc": "0.8422 +/- 0.0152",
-          "f1": "0.6730 +/- 0.0145",
-          "recall": "0.6057 +/- 0.0278",
-          "precision": "0.7595 +/- 0.0305"
+          "roc_auc": "0.8404 +/- 0.0145",
+          "f1": "0.6762 +/- 0.0053",
+          "recall": "0.6124 +/- 0.0237",
+          "precision": "0.7571 +/- 0.0249"
         },
-        "test_auc_roc": 0.8724,
+        "test_auc_roc": 0.8707,
         "test": {
           "th_0.50": {
             "threshold": 0.5,
-            "accuracy": 0.8881,
-            "precision": 0.7885,
-            "recall": 0.6308,
-            "f1": 0.7009,
+            "accuracy": 0.8795,
+            "precision": 0.7595,
+            "recall": 0.6154,
+            "f1": 0.6799,
             "matriz": {
-              "tn": 710,
-              "fp": 33,
-              "fn": 72,
-              "tp": 123
+              "tn": 705,
+              "fp": 38,
+              "fn": 75,
+              "tp": 120
             }
           },
           "th_recall85": {
-            "threshold": 0.0667,
-            "accuracy": 0.7196,
-            "precision": 0.4154,
-            "recall": 0.8564,
-            "f1": 0.5595,
+            "threshold": 0.0652,
+            "accuracy": 0.6972,
+            "precision": 0.3943,
+            "recall": 0.8513,
+            "f1": 0.539,
             "matriz": {
-              "tn": 508,
-              "fp": 235,
-              "fn": 28,
-              "tp": 167
+              "tn": 488,
+              "fp": 255,
+              "fn": 29,
+              "tp": 166
             }
           }
         }
@@ -156,20 +156,21 @@
     }
   },
   "cnn_referencia_reportada": {
-    "fuente": "04_NOTEBOOKS/02_modelo_cnn_transfer_learning.ipynb (outputs guardados)",
-    "nota": "No re-ejecutable en esta copia: SavedModel incompleto y sin .h5",
-    "test_auc_roc": 0.7487,
+    "fuente": "notebooks/08_modelo_cnn_transfer_learning.ipynb, corrida limpia del 29-jul-2026 (kernel nuevo, Python 3.12 + TF 2.16.1)",
+    "nota": "Cifra CONSOLIDADA: AUC-ROC en test tras fine-tuning (fase 2). Sustituye a la referencia historica 0.7487, que no es reproducible con este notebook. El CNN no es determinista en CPU: corridas limpias sucesivas dieron 0.6727, 0.6984 y 0.7104, asi que la cifra tiene una variabilidad de +/- 0.02.",
+    "test_auc_roc": 0.6727,
     "th_0.50": {
-      "accuracy": 0.8539,
-      "precision": 0.9531,
-      "recall": 0.3385,
-      "f1": 0.471
+      "accuracy": 0.8081,
+      "precision": 0.7586,
+      "recall": 0.1128,
+      "f1": 0.1964
     },
-    "th_0.388": {
-      "accuracy": 0.7,
-      "precision": 0.3848,
-      "recall": 0.7538,
-      "f1": 0.5095
+    "th_optimo": {
+      "threshold": 0.4273,
+      "accuracy": 0.68,
+      "precision": 0.3427,
+      "recall": 0.5641,
+      "f1": 0.4264
     }
   }
 }

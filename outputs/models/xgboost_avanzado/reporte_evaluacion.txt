@@ -38,4 +38,8 @@ Top-10 Gain:
   10. sexo: 0.0111
 
 Top-5 SHAP:
-  SHAP no disponible
+  1. coincide_codigo_cups: 1.6765
+  2. edad: 0.8730
+  3. diag_encoded: 0.5404
+  4. dias_diferencia: 0.4526
+  5. diferencia_cantidad: 0.4018

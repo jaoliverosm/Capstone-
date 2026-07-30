@@ -40,10 +40,14 @@ Detectar y priorizar irregularidades en la facturación de servicios de salud me
 | XGBoost | A (Producción) | 0.9152 | 0.7738 | 0.7282 | 0.8256 |
 | Random Forest | B (Features CNN) | 0.8500 | 0.6138 | 0.4564 | 0.9368 |
 | XGBoost | B (Features CNN) | 0.8724 | 0.7009 | 0.6308 | 0.7885 |
-| CNN (Referencia)* | Transfer Learning | 0.7487 | 0.4710 | 0.3385 | 0.9531 |
+| CNN (Transfer Learning)* | B (Features CNN) | 0.6727 | 0.1964 | 0.1128 | 0.7586 |
 
-> *Corrida original del equipo. La corrida guardada del notebook 08 en este repositorio
-> reporta AUC ≈ 0.70 tras fine-tuning — pendiente de re-ejecutar y consolidar una sola cifra.
+> *Cifra consolidada el 29-jul-2026 a partir de una corrida limpia de
+> `notebooks/08_modelo_cnn_transfer_learning.ipynb` (kernel nuevo, Python 3.12 + TensorFlow 2.16.1),
+> medida en test tras el fine-tuning y al umbral 0.50, igual que el resto de la tabla. Con el umbral
+> operativo 0.4273 el CNN da precisión 0.343 / recall 0.564 / F1 0.426. Sustituye a la referencia
+> histórica 0.7487, que no es reproducible con el notebook de este repositorio. El entrenamiento no
+> es determinista en CPU: corridas limpias sucesivas dieron 0.6727, 0.6984 y 0.7104.
 
 ---
 
