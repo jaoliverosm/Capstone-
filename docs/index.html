@@ -386,7 +386,9 @@
 
 
 <!-- MODAL WORKFLOW -->
-<div id="workflowModal" class="fixed inset-0 z-50 flex flex-col bg-slate-950/95 backdrop-blur-sm" style="display:none" role="dialog" aria-modal="true" aria-label="Workflow LINE — Auditor Médico Digital">
+<div id="workflowModal" class="fixed inset-0 z-50" style="display:none" role="dialog" aria-modal="true" aria-label="Workflow LINE — Auditor Médico Digital">
+  <div class="absolute inset-0 bg-slate-950/95 backdrop-blur-sm" onclick="closeWorkflow()"></div>
+  <div class="relative z-10 flex flex-col h-full">
   <div class="flex items-center justify-between px-4 md:px-6 py-3 border-b border-slate-800 bg-slate-900/90">
     <div class="flex items-center gap-3 text-slate-200 font-semibold text-sm md:text-base">
       <span class="w-2.5 h-2.5 rounded-full bg-sky-400"></span>
@@ -1136,6 +1138,7 @@ LINE/
 &lt;/body&gt;
 &lt;/html&gt;
 " class="w-full h-full border-0"></iframe>
+      </div>
     </div>
   </div>
 </div>
@@ -1153,9 +1156,6 @@ LINE/
   }
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') closeWorkflow();
-  });
-  document.getElementById('workflowModal').addEventListener('click', function (e) {
-    if (e.target === this) closeWorkflow();
   });
 </script>
 
