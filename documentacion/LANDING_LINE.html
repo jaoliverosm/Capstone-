@@ -296,6 +296,109 @@
       <p class="text-slate-400 mt-4 max-w-2xl mx-auto">Diagrama interactivo del flujo completo: verificación BDUA, cruce HC vs PF, reglas de auditoría, pipeline CNN y estructura del proyecto.</p>
     </div>
     <div class="rounded-2xl border border-slate-800 bg-slate-950 overflow-hidden">
+      <div class="bg-gradient-to-br from-sky-950/60 via-slate-900 to-slate-950 p-10 md:p-14 text-center">
+        <div class="inline-flex items-center gap-2 text-sky-300 text-sm font-semibold mb-5">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/>
+          </svg>
+          Diagrama interactivo
+        </div>
+        <h3 class="text-2xl md:text-3xl font-extrabold mb-4">Explora el flujo completo del sistema</h3>
+        <p class="text-slate-400 max-w-2xl mx-auto mb-9">Verificación BDUA, cruce Historia Clínica vs Prefactura, reglas de auditoría, pipeline CNN y la estructura del proyecto: todo el sistema paso a paso en un diagrama interactivo, a pantalla completa.</p>
+        <button onclick="openWorkflow()" class="inline-flex items-center gap-3 bg-sky-500 hover:bg-sky-400 active:scale-[.98] text-white font-bold px-8 py-4 rounded-xl shadow-lg shadow-sky-500/25 transition-all cursor-pointer">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 8V6a2 2 0 012-2h2M4 16v2a2 2 0 002 2h2m8-16h2a2 2 0 012 2v2m0 8v2a2 2 0 01-2 2h-2"/>
+          </svg>
+          Ver workflow a pantalla completa
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DOCUMENTACION -->
+<section id="documentacion" class="max-w-6xl mx-auto px-6 py-20">
+  <div class="text-center mb-12">
+    <p class="text-sky-400 font-semibold text-sm mb-3">DOCUMENTACIÓN</p>
+    <h2 class="text-3xl md:text-4xl font-extrabold">Recursos del proyecto</h2>
+    <p class="text-slate-400 mt-4 max-w-2xl mx-auto">Informe académico, presentación, métricas oficiales y repositorios de código.</p>
+  </div>
+  <div class="grid md:grid-cols-3 gap-4">
+    <a href="https://github.com/jaoliverosm/Capstone-/blob/main/documentacion/Informe_Tecnico_LINE_APA.docx" target="_blank" rel="noopener" class="rounded-2xl bg-slate-900 border border-slate-800 p-6 card-hover block hover:border-sky-400/50">
+      <div class="text-4xl mb-3">📄</div>
+      <div class="font-semibold">Informe técnico (APA)</div>
+      <div class="text-xs text-slate-400 mt-2">Documento académico completo del proyecto.</div>
+    </a>
+    <a href="https://github.com/jaoliverosm/Capstone-/blob/main/documentacion/LINE-Auditor-Medico-Digital.pptx" target="_blank" rel="noopener" class="rounded-2xl bg-slate-900 border border-slate-800 p-6 card-hover block hover:border-sky-400/50">
+      <div class="text-4xl mb-3">📊</div>
+      <div class="font-semibold">Presentación del proyecto</div>
+      <div class="text-xs text-slate-400 mt-2">PPTX / PDF con la síntesis ejecutiva.</div>
+    </a>
+    <a href="https://github.com/jaoliverosm/Capstone-/blob/main/documentacion/metricas_oficiales.md" target="_blank" rel="noopener" class="rounded-2xl bg-slate-900 border border-slate-800 p-6 card-hover block hover:border-sky-400/50">
+      <div class="text-4xl mb-3">📈</div>
+      <div class="font-semibold">Métricas oficiales</div>
+      <div class="text-xs text-slate-400 mt-2">Consolidado auditable de los modelos.</div>
+    </a>
+    <a href="https://github.com/jaoliverosm/Capstone-" target="_blank" rel="noopener" class="rounded-2xl bg-slate-900 border border-slate-800 p-6 card-hover block hover:border-sky-400/50">
+      <div class="text-4xl mb-3">🧠</div>
+      <div class="font-semibold">Repo Capstone</div>
+      <div class="text-xs text-slate-400 mt-2">Notebooks, datos y modelos.</div>
+    </a>
+    <a href="https://github.com/jaoliverosm/LINE" target="_blank" rel="noopener" class="rounded-2xl bg-slate-900 border border-slate-800 p-6 card-hover block hover:border-sky-400/50">
+      <div class="text-4xl mb-3">⚡</div>
+      <div class="font-semibold">Repo LINE</div>
+      <div class="text-xs text-slate-400 mt-2">Aplicación web y API.</div>
+    </a>
+    <a href="https://github.com/jaoliverosm/Capstone-/blob/main/LICENSE" target="_blank" rel="noopener" class="rounded-2xl bg-slate-900 border border-slate-800 p-6 card-hover block hover:border-sky-400/50">
+      <div class="text-4xl mb-3">📜</div>
+      <div class="font-semibold">Licencia MIT</div>
+      <div class="text-xs text-slate-400 mt-2">Texto completo de la licencia.</div>
+    </a>
+  </div>
+</section>
+
+
+<!-- CTA -->
+<section id="contacto" class="gradient-hero">
+  <div class="max-w-4xl mx-auto px-6 py-20 text-center">
+    <h2 class="text-3xl md:text-4xl font-extrabold mb-4">¿Listo para auditar mejor?</h2>
+    <p class="text-slate-300 mb-8 max-w-2xl mx-auto">Explora el código, la documentación técnica y el informe académico del proyecto.</p>
+    <div class="flex flex-wrap justify-center gap-4">
+      <a href="https://github.com/jaoliverosm/Capstone-" class="px-6 py-3 rounded-xl bg-sky-400 text-slate-900 font-semibold hover:bg-sky-300 transition-colors">Repositorio Capstone</a>
+      <a href="https://github.com/jaoliverosm/LINE" class="px-6 py-3 rounded-xl border border-white/25 hover:bg-white/10 transition-colors">Repositorio LINE</a>
+      <a href="https://github.com/jaoliverosm/Capstone-/blob/main/documentacion/Informe_Tecnico_LINE_APA.docx" class="px-6 py-3 rounded-xl border border-white/25 hover:bg-white/10 transition-colors">Informe técnico (APA)</a>
+    </div>
+    <p class="text-xs text-slate-400 mt-10">Health & Life IPS SAS · Capstone Sistemas Inteligentes y Computacionales 2025 · Datos sintéticos para fines académicos</p>
+  </div>
+</section>
+
+<footer class="border-t border-slate-800">
+  <div class="max-w-6xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-500">
+    <span>© 2026 LINE — Auditor Médico Digital · Health & Life IPS</span>
+    <div class="flex gap-6">
+      <a href="https://github.com/jaoliverosm/Capstone-" class="hover:text-sky-300 transition-colors">Capstone (repo)</a>
+      <a href="https://github.com/jaoliverosm/LINE" class="hover:text-sky-300 transition-colors">LINE (repo)</a>
+      <a href="https://github.com/jaoliverosm/Capstone-/blob/main/documentacion/metricas_oficiales.md" class="hover:text-sky-300 transition-colors">Métricas oficiales</a>
+      <a href="https://github.com/jaoliverosm/Capstone-/blob/main/LICENSE" class="hover:text-sky-300 transition-colors">Licencia MIT</a>
+    </div>
+  </div>
+</footer>
+
+
+<!-- MODAL WORKFLOW -->
+<div id="workflowModal" class="fixed inset-0 z-50 flex flex-col bg-slate-950/95 backdrop-blur-sm" style="display:none" role="dialog" aria-modal="true" aria-label="Workflow LINE — Auditor Médico Digital">
+  <div class="flex items-center justify-between px-4 md:px-6 py-3 border-b border-slate-800 bg-slate-900/90">
+    <div class="flex items-center gap-3 text-slate-200 font-semibold text-sm md:text-base">
+      <span class="w-2.5 h-2.5 rounded-full bg-sky-400"></span>
+      Workflow LINE — Auditor Médico Digital
+    </div>
+    <button onclick="closeWorkflow()" class="inline-flex items-center gap-2 text-slate-300 hover:text-white bg-slate-800 hover:bg-slate-700 px-4 py-2 rounded-lg text-sm font-semibold transition-colors cursor-pointer">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+      Cerrar
+    </button>
+  </div>
+  <div class="flex-1 min-h-0 p-2 md:p-4">
+    <div class="h-full rounded-xl border border-slate-700 bg-white overflow-hidden">
       <iframe title="Workflow LINE" srcdoc="&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;es&quot;&gt;
 &lt;head&gt;
@@ -1032,78 +1135,29 @@ LINE/
 
 &lt;/body&gt;
 &lt;/html&gt;
-" class="w-full" style="height: 720px; border: 0;"></iframe>
+" class="w-full h-full border-0"></iframe>
     </div>
   </div>
-</section>
+</div>
 
-<!-- DOCUMENTACION -->
-<section id="documentacion" class="max-w-6xl mx-auto px-6 py-20">
-  <div class="text-center mb-12">
-    <p class="text-sky-400 font-semibold text-sm mb-3">DOCUMENTACIÓN</p>
-    <h2 class="text-3xl md:text-4xl font-extrabold">Recursos del proyecto</h2>
-    <p class="text-slate-400 mt-4 max-w-2xl mx-auto">Informe académico, presentación, métricas oficiales y repositorios de código.</p>
-  </div>
-  <div class="grid md:grid-cols-3 gap-4">
-    <a href="https://github.com/jaoliverosm/Capstone-/blob/main/documentacion/Informe_Tecnico_LINE_APA.docx" target="_blank" rel="noopener" class="rounded-2xl bg-slate-900 border border-slate-800 p-6 card-hover block hover:border-sky-400/50">
-      <div class="text-4xl mb-3">📄</div>
-      <div class="font-semibold">Informe técnico (APA)</div>
-      <div class="text-xs text-slate-400 mt-2">Documento académico completo del proyecto.</div>
-    </a>
-    <a href="https://github.com/jaoliverosm/Capstone-/blob/main/documentacion/LINE-Auditor-Medico-Digital.pptx" target="_blank" rel="noopener" class="rounded-2xl bg-slate-900 border border-slate-800 p-6 card-hover block hover:border-sky-400/50">
-      <div class="text-4xl mb-3">📊</div>
-      <div class="font-semibold">Presentación del proyecto</div>
-      <div class="text-xs text-slate-400 mt-2">PPTX / PDF con la síntesis ejecutiva.</div>
-    </a>
-    <a href="https://github.com/jaoliverosm/Capstone-/blob/main/documentacion/metricas_oficiales.md" target="_blank" rel="noopener" class="rounded-2xl bg-slate-900 border border-slate-800 p-6 card-hover block hover:border-sky-400/50">
-      <div class="text-4xl mb-3">📈</div>
-      <div class="font-semibold">Métricas oficiales</div>
-      <div class="text-xs text-slate-400 mt-2">Consolidado auditable de los modelos.</div>
-    </a>
-    <a href="https://github.com/jaoliverosm/Capstone-" target="_blank" rel="noopener" class="rounded-2xl bg-slate-900 border border-slate-800 p-6 card-hover block hover:border-sky-400/50">
-      <div class="text-4xl mb-3">🧠</div>
-      <div class="font-semibold">Repo Capstone</div>
-      <div class="text-xs text-slate-400 mt-2">Notebooks, datos y modelos.</div>
-    </a>
-    <a href="https://github.com/jaoliverosm/LINE" target="_blank" rel="noopener" class="rounded-2xl bg-slate-900 border border-slate-800 p-6 card-hover block hover:border-sky-400/50">
-      <div class="text-4xl mb-3">⚡</div>
-      <div class="font-semibold">Repo LINE</div>
-      <div class="text-xs text-slate-400 mt-2">Aplicación web y API.</div>
-    </a>
-    <a href="https://github.com/jaoliverosm/Capstone-/blob/main/LICENSE" target="_blank" rel="noopener" class="rounded-2xl bg-slate-900 border border-slate-800 p-6 card-hover block hover:border-sky-400/50">
-      <div class="text-4xl mb-3">📜</div>
-      <div class="font-semibold">Licencia MIT</div>
-      <div class="text-xs text-slate-400 mt-2">Texto completo de la licencia.</div>
-    </a>
-  </div>
-</section>
-
-
-<!-- CTA -->
-<section id="contacto" class="gradient-hero">
-  <div class="max-w-4xl mx-auto px-6 py-20 text-center">
-    <h2 class="text-3xl md:text-4xl font-extrabold mb-4">¿Listo para auditar mejor?</h2>
-    <p class="text-slate-300 mb-8 max-w-2xl mx-auto">Explora el código, la documentación técnica y el informe académico del proyecto.</p>
-    <div class="flex flex-wrap justify-center gap-4">
-      <a href="https://github.com/jaoliverosm/Capstone-" class="px-6 py-3 rounded-xl bg-sky-400 text-slate-900 font-semibold hover:bg-sky-300 transition-colors">Repositorio Capstone</a>
-      <a href="https://github.com/jaoliverosm/LINE" class="px-6 py-3 rounded-xl border border-white/25 hover:bg-white/10 transition-colors">Repositorio LINE</a>
-      <a href="https://github.com/jaoliverosm/Capstone-/blob/main/documentacion/Informe_Tecnico_LINE_APA.docx" class="px-6 py-3 rounded-xl border border-white/25 hover:bg-white/10 transition-colors">Informe técnico (APA)</a>
-    </div>
-    <p class="text-xs text-slate-400 mt-10">Health & Life IPS SAS · Capstone Sistemas Inteligentes y Computacionales 2025 · Datos sintéticos para fines académicos</p>
-  </div>
-</section>
-
-<footer class="border-t border-slate-800">
-  <div class="max-w-6xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-500">
-    <span>© 2026 LINE — Auditor Médico Digital · Health & Life IPS</span>
-    <div class="flex gap-6">
-      <a href="https://github.com/jaoliverosm/Capstone-" class="hover:text-sky-300 transition-colors">Capstone (repo)</a>
-      <a href="https://github.com/jaoliverosm/LINE" class="hover:text-sky-300 transition-colors">LINE (repo)</a>
-      <a href="https://github.com/jaoliverosm/Capstone-/blob/main/documentacion/metricas_oficiales.md" class="hover:text-sky-300 transition-colors">Métricas oficiales</a>
-      <a href="https://github.com/jaoliverosm/Capstone-/blob/main/LICENSE" class="hover:text-sky-300 transition-colors">Licencia MIT</a>
-    </div>
-  </div>
-</footer>
+<script>
+  function openWorkflow() {
+    var m = document.getElementById('workflowModal');
+    m.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+  }
+  function closeWorkflow() {
+    var m = document.getElementById('workflowModal');
+    m.style.display = 'none';
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeWorkflow();
+  });
+  document.getElementById('workflowModal').addEventListener('click', function (e) {
+    if (e.target === this) closeWorkflow();
+  });
+</script>
 
 </body>
 </html>
