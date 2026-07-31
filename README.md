@@ -387,7 +387,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 ## 🙏 Agradecimientos
 
 - Brenda Forero (ASISTENCIAL TICS)
-- Carolina       (DESAROLLADORA DE SOFTWARE)
+- Carolina  Guarin Duque (INGENIERA DE SISTEMAS)
 - Fernando Alvira (INGENIERO LIDER TICS )
 
 
