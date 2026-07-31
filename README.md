@@ -13,6 +13,28 @@ Sistema inteligente de auditoría médica para la detección automática de **in
 
 Detectar y priorizar irregularidades en la facturación de servicios de salud mediante análisis predictivo, permitiendo a los auditores enfocar su esfuerzo en los casos de mayor impacto financiero.
 
+> **🔗 Aplicación funcional:** este módulo contiene el análisis y los modelos; la aplicación web **LINE** vive en el repositorio hermano [`LINE/`](../LINE/README.md).
+
+---
+
+## 📑 Índice
+
+- [Resultados Clave](#-resultados-clave)
+- [Rendimiento de Modelos](#-rendimiento-de-modelos)
+- [Galería de Resultados](#-galería-de-resultados)
+- [Estructura del Proyecto](#-estructura-del-proyecto)
+- [Tipos de Inconsistencias Detectadas](#-tipos-de-inconsistencias-detectadas)
+- [Instalación](#-instalación)
+- [Pipeline de Procesamiento](#-pipeline-de-procesamiento)
+- [Features Principales](#-features-principales)
+- [Distribución del Target](#-distribución-del-target)
+- [Uso del Modelo](#-uso-del-modelo)
+- [Diccionario de Datos](#-diccionario-de-datos)
+- [Contribuciones](#-contribuciones)
+- [Licencia](#-licencia)
+- [Autores](#-autores)
+- [Agradecimientos](#-agradecimientos)
+
 ---
 
 ## 📊 Resultados Clave
@@ -26,6 +48,10 @@ Detectar y priorizar irregularidades en la facturación de servicios de salud me
 | **Registros de HC sin atención asociada** (`ATN-JEF-000001`) | 2 |
 | **Mejor modelo (AUC-ROC)** | 0.9185 (Random Forest) |
 | **Mejor F1-Score** | 0.7738 (XGBoost) |
+
+> ⚠️ *Las cifras de esta tabla provienen del **notebook 05** (threshold 0.50). El modelo en producción es el
+> **XGBoost avanzado del notebook 07** (AUC 0.8983, F1 0.7864, precisión 99.2%, umbral 0.896). Ver la
+> [fuente oficial consolidada](documentacion/metricas_oficiales.md) para la comparación entre pipelines.*
 
 > **Nota (revisión 26-jul-2026):** la pérdida se recalculó. La cifra anterior ($41,571,660)
 > multiplicaba las fugas por un promedio de `valor_unitario` que incluía los **ceros imputados
@@ -298,8 +324,9 @@ alertas = predicciones >= threshold
 | Random Forest (nb 05, esc. A) | 0.23 | 85.1% | 60.1% | Máxima sensibilidad (foco en fugas) |
 | XGBoost avanzado (nb 07) | 0.896 | 65.1% | 99.2% | Mínimos falsos positivos |
 
-> *Cifras tomadas de `outputs/reports/metrics.json` (nb 05) y `outputs/models/xgboost_avanzado/` (nb 07).
-> Ajustar el umbral según el costo relativo de falsos positivos vs falsos negativos en su contexto.*
+> *Cifras tomadas de `outputs/reports/metrics.json` (nb 05) y `outputs/models/xgboost_avanzado/` (nb 07).*
+> *📊 **Fuente oficial de métricas:** [`documentacion/metricas_oficiales.md`](documentacion/metricas_oficiales.md) — consolidado auditable desde `outputs/reports/metrics.json`.*
+> *Ajustar el umbral según el costo relativo de falsos positivos vs falsos negativos en su contexto.*
 
 ---
 
@@ -356,6 +383,9 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 ## 🙏 Agradecimientos
 
 - Brenda Forero (ASISTENCIAL TICS)
+- Carolina       (DESAROLLADORA DE SOFTWARE)
+- Fernando Alvira (INGENIERO LIDER TICS )
+
 
 ---
 
