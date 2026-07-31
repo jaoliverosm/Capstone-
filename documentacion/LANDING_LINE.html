@@ -29,6 +29,7 @@
     <div class="hidden md:flex items-center gap-6 text-sm text-slate-200">
       <a href="#solucion" class="hover:text-sky-300 transition-colors">Solución</a>
       <a href="#metricas" class="hover:text-sky-300 transition-colors">Métricas</a>
+      <a href="#video" class="hover:text-sky-300 transition-colors">Video</a>
       <a href="#como-funciona" class="hover:text-sky-300 transition-colors">Cómo funciona</a>
       <a href="#stack" class="hover:text-sky-300 transition-colors">Stack</a>
       <a href="#equipo" class="hover:text-sky-300 transition-colors">Equipo</a>
@@ -48,7 +49,7 @@
     </p>
     <div class="flex flex-wrap justify-center gap-4">
       <a href="#metricas" class="px-6 py-3 rounded-xl bg-sky-400 text-slate-900 font-semibold hover:bg-sky-300 transition-colors">Ver resultados</a>
-      <a href="#como-funciona" class="px-6 py-3 rounded-xl border border-white/25 hover:bg-white/10 transition-colors">Cómo funciona</a>
+      <a href="#video" class="px-6 py-3 rounded-xl border border-white/25 hover:bg-white/10 transition-colors">Ver video del proyecto</a>
     </div>
   </div>
 
@@ -166,6 +167,32 @@
   </div>
 </section>
 
+<!-- VIDEO -->
+<section id="video" class="max-w-6xl mx-auto px-6 py-20">
+  <div class="text-center mb-12">
+    <p class="text-sky-400 font-semibold text-sm mb-3">VIDEO</p>
+    <h2 class="text-3xl md:text-4xl font-extrabold">El proyecto en acción</h2>
+    <p class="text-slate-400 mt-4 max-w-2xl mx-auto">Conoce cómo LINE audita una prefactura de principio a fin: verificación BDUA, cruce HC vs PF, modelos de IA y recomendación.</p>
+  </div>
+  <div class="max-w-4xl mx-auto rounded-2xl border border-slate-800 bg-slate-900 overflow-hidden card-hover">
+    <!-- ⬇️ PEGA AQUÍ EL VIDEO FINAL DEL PROYECTO (reemplaza el bloque de abajo) ⬇️
+         Ejemplo con YouTube:
+         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/TU_ID" title="Video LINE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         Ejemplo con Google Drive:
+         <video class="w-full aspect-video" controls src="https://drive.google.com/uc?export=download&id=TU_ID"></video>
+    -->
+    <div class="w-full aspect-video flex flex-col items-center justify-center gap-4 bg-slate-950/60">
+      <div class="w-20 h-20 rounded-full bg-sky-400/20 border border-sky-400/30 flex items-center justify-center">
+        <svg class="w-9 h-9 text-sky-300 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+      <div class="text-center px-6">
+        <p class="font-semibold text-lg">Video del pitch próximamente</p>
+        <p class="text-sm text-slate-400 mt-1">Aquí se cargará el video final del proyecto (pitch de 3 minutos).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- COMO FUNCIONA -->
 <section id="como-funciona" class="max-w-6xl mx-auto px-6 py-20">
   <div class="text-center mb-12">
@@ -221,13 +248,39 @@
   <div class="text-center mb-12">
     <p class="text-sky-400 font-semibold text-sm mb-3">EQUIPO</p>
     <h2 class="text-3xl md:text-4xl font-extrabold">Quiénes lo construyen</h2>
+    <p class="text-slate-400 mt-4">Haz clic en cada integrante para ver su perfil en GitHub.</p>
   </div>
   <div class="grid grid-cols-2 md:grid-cols-5 gap-4 text-center">
-    <div class="rounded-2xl bg-slate-900 border border-slate-800 p-6 card-hover"><div class="text-4xl mb-3">👨‍💻</div><div class="font-semibold">Jefersson Oliveros</div><div class="text-xs text-sky-300 mt-1">Líder</div></div>
-    <div class="rounded-2xl bg-slate-900 border border-slate-800 p-6 card-hover"><div class="text-4xl mb-3">👩‍💻</div><div class="font-semibold">Jazmine Acosta</div><div class="text-xs text-slate-400 mt-1">Integrante</div></div>
-    <div class="rounded-2xl bg-slate-900 border border-slate-800 p-6 card-hover"><div class="text-4xl mb-3">👨‍💻</div><div class="font-semibold">Iván Cristancho</div><div class="text-xs text-slate-400 mt-1">Integrante</div></div>
-    <div class="rounded-2xl bg-slate-900 border border-slate-800 p-6 card-hover"><div class="text-4xl mb-3">👩‍💻</div><div class="font-semibold">Isabella Cuesta</div><div class="text-xs text-slate-400 mt-1">Integrante</div></div>
-    <div class="rounded-2xl bg-slate-900 border border-slate-800 p-6 card-hover"><div class="text-4xl mb-3">👩‍💻</div><div class="font-semibold">Catalina Pantoja</div><div class="text-xs text-slate-400 mt-1">Integrante</div></div>
+    <a href="https://github.com/jaoliverosm" target="_blank" rel="noopener" class="rounded-2xl bg-slate-900 border border-slate-800 p-6 card-hover block hover:border-sky-400/50">
+      <div class="text-4xl mb-3">👨‍💻</div>
+      <div class="font-semibold">Jefersson Oliveros</div>
+      <div class="text-xs text-sky-300 mt-1">Líder</div>
+      <div class="text-xs text-slate-500 mt-2 flex items-center justify-center gap-1">🐙 @jaoliverosm</div>
+    </a>
+    <a href="https://github.com/search?q=Iv%C3%A1n+Cristancho&type=users" target="_blank" rel="noopener" class="rounded-2xl bg-slate-900 border border-slate-800 p-6 card-hover block hover:border-sky-400/50">
+      <div class="text-4xl mb-3">👨‍💻</div>
+      <div class="font-semibold">Iván Cristancho</div>
+      <div class="text-xs text-slate-400 mt-1">Integrante</div>
+      <div class="text-xs text-slate-500 mt-2 flex items-center justify-center gap-1">🐙 GitHub</div>
+    </a>
+    <a href="https://github.com/search?q=Jazmine+Acosta&type=users" target="_blank" rel="noopener" class="rounded-2xl bg-slate-900 border border-slate-800 p-6 card-hover block hover:border-sky-400/50">
+      <div class="text-4xl mb-3">👩‍💻</div>
+      <div class="font-semibold">Jazmine Acosta</div>
+      <div class="text-xs text-slate-400 mt-1">Integrante</div>
+      <div class="text-xs text-slate-500 mt-2 flex items-center justify-center gap-1">🐙 GitHub</div>
+    </a>
+    <a href="https://github.com/search?q=Isabella+Cuesta&type=users" target="_blank" rel="noopener" class="rounded-2xl bg-slate-900 border border-slate-800 p-6 card-hover block hover:border-sky-400/50">
+      <div class="text-4xl mb-3">👩‍💻</div>
+      <div class="font-semibold">Isabella Cuesta</div>
+      <div class="text-xs text-slate-400 mt-1">Integrante</div>
+      <div class="text-xs text-slate-500 mt-2 flex items-center justify-center gap-1">🐙 GitHub</div>
+    </a>
+    <a href="https://github.com/search?q=Catalina+Pantoja&type=users" target="_blank" rel="noopener" class="rounded-2xl bg-slate-900 border border-slate-800 p-6 card-hover block hover:border-sky-400/50">
+      <div class="text-4xl mb-3">👩‍💻</div>
+      <div class="font-semibold">Catalina Pantoja</div>
+      <div class="text-xs text-slate-400 mt-1">Integrante</div>
+      <div class="text-xs text-slate-500 mt-2 flex items-center justify-center gap-1">🐙 GitHub</div>
+    </a>
   </div>
 </section>
 
@@ -235,10 +288,10 @@
 <section id="contacto" class="gradient-hero">
   <div class="max-w-4xl mx-auto px-6 py-20 text-center">
     <h2 class="text-3xl md:text-4xl font-extrabold mb-4">¿Listo para auditar mejor?</h2>
-    <p class="text-slate-300 mb-8 max-w-2xl mx-auto">Conoce el sistema completo: flujo de trabajo, documentación técnica y el informe académico del proyecto.</p>
+    <p class="text-slate-300 mb-8 max-w-2xl mx-auto">Explora el código, la documentación técnica y el informe académico del proyecto.</p>
     <div class="flex flex-wrap justify-center gap-4">
-      <a href="https://github.com/jaoliverosm/LINE" class="px-6 py-3 rounded-xl bg-sky-400 text-slate-900 font-semibold hover:bg-sky-300 transition-colors">Ver repositorio LINE</a>
-      <a href="../../LINE/docs/workflow.html" class="px-6 py-3 rounded-xl border border-white/25 hover:bg-white/10 transition-colors" title="Solo accesible desde la carpeta local del proyecto">Workflow interactivo (local)</a>
+      <a href="https://github.com/jaoliverosm/Capstone-" class="px-6 py-3 rounded-xl bg-sky-400 text-slate-900 font-semibold hover:bg-sky-300 transition-colors">Repositorio Capstone</a>
+      <a href="https://github.com/jaoliverosm/LINE" class="px-6 py-3 rounded-xl border border-white/25 hover:bg-white/10 transition-colors">Repositorio LINE</a>
       <a href="Informe_Tecnico_LINE_APA.docx" class="px-6 py-3 rounded-xl border border-white/25 hover:bg-white/10 transition-colors">Informe técnico (APA)</a>
     </div>
     <p class="text-xs text-slate-400 mt-10">Health & Life IPS SAS · Capstone Sistemas Inteligentes y Computacionales 2025 · Datos sintéticos para fines académicos</p>
@@ -249,7 +302,8 @@
   <div class="max-w-6xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-500">
     <span>© 2026 LINE — Auditor Médico Digital · Health & Life IPS</span>
     <div class="flex gap-6">
-      <a href="https://github.com/jaoliverosm/LINE" class="hover:text-sky-300 transition-colors">LINE · Privacidad y seguridad (repo)</a>
+      <a href="https://github.com/jaoliverosm/Capstone-" class="hover:text-sky-300 transition-colors">Capstone (repo)</a>
+      <a href="https://github.com/jaoliverosm/LINE" class="hover:text-sky-300 transition-colors">LINE (repo)</a>
       <a href="metricas_oficiales.md" class="hover:text-sky-300 transition-colors">Métricas oficiales</a>
     </div>
   </div>

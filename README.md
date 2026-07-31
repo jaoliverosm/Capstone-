@@ -47,7 +47,7 @@ Detectar y priorizar irregularidades en la facturación de servicios de salud me
 | **Valor unitario promedio (ítems facturados)** | $287,476 COP |
 | **Registros de HC sin atención asociada** (`ATN-JEF-000001`) | 2 |
 | **Mejor modelo (AUC-ROC)** | 0.9185 (Random Forest) |
-| **Mejor F1-Score** | 0.7738 (XGBoost) |
+| **Mejor F1-Score (producción)** | 0.7864 (XGBoost ⭐ nb 07) |
 
 > ⚠️ *Las cifras de esta tabla provienen del **notebook 05** (threshold 0.50). El modelo en producción es el
 > **XGBoost avanzado del notebook 07** (AUC 0.8983, F1 0.7864, precisión 99.2%, umbral 0.896). Ver la
@@ -60,13 +60,13 @@ Detectar y priorizar irregularidades en la facturación de servicios de salud me
 
 ### 🤖 Rendimiento de Modelos
 
-| Modelo | Escenario | AUC-ROC | F1 | Recall | Precisión |
-|--------|-----------|---------|-----|--------|-----------|
-| Random Forest | A (Producción) | 0.9185 | 0.7346 | 0.6103 | 0.9225 |
-| XGBoost | A (Producción) | 0.9152 | 0.7738 | 0.7282 | 0.8256 |
-| Random Forest | B (Features CNN) | 0.8500 | 0.6138 | 0.4564 | 0.9368 |
-| XGBoost | B (Features CNN) | 0.8724 | 0.7009 | 0.6308 | 0.7885 |
-| CNN (Transfer Learning)* | B (Features CNN) | 0.6727 | 0.1964 | 0.1128 | 0.7586 |
+| Modelo | Escenario | AUC-ROC | F1 | Recall | Precisión | Umbral | Notebook |
+|--------|-----------|---------|-----|--------|-----------|--------|----------|
+| **XGBoost ⭐** | A (Producción) | **0.8983** | **0.7864** | 0.6513 | **0.9922** | 0.896 | 07 |
+| Random Forest | A (Producción) | 0.9185 | 0.7346 | 0.6103 | 0.9225 | 0.50 | 05 |
+| Random Forest | B (Features CNN) | 0.8500 | 0.6138 | 0.4564 | 0.9368 | 0.50 | 05 |
+| XGBoost | B (Features CNN) | 0.8707 | 0.6799 | 0.6154 | 0.7595 | 0.50 | 05 |
+| CNN (Transfer Learning) | B (Features CNN) | 0.6727 | 0.4264 | 0.5641 | 0.3427 | 0.4273 | 08 |
 
 > ⚠️ *Esta tabla corresponde al **notebook 05** (umbral 0.50). El modelo en producción es el **XGBoost
 > avanzado del notebook 07** (AUC 0.8983, F1 0.7864, precisión 99.2%). Ver la
