@@ -68,6 +68,10 @@ Detectar y priorizar irregularidades en la facturación de servicios de salud me
 | XGBoost | B (Features CNN) | 0.8724 | 0.7009 | 0.6308 | 0.7885 |
 | CNN (Transfer Learning)* | B (Features CNN) | 0.6727 | 0.1964 | 0.1128 | 0.7586 |
 
+> ⚠️ *Esta tabla corresponde al **notebook 05** (umbral 0.50). El modelo en producción es el **XGBoost
+> avanzado del notebook 07** (AUC 0.8983, F1 0.7864, precisión 99.2%). Ver la
+> [fuente oficial consolidada](documentacion/metricas_oficiales.md) para la comparación entre pipelines.*
+
 > *Cifra consolidada el 29-jul-2026 a partir de una corrida limpia de
 > `notebooks/08_modelo_cnn_transfer_learning.ipynb` (kernel nuevo, Python 3.12 + TensorFlow 2.16.1),
 > medida en test tras el fine-tuning y al umbral 0.50, igual que el resto de la tabla. Con el umbral
