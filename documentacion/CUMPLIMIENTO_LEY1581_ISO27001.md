@@ -4,22 +4,22 @@
 **Fecha:** 30 de julio de 2026  
 **Versión:** 1.0  
 **Estado:** Borrador para revisión  
-**Responsable:** Equipo Capstone  
+**Autor:** Jefersson Aldair Oliveros Monroy (líder del proyecto)  
 
 ---
 
-## 📋 Resumen Ejecutivo
+## Resumen ejecutivo
 
 | Normativa | Estado Actual | Acción Requerida |
 |-----------|---------------|------------------|
-| **Ley 1581/2012** (Protección datos personales Colombia) | ❌ No cumple para producción | Implementar 10 controles mínimos viables |
-| **ISO/IEC 27001:2022** (SGSI) | ❌ No certifiable (~5% controles) | Definir hoja de ruta 6-12 meses |
+| **Ley 1581/2012** (Protección datos personales Colombia) | No cumple para producción | Implementar 10 controles mínimos viables |
+| **ISO/IEC 27001:2022** (SGSI) | No certificable (~5% controles) | Definir hoja de ruta 6-12 meses |
 
 > **Nota clave:** El proyecto usa **datos sintéticos** para fines académicos (entrega 04-ago-2026). **No viola la ley hoy**. Pero el sistema **diseñado para producción SÍ requiere** estos controles antes de procesar datos reales de pacientes.
 
 ---
 
-## 🎯 Objetivos de este documento
+## Objetivos de este documento
 
 1. **Consolidar** hallazgos de cumplimiento legal y de seguridad
 2. **Priorizar** acciones por impacto/riesgo
@@ -42,16 +42,16 @@
 
 | # | Control | Estado | Brecha | Prioridad |
 |---|---------|--------|--------|-----------|
-| 1 | Aviso de privacidad público | ❌ | No existe | 🔴 Crítica |
-| 2 | Mecanismo consentimiento expreso, granular, revocable | ❌ | No implementado | 🔴 Crítica |
-| 3 | Política interna protección de datos | ❌ | No documentada | 🔴 Crítica |
-| 4 | Registro Nacional Bases Datos (RNBD - SIC) | ❌ | Trámite no iniciado | 🔴 Crítica |
-| 5 | Procedimiento derechos ARCO (15 días hábiles) | ❌ | No hay portal/API/proceso | 🔴 Crítica |
-| 6 | Cifrado AES-256 (reposo) + TLS 1.3 (tránsito) | ❌ | No verificado | 🔴 Crítica |
-| 7 | Análisis de Impacto (PIA) para datos salud | ❌ | Requerido por Guía SIC | 🟠 Alta |
-| 8 | Contratos de encargo con proveedores (Nemotron, cloud) | ❌ | Sin cláusulas seguridad | 🟠 Alta |
-| 9 | Política retención/supresión (ej. 5 años datos salud) | ❌ | No definida | 🟠 Alta |
-| 10 | DPO designado (interno/externo) | ❌ | No asignado | 🟠 Alta |
+| 1 | Aviso de privacidad público | No | No existe | Crítica |
+| 2 | Mecanismo consentimiento expreso, granular, revocable | No | No implementado | Crítica |
+| 3 | Política interna protección de datos | No | No documentada | Crítica |
+| 4 | Registro Nacional Bases Datos (RNBD - SIC) | No | Trámite no iniciado | Crítica |
+| 5 | Procedimiento derechos ARCO (15 días hábiles) | No | No hay portal/API/proceso | Crítica |
+| 6 | Cifrado AES-256 (reposo) + TLS 1.3 (tránsito) | No | No verificado | Crítica |
+| 7 | Análisis de Impacto (PIA) para datos salud | No | Requerido por Guía SIC | Alta |
+| 8 | Contratos de encargo con proveedores (Nemotron, cloud) | No | Sin cláusulas seguridad | Alta |
+| 9 | Política retención/supresión (ej. 5 años datos salud) | No | No definida | Alta |
+| 10 | DPO designado (interno/externo) | No | No asignado | Alta |
 
 ### 1.3 Sanciones por incumplimiento (SIC)
 
@@ -70,44 +70,44 @@
 
 | Cláusula | Requisito | Estado | Acción |
 |----------|-----------|--------|--------|
-| **4. Contexto** | Partes interesadas, alcance SGSI, requisitos legales | ❌ | Definir alcance + mapear Ley 1581 |
-| **5. Liderazgo** | Política seguridad firmada, roles (DPO/CISO) | ❌ | Redactar política 1-página, firmar líder |
-| **6. Planificación** | **Análisis de riesgos** (activos, amenazas, impacto), Plan tratamiento, Objetivos medibles | ❌ | **NÚCLEO ISO 27001** — Hacer ISO 27005 ligero |
-| **7. Soporte** | Recursos, competencia, conciencia, info documentada | ❌ | Inventario políticas/procedimientos |
-| **8. Operación** | Implementar controles Anexo A, gestionar riesgos residuales, continuidad | ⚠️ Parcial | Priorizar controles tecnológicos |
-| **9. Evaluación** | Auditorías internas, revisión dirección, KPIs seguridad | ❌ | Definir métricas + calendarizar auditoría |
-| **10. Mejora** | No conformidades, acciones correctivas, mejora continua | ❌ | Establecer proceso PDCA |
+| **4. Contexto** | Partes interesadas, alcance SGSI, requisitos legales | No | Definir alcance + mapear Ley 1581 |
+| **5. Liderazgo** | Política seguridad firmada, roles (DPO/CISO) | No | Redactar política 1-página, firmar líder |
+| **6. Planificación** | **Análisis de riesgos** (activos, amenazas, impacto), Plan tratamiento, Objetivos medibles | No | Núcleo de ISO 27001 — hacer ISO 27005 ligero |
+| **7. Soporte** | Recursos, competencia, conciencia, info documentada | No | Inventario políticas/procedimientos |
+| **8. Operación** | Implementar controles Anexo A, gestionar riesgos residuales, continuidad | Parcial | Priorizar controles tecnológicos |
+| **9. Evaluación** | Auditorías internas, revisión dirección, KPIs seguridad | No | Definir métricas + calendarizar auditoría |
+| **10. Mejora** | No conformidades, acciones correctivas, mejora continua | No | Establecer proceso PDCA |
 
 ### 2.2 Anexo A — Controles críticos para este proyecto (top 20 de 93)
 
 | Control | Nombre | Estado | Acción inmediata |
 |---------|--------|--------|------------------|
-| **A.5.1** | Políticas de seguridad | ❌ | Redactar política 1-página |
-| **A.5.9** | Inventario de activos | ❌ | CMDB: datos, modelos, código, infra, APIs |
-| **A.5.11** | Clasificación información | ⚠️ Parcial | Formalizar política + etiquetado automático |
-| **A.5.19** | Seguridad en desarrollo | ⚠️ Parcial | SAST (Bandit/Semgrep) + secrets scanning |
-| **A.5.31** | Marco legal/regulatorio | ⚠️ Parcial | Mapear Ley 1581 Art. x Control ISO |
-| **A.5.34** | Privacidad / PII | ❌ | Integrar con controles Ley 1581 |
-| **A.8.2** | Gestión privilegios | ❌ | Least privilege en Jupyter, API, BD |
-| **A.8.3** | Restricción acceso info | ❌ | RBAC en `data/`, `outputs/models/`, API |
-| **A.8.4** | Acceso código fuente | ⚠️ Parcial | Branch protection + CODEOWNERS + signed commits |
-| **A.8.5** | Autenticación segura | ❌ | MFA + JWT en API (`server.py`) |
-| **A.8.9** | Gestión secretos | 🔴 **CRÍTICO** | Vault/Keyring — **NO .env en repo** |
-| **A.8.15** | Logging/registro eventos | ❌ | Logs estructurados + retención 1 año + alertas |
-| **A.8.21** | Seguridad servicios red | ❌ | WAF, rate limiting, validación input en API |
-| **A.8.24** | Criptografía | ❌ | Política claves, certificados, TLS 1.3 |
-| **A.8.25** | Desarrollo seguro | ⚠️ Parcial | SAST en CI/CD, threat modeling |
-| **A.8.30** | APIs seguras | ❌ | Auth, validación, rate limit, versionado en `server.py` |
-| **A.8.31** | Gestión vulnerabilidades | ❌ | `pip-audit` + Dependabot + SBOM (Syft) |
-| **A.7.1** | Perímetros físicos | ❌ | Control acceso laptops/servidor local |
-| **A.6.3** | Concienciación seguridad | ❌ | Capacitación equipo (phishing, manejo datos) |
-| **A.5.24** | Plan respuesta incidentes | ❌ | Definir CSIRT, playbooks, comunicación SIC |
+| **A.5.1** | Políticas de seguridad | No | Redactar política 1-página |
+| **A.5.9** | Inventario de activos | No | CMDB: datos, modelos, código, infra, APIs |
+| **A.5.11** | Clasificación información | Parcial | Formalizar política + etiquetado automático |
+| **A.5.19** | Seguridad en desarrollo | Parcial | SAST (Bandit/Semgrep) + secrets scanning |
+| **A.5.31** | Marco legal/regulatorio | Parcial | Mapear Ley 1581 Art. x Control ISO |
+| **A.5.34** | Privacidad / PII | No | Integrar con controles Ley 1581 |
+| **A.8.2** | Gestión privilegios | No | Least privilege en Jupyter, API, BD |
+| **A.8.3** | Restricción acceso info | No | RBAC en `data/`, `outputs/models/`, API |
+| **A.8.4** | Acceso código fuente | Parcial | Branch protection + CODEOWNERS + signed commits |
+| **A.8.5** | Autenticación segura | No | MFA + JWT en API (`server.py`) |
+| **A.8.9** | Gestión secretos | **Crítica** | Vault/Keyring — **NO .env en repo** |
+| **A.8.15** | Logging/registro eventos | No | Logs estructurados + retención 1 año + alertas |
+| **A.8.21** | Seguridad servicios red | No | WAF, rate limiting, validación input en API |
+| **A.8.24** | Criptografía | No | Política claves, certificados, TLS 1.3 |
+| **A.8.25** | Desarrollo seguro | Parcial | SAST en CI/CD, threat modeling |
+| **A.8.30** | APIs seguras | No | Auth, validación, rate limit, versionado en `server.py` |
+| **A.8.31** | Gestión vulnerabilidades | No | `pip-audit` + Dependabot + SBOM (Syft) |
+| **A.7.1** | Perímetros físicos | No | Control acceso laptops/servidor local |
+| **A.6.3** | Concienciación seguridad | No | Capacitación equipo (phishing, manejo datos) |
+| **A.5.24** | Plan respuesta incidentes | No | Definir CSIRT, playbooks, comunicación SIC |
 
 ---
 
 ## 3. PLAN DE ACCIÓN PRIORIZADO
 
-### 🔴 FASE 1 — CRÍTICO (Antes de cualquier piloto con datos reales)
+### Fase 1 — Crítica (Antes de cualquier piloto con datos reales)
 *Tiempo estimado: 2-4 semanas*
 
 | # | Acción | Control ISO | Control Ley 1581 | Responsable | Evidencia |
@@ -118,7 +118,7 @@
 | 4 | **`pip-audit` + Dependabot + SBOM (Syft) en CI** | A.8.31, A.5.17 | Seguridad cadena suministro | DevOps | Pipeline con gate de seguridad |
 | 5 | **Branch protection + CODEOWNERS + signed commits en GitHub** | A.8.4 | Integridad código | Líder técnico | Reglas aplicadas en repo |
 
-### 🟠 FASE 2 — ALTA (Primer mes de piloto)
+### Fase 2 — Alta (Primer mes de piloto)
 *Tiempo estimado: 4-6 semanas*
 
 | # | Acción | Control ISO | Control Ley 1581 | Responsable | Evidencia |
@@ -129,7 +129,7 @@
 | 9 | **Análisis de riesgos ISO 27005 simplificado** (10 activos principales) | Cl. 6.1.2 | Planificación | Líder + equipo | `documentacion/ANALISIS_RIESGOS.md` |
 | 10 | **Aviso de privacidad público + mecanismo consentimiento** | - | Art. 10, 15, 16 | Legal/Líder | Web/app con aviso, checkbox consentimiento |
 
-### 🟡 FASE 3 — MEDIA (Antes de producción)
+### Fase 3 — Media (Antes de producción)
 *Tiempo estimado: 2-3 meses*
 
 | # | Acción | Control ISO | Control Ley 1581 | Responsable | Evidencia |
@@ -200,19 +200,21 @@ Capstone/
 ├── documentacion/
 │   ├── CUMPLIMIENTO_LEY1581_ISO27001.md          ← ESTE ARCHIVO
 │   ├── AUDITORIA_REVISION_2026-07-26.md          # Hallazgos técnicos previos
-│   ├── Informe_Tecnico_LINE_APA.docx             # Agregar sección 4.7
-│   ├── LINE-Auditor-Medico-Digital.pptx          # Mencionar en slides
-│   └── (pendientes crear)
-│       ├── POLITICA_SEGURIDAD.md                 # Fase 1 - Acción 7
-│       ├── INVENTARIO_ACTIVOS.csv                # Fase 1 - Acción 8
-│       ├── ANALISIS_RIESGOS.md                   # Fase 1 - Acción 9
-│       ├── AVISO_PRIVACIDAD.md                   # Fase 2 - Acción 10
-│       ├── PIA_DATOS_SALUD.md                    # Fase 3 - Acción 11
-│       ├── PROCEDIMIENTO_ARCO.md                 # Fase 3 - Acción 13
-│       ├── POLITICA_RETENCION.md                 # Fase 3 - Acción 15
-│       └── PLAN_CONTINUIDAD.md                   # Fase 3 - Acción 17
-├── README.md                                     # Agregar disclaimer legal
-└── requirements.txt                              # Verificar vulnerabilidades
+│   ├── Informe_Tecnico_LINE_APA.docx             # Incluye sección 4.7
+│   └── LINE-Auditor-Medico-Digital.pptx          # Presentación del proyecto
+├── README.md                                     # Disclaimer legal agregado
+└── requirements.txt                              # Dependencias auditadas
+
+LINE/
+└── docs/                                         # Documentos de cumplimiento (creados)
+    ├── POLITICA_SEGURIDAD.md                     # Creado — Fase 1, Acción 7
+    ├── INVENTARIO_ACTIVOS.csv                    # Creado — Fase 1, Acción 8
+    ├── ANALISIS_RIESGOS.md                       # Creado — Fase 1, Acción 9
+    ├── AVISO_PRIVACIDAD.md                       # Creado — Fase 2, Acción 10
+    ├── POLITICA_RETENCION.md                     # Creado — Fase 3, Acción 15
+    └── CUMPLIMIENTO_LEY1581_ISO27001.md          # v1.1 — controles implementados
+
+Pendientes a futuro (post-piloto): PIA_DATOS_SALUD.md, PROCEDIMIENTO_ARCO.md, PLAN_CONTINUIDAD.md
 ```
 
 ---
@@ -232,7 +234,7 @@ Capstone/
 
 | Versión | Fecha | Autor | Cambios |
 |---------|-------|-------|---------|
-| 1.0 | 30-jul-2026 | Equipo Capstone | Creación inicial basada en análisis Ley 1581 e ISO 27001:2022 |
+| 1.0 | 30-jul-2026 | Jefersson Aldair Oliveros Monroy | Creación inicial basada en análisis Ley 1581 e ISO 27001:2022 |
 
 ---
 
