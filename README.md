@@ -13,7 +13,7 @@ Sistema inteligente de auditoría médica para la detección automática de **in
 
 Detectar y priorizar irregularidades en la facturación de servicios de salud mediante análisis predictivo, permitiendo a los auditores enfocar su esfuerzo en los casos de mayor impacto financiero.
 
-> **🔗 Aplicación funcional:** este módulo contiene el análisis y los modelos; la aplicación web **LINE** vive en el repositorio hermano [`LINE/`](../LINE/README.md).
+> **🔗 Aplicación funcional:** este módulo contiene el análisis y los modelos; la aplicación web **LINE** vive en el repositorio hermano https://github.com/jaoliverosm/LINE.git.
 
 ---
 
