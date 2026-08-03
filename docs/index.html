@@ -49,19 +49,19 @@
   <div class="absolute -top-16 -left-16 w-72 h-72 rounded-full bg-sky-500/25 blur-2xl float-slow pointer-events-none" style="will-change: transform;"></div>
   <div class="absolute -bottom-20 -right-16 w-80 h-80 rounded-full bg-indigo-500/25 blur-2xl float-slower pointer-events-none" style="will-change: transform;"></div>
   <nav class="relative max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
-    <div class="flex items-center gap-2">
+    <div class="flex items-center gap-2 shrink-0">
       <span class="w-9 h-9 rounded-lg bg-white/10 border border-white/20 flex items-center justify-center font-extrabold text-lg text-sky-300">L</span>
-      <span class="font-bold text-lg tracking-tight">LINE <span class="text-sky-300">· Auditor Médico Digital</span></span>
+      <span class="font-bold text-lg tracking-tight whitespace-nowrap">LINE <span class="text-sky-300 hidden md:inline">· Auditor Médico Digital</span></span>
     </div>
-    <div class="hidden md:flex items-center gap-6 text-sm text-slate-200">
-      <a href="#solucion" class="hover:text-sky-300 transition-colors">Solución</a>
-      <a href="#metricas" class="hover:text-sky-300 transition-colors">Métricas</a>
-      <a href="#video" class="hover:text-sky-300 transition-colors">Video</a>
-      <a href="#como-funciona" class="hover:text-sky-300 transition-colors">Cómo funciona</a>
-      <a href="#stack" class="hover:text-sky-300 transition-colors">Stack</a>
-      <a href="#workflow" class="hover:text-sky-300 transition-colors">Workflow</a>
-      <a href="#documentacion" class="hover:text-sky-300 transition-colors">Documentación</a>
-      <a href="#equipo" class="hover:text-sky-300 transition-colors">Equipo</a>
+    <div class="hidden md:flex items-center gap-3 xl:gap-5 text-[13px] xl:text-sm text-slate-200 whitespace-nowrap overflow-x-auto">
+      <a href="#solucion" class="hover:text-sky-300 transition-colors whitespace-nowrap">Solución</a>
+      <a href="#metricas" class="hover:text-sky-300 transition-colors whitespace-nowrap">Métricas</a>
+      <a href="#video" class="hover:text-sky-300 transition-colors whitespace-nowrap">Video</a>
+      <a href="#workflow" class="hover:text-sky-300 transition-colors whitespace-nowrap">Workflow</a>
+      <a href="#dashboard" class="hover:text-sky-300 transition-colors whitespace-nowrap">Dashboard</a>
+      <a href="#documentacion" class="hover:text-sky-300 transition-colors whitespace-nowrap">Documentación</a>
+      <a href="#faq" class="hover:text-sky-300 transition-colors whitespace-nowrap">FAQ</a>
+      <a href="#equipo" class="hover:text-sky-300 transition-colors whitespace-nowrap">Equipo</a>
     </div>
     <a href="#contacto" class="text-sm font-semibold px-4 py-2 rounded-lg bg-sky-400 text-slate-900 hover:bg-sky-300 transition-colors">Solicitar demo</a>
   </nav>
@@ -196,6 +196,35 @@
   </div>
 </section>
 
+<!-- DASHBOARD DE AUDITORIA -->
+<section id="dashboard" class="bg-slate-900/50 border-y border-slate-800">
+  <div class="max-w-6xl mx-auto px-6 py-20">
+    <div class="text-center mb-12">
+      <p class="text-sky-400 font-semibold text-sm mb-3 reveal">DASHBOARD DE AUDITORÍA</p>
+      <h2 class="text-3xl md:text-4xl font-extrabold reveal reveal-delay-1">Los resultados en un vistazo</h2>
+      <p class="text-slate-400 mt-4 max-w-2xl mx-auto reveal reveal-delay-2">Dashboard ejecutivo con el detalle de los 3,126 cruces auditados: inconsistencias por tipo, análisis por EPS/sede, distribución del target y comparación de modelos.</p>
+    </div>
+    <div class="rounded-2xl border border-slate-800 bg-slate-950 overflow-hidden reveal reveal-delay-1">
+      <div class="bg-gradient-to-br from-sky-950/60 via-slate-900 to-slate-950 p-10 md:p-14 text-center">
+        <div class="inline-flex items-center gap-2 text-sky-300 text-sm font-semibold mb-5">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+          </svg>
+          Dashboard ejecutivo interactivo
+        </div>
+        <h3 class="text-2xl md:text-3xl font-extrabold mb-4">Explora los resultados de la auditoría</h3>
+        <p class="text-slate-400 max-w-2xl mx-auto mb-9">Inconsistencias por tipo de alerta, tasas por EPS y sede, distribución del target, comparación de modelos y más: todo el análisis del módulo Capstone en un dashboard ejecutivo, a pantalla completa.</p>
+        <button onclick="openDashboard()" class="inline-flex items-center gap-3 bg-sky-500 hover:bg-sky-400 active:scale-[.98] text-white font-bold px-8 py-4 rounded-xl shadow-lg shadow-sky-500/25 transition-all cursor-pointer">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 8V6a2 2 0 012-2h2M4 16v2a2 2 0 002 2h2m8-16h2a2 2 0 012 2v2m0 8v2a2 2 0 01-2 2h-2"/>
+          </svg>
+          Ver dashboard a pantalla completa
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- VIDEO -->
 <section id="video" class="max-w-6xl mx-auto px-6 py-20">
   <div class="text-center mb-12">      <p class="text-sky-400 font-semibold text-sm mb-3 reveal">VIDEO</p>
@@ -203,21 +232,16 @@
     <p class="text-slate-400 mt-4 max-w-2xl mx-auto reveal reveal-delay-2">Conoce cómo LINE audita una prefactura de principio a fin: verificación BDUA, cruce HC vs PF, modelos de IA y recomendación.</p>
   </div>
   <div class="max-w-4xl mx-auto rounded-2xl border border-slate-800 bg-slate-900 overflow-hidden card-hover reveal reveal-delay-1">
-    <!-- ⬇️ PEGA AQUÍ EL VIDEO FINAL DEL PROYECTO (reemplaza el bloque de abajo) ⬇️
+    <!-- ⬇️ PEGA AQUÍ EL VIDEO FINAL DEL PROYECTO (reemplaza el GIF de abajo) ⬇️
          Ejemplo con YouTube:
          <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/TU_ID" title="Video LINE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          Ejemplo con Google Drive:
          <video class="w-full aspect-video" controls src="https://drive.google.com/uc?export=download&id=TU_ID"></video>
     -->
-    <div class="w-full aspect-video flex flex-col items-center justify-center gap-4 bg-slate-950/60">
-      <div class="w-20 h-20 rounded-full bg-sky-400/20 border border-sky-400/30 flex items-center justify-center">
-        <svg class="w-9 h-9 text-sky-300 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-      <div class="text-center px-6">
-        <p class="font-semibold text-lg">Video del pitch próximamente</p>
-        <p class="text-sm text-slate-400 mt-1">Aquí se cargará el video final del proyecto (pitch de 3 minutos).</p>
-      </div>
+    <div class="w-full bg-slate-950/60">
+      <img src="line_demo.gif" alt="Demo de LINE auditando una prefactura de principio a fin" class="w-full aspect-video object-cover" decoding="async" loading="lazy">
     </div>
+    <div class="px-5 py-3 text-center text-xs text-slate-500">Demo real de la aplicación: subida de prefactura, cruce HC vs PF y resultado de la auditoría.</div>
   </div>
 </section>
 
@@ -377,6 +401,71 @@
       <div class="font-semibold">Licencia MIT</div>
       <div class="text-xs text-slate-400 mt-2">Texto completo de la licencia.</div>
     </a>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="max-w-4xl mx-auto px-6 py-20">
+  <div class="text-center mb-12">
+    <p class="text-sky-400 font-semibold text-sm mb-3 reveal">PREGUNTAS FRECUENTES</p>
+    <h2 class="text-3xl md:text-4xl font-extrabold reveal reveal-delay-1">¿Tienes dudas? Te las resolvemos</h2>
+    <p class="text-slate-400 mt-4 max-w-2xl mx-auto reveal reveal-delay-2">Las preguntas más comunes sobre LINE, sus modelos y su cumplimiento normativo.</p>
+  </div>
+  <div class="space-y-3">
+    <details class="group rounded-2xl bg-slate-900 border border-slate-800 p-5 card-hover open:border-sky-400/40 reveal">
+      <summary class="flex items-center justify-between gap-4 cursor-pointer list-none font-semibold">
+        <span>¿Qué problema resuelve LINE?</span>
+        <span class="text-sky-400 transition-transform group-open:rotate-45">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg>
+        </span>
+      </summary>
+      <p class="text-slate-400 text-sm leading-relaxed mt-3">En las IPS, los servicios realizados no siempre se facturan, los códigos CUPS se transcriben mal y las cantidades no coinciden con la Historia Clínica. LINE audita automáticamente cada prefactura: cruza los ítems facturados contra la HC real, valida la afiliación en la BDUA (ADRES) y prioriza los casos de mayor impacto para el auditor.</p>
+    </details>
+    <details class="group rounded-2xl bg-slate-900 border border-slate-800 p-5 card-hover open:border-sky-400/40 reveal">
+      <summary class="flex items-center justify-between gap-4 cursor-pointer list-none font-semibold">
+        <span>¿Cuánto dinero puede recuperar la IPS?</span>
+        <span class="text-sky-400 transition-transform group-open:rotate-45">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg>
+        </span>
+      </summary>
+      <p class="text-slate-400 text-sm leading-relaxed mt-3">En los 3,126 cruces auditados se detectaron <strong class="text-white">152 fugas</strong> (procedimientos con soporte clínico sin facturar), con una pérdida estimada de <strong class="text-white">$78,046,000 COP</strong> según precio de referencia por CUPS.</p>
+    </details>
+    <details class="group rounded-2xl bg-slate-900 border border-slate-800 p-5 card-hover open:border-sky-400/40 reveal">
+      <summary class="flex items-center justify-between gap-4 cursor-pointer list-none font-semibold">
+        <span>¿Cuál es el modelo en producción?</span>
+        <span class="text-sky-400 transition-transform group-open:rotate-45">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg>
+        </span>
+      </summary>
+      <p class="text-slate-400 text-sm leading-relaxed mt-3"><strong class="text-white">XGBoost</strong> con AUC-ROC <strong class="text-white">0.8983</strong>, F1 0.7864 y precisión <strong class="text-white">99.2%</strong> (umbral óptimo 0.896). El CNN MobileNetV2 y Nemotron son complementos: el primero por el requisito de transfer learning del Capstone, el segundo como análisis clínico explicativo externo.</p>
+    </details>
+    <details class="group rounded-2xl bg-slate-900 border border-slate-800 p-5 card-hover open:border-sky-400/40 reveal">
+      <summary class="flex items-center justify-between gap-4 cursor-pointer list-none font-semibold">
+        <span>¿Los datos son reales?</span>
+        <span class="text-sky-400 transition-transform group-open:rotate-45">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg>
+        </span>
+      </summary>
+      <p class="text-slate-400 text-sm leading-relaxed mt-3">No. Son <strong class="text-white">datos sintéticos</strong> para fines académicos y de demostración (Capstone SIC 2025). Los modelos y la metodología son aplicables a datos reales, pero para producción se requieren los controles de <strong class="text-white">Ley 1581 de 2012</strong> e <strong class="text-white">ISO/IEC 27001:2022</strong> que el equipo tiene documentados.</p>
+    </details>
+    <details class="group rounded-2xl bg-slate-900 border border-slate-800 p-5 card-hover open:border-sky-400/40 reveal">
+      <summary class="flex items-center justify-between gap-4 cursor-pointer list-none font-semibold">
+        <span>¿Qué pasa si ADRES o Nemotron no responden?</span>
+        <span class="text-sky-400 transition-transform group-open:rotate-45">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg>
+        </span>
+      </summary>
+      <p class="text-slate-400 text-sm leading-relaxed mt-3">El sistema funciona <strong class="text-white">100% local</strong>. Si la BDUA no responde (403, captcha o timeout), la auditoría continúa en <strong class="text-white">modo contingencia</strong> con la base local; si no hay API key de Nemotron, los modelos CNN y XGBoost cubren el análisis.</p>
+    </details>
+    <details class="group rounded-2xl bg-slate-900 border border-slate-800 p-5 card-hover open:border-sky-400/40 reveal">
+      <summary class="flex items-center justify-between gap-4 cursor-pointer list-none font-semibold">
+        <span>¿Dónde está la documentación técnica?</span>
+        <span class="text-sky-400 transition-transform group-open:rotate-45">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg>
+        </span>
+      </summary>
+      <p class="text-slate-400 text-sm leading-relaxed mt-3">Informe técnico (APA), presentación, métricas oficiales y repositorios en la sección <a href="#documentacion" class="text-sky-400 hover:text-sky-300 underline decoration-dotted">Documentación</a>. Además, el README de cada repo incluye arquitectura, endpoints de la API y guías de instalación.</p>
+    </details>
   </div>
 </section>
 
@@ -1166,6 +1255,29 @@ LINE/
   </div>
 </div>
 
+
+<!-- MODAL DASHBOARD -->
+<div id="dashboardModal" class="fixed inset-0 z-50 flex flex-col p-3 md:p-5" style="display:none" role="dialog" aria-modal="true" aria-label="Dashboard de auditoría LINE — Auditor Médico Digital">
+  <div class="absolute inset-0 bg-slate-950/95 backdrop-blur-sm" onclick="closeDashboard()"></div>
+  <div class="relative z-10 flex flex-col flex-1 min-h-0 w-full rounded-2xl overflow-hidden border border-slate-700 bg-slate-950">
+    <div class="flex items-center justify-between px-4 md:px-6 py-3 border-b border-slate-800 bg-slate-900/90">
+      <div class="flex items-center gap-3 text-slate-200 font-semibold text-sm md:text-base">
+        <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
+        Dashboard de Auditoría — LINE
+      </div>
+      <button onclick="closeDashboard()" class="inline-flex items-center gap-2 text-slate-300 hover:text-white bg-slate-800 hover:bg-slate-700 px-4 py-2 rounded-lg text-sm font-semibold transition-colors cursor-pointer">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+        Cerrar
+      </button>
+    </div>
+    <div class="flex-1 min-h-0 p-2 md:p-4">
+      <div class="h-full rounded-xl border border-slate-700 bg-white overflow-hidden">
+        <iframe id="dashboardModalFrame" title="Dashboard de auditoría LINE" class="w-full h-full border-0" data-src="dashboard_auditoria.html"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
 <script>
   function openWorkflow() {
     var m = document.getElementById('workflowModal');
@@ -1177,8 +1289,24 @@ LINE/
     m.style.display = 'none';
     document.body.style.overflow = '';
   }
+  function openDashboard() {
+    var m = document.getElementById('dashboardModal');
+    m.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+    var f = document.getElementById('dashboardModalFrame');
+    if (f && !f.getAttribute('src')) f.setAttribute('src', f.getAttribute('data-src'));
+  }
+  function closeDashboard() {
+    var m = document.getElementById('dashboardModal');
+    m.style.display = 'none';
+    document.body.style.overflow = '';
+  }
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') closeWorkflow();
+    if (e.key !== 'Escape') return;
+    var wm = document.getElementById('workflowModal');
+    var dm = document.getElementById('dashboardModal');
+    if (wm && wm.style.display === 'flex') closeWorkflow();
+    if (dm && dm.style.display === 'flex') closeDashboard();
   });
 </script>
 

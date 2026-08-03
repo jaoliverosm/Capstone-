@@ -1,5 +1,7 @@
 # 🏥 Auditor Médico Digital - Análisis de Facturación Hospitalaria
 
+![Demo LINE](documentacion/line_demo.gif)
+
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3-green.svg)](https://scikit-learn.org)
