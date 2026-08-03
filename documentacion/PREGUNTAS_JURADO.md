@@ -103,14 +103,6 @@
 ### P22. ¿Cuál sería el siguiente paso si continuaran?
 **Respuesta (sugerencia):** (1) pipeline de reentrenamiento automático con datos reales anonimizados, (2) explicabilidad por caso más profunda (SHAP por cruce en la UI), (3) módulo de glosas post-factura (no solo pre), (4) integración con el sistema de facturación de la IPS.
 
----
-
-## 💡 Tips para la sustentación
-
-- Si preguntan por una métrica, **dirígelos a `documentacion/metricas_oficiales.md`** (fuente consolidada auditable).
-- Si preguntan por el CNN y su bajo rendimiento: **reformularlo como decisión honesta de investigación** (P6), no como debilidad.
-- Tener a mano: el diagrama del pipeline (`line_pipeline_arquitectura.svg`), el GIF de la demo (`line_demo.gif`) y la landing con el dashboard interactivo.
-- Los datos son sintéticos: decirlo **antes** de que lo pregunten (P14).
 
 ---
 
